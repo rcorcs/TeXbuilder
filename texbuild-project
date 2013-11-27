@@ -1,0 +1,63 @@
+SAMPLE=false
+PROJNAME=""
+TEMPLATE=""
+PARAMETERS=""
+
+usage(){
+	echo "Usage: $0 [OPTIONS] PROJNAME TEMPLATE [PARAMETERS]"
+}
+
+processArguments(){
+	TOKEN=1
+	for ARG in $*; do
+		if [ "$ARG" == "--sample" ]; then
+			TOKEN=0
+			SAMPLE=true
+		elif [ "$ARG" == "--help" ]; then
+			TOKEN=0
+			usage
+		fi
+		if [ $TOKEN -eq 1 ]; then
+			PROJNAME=$ARG
+		elif [ $TOKEN -eq 2 ]; then
+			TEMPLATE=$ARG
+		elif [ $TOKEN -gt 2 ]; then
+			PARAMETERS=$PARAMETERS$ARG","
+		fi
+		((TOKEN=TOKEN+1))
+	done
+	if [ ${#PARAMETERS} -gt 0 ]; then
+		PARAMETERS=${PARAMETERS:0:((${#PARAMETERS}-1))}
+	fi
+}
+
+createProject(){
+	mkdir -p ./src
+	mkdir -p ./packages
+	mkdir -p ./bin
+	#python texbuild-project.py $*
+	#echo "project:"$PROJNAME
+	#echo "template:"$TEMPLATE
+	#echo "parameters:"$PARAMETERS
+	cp ./template/$TEMPLATE/samples/bibfile.bib ./src/
+	cp ./template/$TEMPLATE/packages/* ./packages/
+	#PYCMD="-e"
+	if $SAMPLE; then
+		#PYCMD="-s"
+		cp ./template/$TEMPLATE/samples/sample.tex ./src/$PROJNAME.tex
+	else
+		cp ./template/$TEMPLATE/samples/empty.tex ./src/$PROJNAME.tex
+	fi
+	#python texbuild-project.py $PYCMD $PROJNAME $TEMPLATE $PARAMETERS
+}
+
+main(){
+	if [ $# -lt 2 ]; then
+		usage
+	else
+		processArguments $*
+		createProject
+	fi
+}
+
+main $*

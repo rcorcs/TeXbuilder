@@ -3,11 +3,11 @@ PROJNAME=""
 TEMPLATE=""
 PARAMETERS=""
 
-usage(){
+function usage(){
 	echo "Usage: $0 [OPTIONS] PROJNAME TEMPLATE [PARAMETERS]"
 }
 
-processArguments(){
+function processArguments(){
 	TOKEN=1
 	for ARG in $*; do
 		if [ "$ARG" == "--sample" ]; then
@@ -31,7 +31,7 @@ processArguments(){
 	fi
 }
 
-createProject(){
+function createProject(){
 	mkdir -p ./src
 	mkdir -p ./packages
 	mkdir -p ./bin
@@ -40,7 +40,7 @@ createProject(){
 	#echo "template:"$TEMPLATE
 	#echo "parameters:"$PARAMETERS
 	cp ./template/$TEMPLATE/samples/bibfile.bib ./src/
-	cp ./template/$TEMPLATE/packages/* ./packages/
+	cp -r ./template/$TEMPLATE/packages/* ./packages/
 	#PYCMD="-e"
 	if $SAMPLE; then
 		#PYCMD="-s"
@@ -51,7 +51,7 @@ createProject(){
 	#python texbuild-project.py $PYCMD $PROJNAME $TEMPLATE $PARAMETERS
 }
 
-main(){
+function main(){
 	if [ $# -lt 2 ]; then
 		usage
 	else

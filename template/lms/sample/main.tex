@@ -1,0 +1,395 @@
+%         "Using the LMS Class File"
+% A Combined Sample File and Guide for Authors
+% This file may be used as a template for writing a paper for submission to the LMS
+\def\filedate{20 November 2007}
+\def\fileversion{2.1.9}
+
+\NeedsTeXFormat{LaTeX2e}
+
+\documentclass{lms}
+%Include your preferred graphics and mathematics packages here,
+%using the command \usepackage{}
+
+%The \newtheorem command is used to define theorem-like environments
+%that normally REQUIRE A PROOF, for example:
+\newtheorem{theorem}{Theorem}[section] % 1st argument is your name for it
+\newtheorem{lemma}[theorem]{Lemma}     % 2nd argument is what is printed
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{proposition}[theorem]{Proposition}
+%To control the numbering sequence of these environments, see
+%Lamport's book on LaTeX [2, p. 193].
+
+%The \newnumbered command can be used to define environments or
+%independent statements that DO NOT REQUIRE A PROOF. The usual ones are:
+\newnumbered{assertion}{Assertion}    % 1st argument is your name for it
+\newnumbered{conjecture}{Conjecture}  % 2nd argument is what is printed
+\newnumbered{definition}{Definition}
+\newnumbered{hypothesis}{Hypothesis}
+\newnumbered{remark}{Remark}
+\newnumbered{note}{Note}
+\newnumbered{observation}{Observation}
+\newnumbered{problem}{Problem}
+\newnumbered{question}{Question}
+\newnumbered{algorithm}{Algorithm}
+\newnumbered{example}{Example}
+\newunnumbered{notation}{Notation} % This is usually unnumbered
+% The numbering sequence of these environments can be controlled in the
+% same way as for \newtheorem; see Lamport's book on LaTeX, p. 193.
+
+% The default LMS numbering of equations in long papers is (1.1), (1.2), (2.1), etc.
+% In short papers, to change the numbering to (1), (2), etc., 'uncomment' the next line.
+% \simpleequations
+% Otherwise, use the AMS \numberwithin command.
+
+% TOP MATTER
+
+\title[Title abbreviated to max 50 characters goes here]% end with percent
+ {Using the LMS class file} % This is the full title of the paper
+% Use lowercase letters in title except for proper names
+% Avoid equations in title if possible
+% Do not use the \thanks{} command; use \extraline{} instead (see below).
+
+\author{F. Irst, Second Author and T. Hird}
+
+\dedication{A dedication can be included here}
+
+%Insert `2000 Mathematics Subject Classification' numbers here:
+\classno{11B83 (primary), 11J71, 37A45, 60G10 (secondary).
+ Please refer to {\tt http://www.ams.org/msc/} for a list of codes}
+
+\extraline{Acknowledgements of grants and financial support should
+be included here; more general \textsl{Acknowledgements} are better
+placed either immediately before the bibliography (see
+page~\pageref{ackref}) or at the end of the introduction. Since
+author names should not carry footnote marks, instead refer to `The
+first author', etc. No `keywords' should be supplied. This guide was
+last revised on \filedate\ and documents {\tt lms.cls} version
+\fileversion.}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This is a combined guide and sample {\tt .tex} file for authors
+choosing to prepare their papers for the journals of the London
+Mathematical Society with the LMS \LaTeXe\ class file. Papers
+written in {\tt article.cls} or {\tt amsart.cls} are easily
+converted to {\tt lms.cls}, and this can reduce the time to
+publication. The LMS class is compatible with commonly used
+mathematical packages such as {\tt amsmath}.
+
+An \emph{abstract} written in English is
+required and should preferably have fewer than 200 words.
+Please do not include citations, footnotes or references
+to numbered equations, figures, tables or theorems in your
+abstract. Avoid complicated formulae or displayed equations, if
+possible.
+\end{abstract}
+
+\part{Use this type of header for very long papers only}
+% use lowercase except for proper names
+
+\section{Preparation and submission} % use lowercase except for proper names
+\label{intro}
+
+\noindent The LMS class file {\tt lms.cls} is distributed with the
+following files:
+\begin{enumerate}[3]% put widest label, without (), as optional argument.
+\item {\tt readme-lms.txt}, {\em notes\/} for unpacking and
+      installation;
+\item {\tt lms2eau.tex}, a {\em sample file\/} for preparing your
+      manuscript;
+\item {\tt lms2eau1.ps, lms2eau1.pdf}, the {\em guide\/} `Using
+the LMS class file'.
+\end{enumerate}
+This guide is the printable {\tt .ps} or {\tt .pdf} output
+produced from the sample file by the LaTeX or PDFLaTeX compiler,
+respectively. The guide displays a number of useful examples but
+is by necessity brief. If you cannot find the answer to your query
+here, please look in the accompanying file {\tt lms2eau.tex} for
+the corresponding \LaTeX\ source code and for further clues, which
+are supplied as comment lines beginning with percent signs. It is
+convenient to use the sample file as a template from which you can
+build your article. Please remember, however, to keep a copy of
+the original file {\tt lms2eau.tex} for your reference.
+
+General instructions for the preparation of manuscripts and
+submission are available on the web at
+\verb"http://www.lms.ac.uk/publications/submission.html".
+
+Please refrain from inserting extra formatting or spaces into your
+paper, as this makes the work of the copy-editor more difficult.
+Avoid beginning sentences with a mathematical symbol, and do not attach plurals or genitives
+to mathematical symbols (such as $D$'s or $D$s). Instead,
+insert descriptive nouns where needed before a
+mathematical symbol, for example, `the discriminants $D$'.
+
+\begin{note*}% the use of asterisks after statement names is explained below
+From 2007 onwards, the journals of the London Mathematical Society
+are published in the larger page format demonstrated in these
+sample pages.
+\end{note*}
+
+\section{Mathematical statements and expressions}
+
+\subsection{Mathematical statements}
+
+Environments for theorems are built into the LMS class file, and
+the \verb"amsthm" package should not be used.
+
+Any theorem-like statement that requires a proof (such as
+Proposition, Lemma, Theorem or Corollary) must be defined in the
+preamble of the {\tt .tex} file using the command
+\begin{center}`\verb"\newtheorem{"{\em theoremname}\}\{{\em Printedname}\}'.\end{center}
+
+\begin{theorem}[(Optional argument here {\cite[p.\,193]{Lamport}})]% note the ( ).
+\label{mythm}
+The string of commands\break`\verb"\begin{"theoremname\verb"}"%
+\verb"[(Optional argument here)] "Theorem
+text\verb" \end{"theoremname\verb"}"\/'\break produces a numbered
+theorem-like statement headed `Printedname'. Please note that\break
+parentheses must be included in the optional argument.
+\end{theorem}
+
+\begin{theorem*}
+`\/\verb"\begin{"theoremname\verb"*}" Theorem text %
+\verb"\end{"theoremname\verb"*}"\/' produces an\break unnumbered
+theorem-like statement headed `Printedname'.
+\end{theorem*}
+
+Any other independent statement that \emph{does not} require a
+proof must be defined in the preamble using the
+`\verb"\newnumbered{"{\em statementname}\}\{{\em Printedname}\}'
+command. In the next example the argument in square brackets is
+optional.
+
+\begin{remark*}[(NB)] %optional argument, note the ( ).
+`\verb"\begin{"{\em statementname}\verb"*}[(NB)]" Text
+\verb"\end{"{\em statementname}\verb"*}"' produces an unnumbered
+independent statement headed `{\em Printedname\/}'.
+\end{remark*}
+
+\begin{example}
+`\verb"\begin{"{\em statementname}\verb"}" Text \verb"\end{"{\em
+statementname}\verb"}"' produces a numbered independent statement
+headed `{\em Printedname\/}'.
+\end{example}
+
+The numbering sequence of all mathematical statements can be
+controlled via options in the \verb"\newtheorem" and
+\verb"\newnumbered" commands (see~\cite[p.\,193]{Lamport}).
+
+Two proof statements are predefined in the LMS class. The
+\verb"proof" statement ends with a square box, while the
+\verb"proof*" statement does not. In the second proof below, we
+use the optional argument of the command \verb"\begin{proof*}["of
+Theorem\verb"~{\rm\ref{mythm}}]" to refer back to the appropriate
+theorem.
+
+\begin{proof}
+Here, `\/\verb"\begin{proof}" Proof text \verb"\end{proof}"\/'
+produces a proof with a square box marking the end.
+\end{proof}
+
+\begin{proof*}[of Theorem~{\rm\ref{mythm}}]
+  Using `\verb"proof*"' does not produce a square box.
+\end{proof*}
+
+\begin{proof*}[with aligned box] If the proof ends with a single
+displayed equation, using \verb"proof*" one should align a square
+box with that equation by putting \verb"\singlebox" and
+\verb"\esinglebox" as the first and last commands \emph{inside}
+the equation, whence
+\[ \singlebox
+  0.999999\ldots \equiv 1 .
+\esinglebox \]
+\end{proof*}
+If the proof ends with an \verb"eqnarray*" environment, using
+\verb"proof*" one should align a square box with the last equation
+of the \verb"eqnarray*" environment by \emph{surrounding} that
+environment with a pair of \verb"\multbox" and \verb"\emultbox"
+commands.
+
+\subsection{Mathematical expressions}
+
+Use \verb"\[" \ldots \verb"\]", \emph{not} \verb"$$" \ldots
+\verb"$$", for unnumbered displayed equations. Do not leave blank
+lines above and below displayed equations unless a new paragraph
+is intended. If the command \verb"\simpleequations" is included in
+the preamble, equations will be numbered $(1),(2),(3)\ldots$
+instead of $(1.1),(1.2)\ldots$\ .
+
+Bold math italic symbols can be obtained with the command
+\verb"\boldsymbol{}", which is part of the \verb"amsbsy" package.
+It may also be defined in the preamble as
+\[
+\verb"\providecommand{\boldsymbol}[1]{\mbox{\boldmath $#1$}}."
+\]
+Blackboard-bold and \emph{fraktur} symbols can be obtained with
+the \verb"\mathbb{}" and \verb"\mathfrak{}" commands, which are
+part of the \verb"amssymb" package.
+
+Non-standard functions or mathematical operators that contain more
+than one character should be typeset in roman font and should be
+defined as a macro using the command \verb"\mathop."
+% Let us do this here (should normally go in the preamble):
+\providecommand{\Log}{\mathop{\rm Log}\nolimits}%
+\providecommand{\Ai}{\mathop{\rm Ai}\nolimits}%
+\providecommand{\Bi}{\mathop{\rm Bi}\nolimits}%
+\providecommand{\Real}{\mathop{\rm Re}\nolimits}%
+\providecommand{\Imag}{\mathop{\rm Im}\nolimits}%
+\providecommand{\Arg}{\mathop{\rm Arg}\nolimits}%
+\providecommand{\infsup}{\mathop{\rm infsup}}% Note: This one has limits
+% Now ready to use them:
+Examples of such functions are the principal value of the
+logarithm, $\Log$, and the two Airy functions $\Ai$ and $\Bi$;
+examples of operators are the real and imaginary parts $\Real$ and
+$\Imag$. You may also wish to define something like an
+\verb"\infsup" command that takes {\em limits\/} as a subscript
+\verb"_{}" and a superscript \verb"^{}". For example, by putting
+\begin{eqnarray*}
+&~&\verb"\providecommand{\Log}{\mathop{\rm Log}\nolimits},"\\
+&~&\verb"\providecommand{\Arg}{\mathop{\rm Arg}\nolimits},"\\
+&~&\verb"\providecommand{\infsup}{\mathop{\rm infsup}}"
+\end{eqnarray*}
+in the preamble, we can easily write (the second example is for
+illustration only)
+\begin{eqnarray}\label{newdefs}
+\Log z = \ln |z| + i \Arg z,\nonumber\\
+\infsup_{x\rightarrow 1}{\mathcal B} =
+\infsup_{x\rightarrow-1}^{0\leftarrow y}{\mathcal A} = e .
+\end{eqnarray}
+For single-character mathematical symbols in roman, use \verb"\mathrm{}".
+
+Proper horizontal alignment of indices in a tensorial equation such as
+\begin{equation}\label{Riemann}
+d\omega_q{}^p - \omega_q{}^s\wedge\omega_s{}^p =
+\tfrac{1}{2}R_q{}^p{}_{rs} \omega^r\wedge\omega^s
+\end{equation}
+can be ensured by inserting a pair of braces \verb"{}" at each vertical
+jump:
+\begin{eqnarray*}
+&~&\verb"d\omega_q{}^p - \omega_q{}^s\wedge\omega_s{}^p ="\\
+&~&\verb"\tfrac{1}{2}R_q{}^p{}_{rs} \omega^r\wedge\omega^s"\,.
+\end{eqnarray*}
+
+\section{Tables, figures and lists}
+
+As you can see in Table~\ref{mytable}, the LMS class does not
+provide vertical side rules on tables. The contents of
+Figure~\ref{myfigure} provide detailed information about how one
+can incorporate a figure into a paper. Lists generated with
+\verb"enumerate" (for a list of short phrases) or \verb"flushenumerate" (for
+a\break list of long paragraphs) are preferred. Bullet points should be avoided
+if possible.
+\begin{table}[b]\vspace*{-3ex}
+\caption[]{A small table.} \label{mytable}
+\begin{tabular}{ccc}
+\hline
+$\alpha$&$\beta$&$\gamma$\\
+\hline
+1&2&3\\
+\hline
+\end{tabular}
+\end{table}
+
+\begin{figure}
+% You can include your own figure here using the \includegraphics command,
+% or alternatively use the \epsfig, \psfig, or \graphicx packages.
+% All lines between here and the \caption statement should then be deleted.
+% Use the \vspace command, e.g. \vspace*{5cm}, to leave room for any
+% artwork that is provided separately (e.g. as camera-ready copy)
+   \vspace*{8pt}%\framebox[8cm][l]{%
+   \begin{minipage}{8cm}
+   Figures can be inserted with the standard \LaTeXe\ command
+   \verb"\includegraphics" (see~\cite{Lamport}), which requires the line
+   \verb"\usepackage{graphics}" to be present in the file's preamble.\\
+   \hspace*{6pt} You can also use a package such as \verb"\epsfig",
+   \verb"\psfig" or \verb"\graphicx". Please use \verb"\epsfig" rather than
+   \verb"\epsf", which has become obsolete.\\
+   \hspace*{6pt} Please do {\em not\/} incorporate captions into any of
+   your {\tt .eps} or {\tt .ps} figure files, but use the \verb"\caption{}"
+   command inside the {\tt figure} environment instead.\\
+   \hspace*{6pt} If you provide artwork separately, you can leave room for
+   it using a \verb"\vspace*{}" command inside the {\tt figure}
+   environment.
+   \end{minipage}
+   \vspace*{8pt}
+%
+\caption{How to insert a figure.}
+\label{myfigure}
+\end{figure}
+
+\oneappendix % use \appendix if you have more than one appendix
+\section{About the bibliography}
+References in the bibliography should be listed alphabetically by
+the authors' surname(s) and, for the same set of authors, by
+publication year. Detailed formatting (italic, etc.) should be
+avoided; please concentrate on giving full and clear information,
+such as (for books) the \textit{name} and \textit{location} of the
+publisher and (for a book in a book series) the \textit{volume
+number}. Do not include papers `in preparation' in the bibliography;
+these are better mentioned in the main text only.
+
+\begin{acknowledgements}\label{ackref}
+The \verb"acknowledgements" environment may be used to acknowledge
+indebtedness to colleagues, host institutions and referees. Accounts
+of grants and financial support should be made as a footnote on the
+title page using the \verb"\extraline{}" command in the preamble.
+\end{acknowledgements}
+
+\begin{thebibliography}{9}% Replace 9 by 99 if 10 or more references
+%
+% Please note the use of "\and" between author names below
+%
+\bibitem{Goddard}
+{\bibname P. Goddard, A. Kent \and D. I. Olive}, `Unitary
+representations of the Virasoro and Supervirasoro algebras', {\em
+Comm. Math. Phys. }103 (1986) 105.
+%
+\bibitem{Lamport}
+ {\bibname L. Lamport},
+ {\em\LaTeX: A document preparation system {\rm (}updated for
+ \LaTeXe{\rm)}} (Addison-Wesley, New York, 1994).
+%
+\bibitem{Lance}
+ {\bibname E. C. Lance \and A. Paolucci},
+ `Conjugation in braided C$^*$-categories and
+ orthogonal quantum groups',
+ {\em J. Math. Phys. }41 (2000) 2383--2394.
+%
+\bibitem{Stuart}
+{\bibname J. T. Stuart}, `Mathematics applied in fluid motion',
+{\em Quart. Appl. Math. }56 (1998) 787--796.
+%
+\bibitem{PRL}
+ {\bibname
+T.~Prokopec, O.~T\"ornkvist \and R.~P.~Woodard}, `Photon mass
+  from inflation', \emph{Phys. Rev. Lett. }89 (2002) 101301.
+\end{thebibliography}
+
+\affiliationone{% in this example, two authors share an institution
+   F. Irst and Second Author\\
+   Postal Address should be
+      added here, including\\
+   Country
+   \email{first@university.ac.uk\\
+   sauthor@university.ac.uk}}
+% Important: Do not put any empty line here.
+\affiliationtwo{% in this example, one author has two addresses}
+   T. Hird\\
+   Previous postal address where
+     the research was performed and\\
+   Country
+   \email{hird@university.ac.uk}}
+% Important: Do not put any empty line here.
+% Use \affiliationthree{} for any address positioned under \affiliationone
+% Use \affiliationfour{}  for any address positioned under \affiliationtwo
+\affiliationthree{~} %inserts a space to make this field empty
+\affiliationfour{%
+   Current address:\\
+   Present long-term address\\
+   Country
+   \email{t.hird@institution.edu}}
+%
+\end{document}

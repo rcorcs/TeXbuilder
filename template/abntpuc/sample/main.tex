@@ -1,0 +1,218 @@
+% Template Latex para trabalhos academicos da PUC Minas
+%
+% Pontificia Universidade Catolica de Minas Gerais (www.pucminas.br)
+% Instituto de Ciencas Exatas e Informatica (www.icei.pucminas.br)
+%
+% VERSAO: 0.2
+% DATA: Maio de 2012
+%
+% AUTORES:
+% Prof. Joao Paulo Domingos Silva
+% Rodrigo Caetano de Oliveira Rocha
+%
+% COLABORADORES:
+% Tamara Márcia Mendes
+% Harison Herman Silva
+%
+% REVISORES:
+
+\documentclass{abntpuc}
+
+\usepackage[pdftex]{graphicx}
+\usepackage{fancyhdr}
+
+\usepackage{xcolor}
+\usepackage{pgfplots}
+\usepackage{tikz}
+\usepackage{multirow}
+\usepackage{amssymb,amsmath}
+\usepackage{relsize}
+%\usepackage[T1]{fontec}
+\usepackage[brazil]{babel}
+\hyphenation{de-com-po-si-cao}
+
+\begin{document}
+
+% --- Campos que formarao: capa, folha de rosto, folha de aprovacao  ---
+
+\curso{Bacharelado em Ciência da Computação}
+
+\autor{Nome do Aluno}
+
+\titulo{TÍTULO DO TRABALHO} % Caixa alta
+
+\subtitulo{Subtítulo do Trabalho} % Caixa baixa
+
+\cidade{Belo Horizonte}
+
+\ano{2012}
+
+\trabalho{Monografia} % Tipo de trabalho: Monografia, Dissertacao, Tese...
+
+\grau{Bacharel em Ciência da Computação} % Grau do trabalho: Bacharel em..., Mestre em..., Doutor em...
+
+\orientador{Nome do Orientador}
+
+\avaliadorA{Nome do Avaliador 1}
+
+\avaliadorB{Nome do Avaliador 2}
+
+\datacompleta{DD de MM de 2012} % Dia, mes e ano
+
+% --- CAPA ---
+
+\capa
+
+% --- FOLHA DE ROSTO ---
+
+\folharosto
+
+% --- FOLHA DE APROVACAO ---
+
+\folhaaprovacao
+
+% --- DEDICATORIA (elemento opcional) ---
+
+\dedicatoria
+{
+	\textit{Dedicatória: Página onde o autor presta homenagem a uma ou mais pessoas.
+	O layout desta página fica a critério do autor, mas o tipo e tamanho de letras são definidos pela ABNT.}
+}
+
+% --- AGRADECIMENTOS (elemento opcional) ---
+
+\agradecimentos
+{
+	Agradecimentos a pessoas que contribuíram para o desenvolvimento do trabalho.
+	Agradecimentos a pessoas que contribuíram para o desenvolvimento do trabalho.
+}
+
+% --- EPIGRAFE (elemento opcional) ---
+
+\epigrafe
+{
+	\textit{Epígrafe: Pensamentos retirados de um livro, uma música, um poema, normalmente relacionados ao tema do trabalho.
+	Deve ser elaborada conforme norma NBR 10520/2002. Apresentação de citações em documentos.
+	Se desejar, a epígrafe pode ser grafada em itálico.
+	Ao final do trabalho deve-se fazer a referência completa da publicação de onde a epígrafe foi retirada.}
+}
+
+% --- RESUMO ---
+
+\resumo
+{
+	Apresentação concisa dos pontos relevantes do texto. Deve ressaltar o objetivo, o método, resultados e conclusões do trabalho. Deve-se utilizar o verbo na voz ativa ou terceira pessoa do singular. O resumo não deve conter citações ou indicações bibliográficas.
+} % Resumo
+{
+	Ao final do resumo deve-se elaborar palavras-chave representativas do conteúdo do trabalho, separadas entre si por um ponto.
+} % Palavras-chave
+
+% --- ABSTRACT ---
+
+\abstract
+{
+	Versão do resumo em idioma de divulgação internacional. Deve ser a tradução literal do resumo em português e apresentar palavras- chave no mesmo idioma, logo abaixo do texto, separadas entre si por um ponto.
+} % Abstract
+{
+	O resumo em língua estrangeira também deve conter palavras-chave representativas do conteúdo do trabalho, separadas entre si por um ponto.
+} % Keywords
+
+% --- LISTA DE FIGURAS, LISTA DE TABELAS, SUMARIO ---
+
+\listafiguras
+\listatabelas
+\listasiglas {
+   \sigla{S1}{Sigla 1}
+   \sigla{S2}{Sigla 2}
+   \sigla{S3}{Sigla 3}
+}
+\sumario
+
+% --- TEXTO ---
+
+\capitulo{INTRODUÇÃO}
+
+\iniciocapitulo
+A introdução deve conter a natureza do trabalho, justificativa, objetivos, o tema proposto e outros elementos para situar o trabalho.\par
+
+% Exemplo de tabela:
+
+\begin{table}[!htb]
+	\caption[Descrição na Lista de Tabelas]{Legenda da tabela}
+	\centering
+	\label{tab:tabela}
+	\begin{tabular}{c|c|c}
+		\hline
+		Coluna 1 & Coluna 2 & Coluna 3 \\
+		\hline
+ 		Célula 1 & Célula 2 & Célula 3 \\
+		Célula 4 & Célula 5 & Célula 6 \\
+		Célula 7 & Célula 8 & Célula 9 \\
+		\hline
+	\end{tabular}
+	\\ \textbf{\footnotesize Fonte: Fonte da tabela}
+\end{table}
+
+% Exemplo de figura:
+
+\begin{figure}[!htb]
+   \caption[Descrição na Lista de Figuras]{Legenda da figura}
+   \label{fig:figura1}
+   \centering
+   \includegraphics{img/LogoPUC.jpg}
+   \\ \textbf{\footnotesize Fonte: Fonte da figura}
+\end{figure}
+
+
+\capitulo{DESENVOLVIMENTO}
+
+\iniciocapitulo
+Compreende a revisão da literatura ou estado da arte, metodologia e exposição da pesquisa.\par
+
+A Revisão da Literatura compõe-se da evolução do tema e ideias de diferentes autores sobre o assunto. Deve conter citações textuais ou livres, com indicação dos autores conforme norma NBR 10520/2002.\par
+
+O Estado da Arte segundo definição no dicionário Aurélio é o nível de desenvolvimento atingido (por uma ciência, uma técnica) na atualidade, ou seja, refere-se ao quadro atual de uma área, suas tendências, potencialidades e excelência no assunto.\par
+
+A Metodologia deve apresentar o método adotado na entrevista, questionário, observação, experimentação na população pesquisada na características e quantificação.\par
+
+A Exposição da Pesquisa é a análise dos fatos apresentados, ou seja, os dados obtidos, as estatísticas, comparações com outros estudos e outras observações.\par
+
+\secao{Seção}
+
+Exemplo de citação \cite{knuth68}.
+
+Exemplo de citação \cite{knuth69}.
+
+Exemplo de citação \cite{knuth73}.
+
+\subsecao{Subseção}
+
+\subsubsecao{Subsubseção}
+
+\capitulo{CONCLUSÃO}
+
+\iniciocapitulo
+Discussão dos resultados obtidos na pesquisa, onde se verificam as observações pessoais do autor. Poderá também apresentar sugestões de novas linhas de estudo. A conclusão deve estar de acordo com os objetivos do trabalho. A conclusão não deve apresentar citações ou interpretações de outros autores.
+
+% --- REFERENCIAS ---
+
+% Para as referencias funcionarem, e preciso baixar e instalar o pacote ABNTEX.
+
+\referencias{Referencias}
+
+\apendices{
+\apendice{MEU APENDICE 1}
+
+Conteúdo do primeiro apêndice vem aqui...
+
+Exemplo de mais um parágrafo no primeiro apêndice.
+
+\apendice{MEU APENDICE 2}
+
+Conteúdo do segundo apêndice vem aqui...
+
+Exemplo de mais um parágrafo no segundo apêndice.
+
+}
+
+\end{document}

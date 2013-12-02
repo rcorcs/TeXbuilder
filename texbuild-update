@@ -1,0 +1,8 @@
+wget 
+mkdir ./.remove_tmp
+cp -r * ./.remove_tmp/
+rm -f *
+cp ./.remove_tmp/texbuilder.update ./
+rm -r -f ./.remove_tmp
+tar -xvzf texbuilder.update
+chmod 777 *

@@ -67,45 +67,45 @@
 %   Grave accent  \`     Left brace    \{     Vertical bar  \|
 %   Right brace   \}     Tilde         \~}
 %
-% \changes{v1.44}{2011-04-25}{Corre√ß√£o de bugs no formato BibTeX;
-%   flexibiliza√ß√£o da formata√ß√£o de valores num√©ricos; configura√ß√£o manual das
-%   chaves para indexa√ß√£o da Ficha Catalogr√°fica; corre√ß√£o da Folha de Aprova√ß√£o}
-% \changes{v1.43}{2011-01-31}{Tradu√ß√£o de alguns termos do estilo do BibTeX;
-%   corre√ß√£o de p√°gina em branco no fim do documento e de contagem do n√∫mero de
-%   p√°ginas do frontmatter; corre√ß√£o de bugs}
-% \changes{v1.42}{2010-04-22}{Corre√ß√£o no timing de interpreta√ß√£o da data do
+% \changes{v1.44}{2011-04-25}{CorreÁ„o de bugs no formato BibTeX;
+%   flexibilizaÁ„o da formataÁ„o de valores numÈricos; configuraÁ„o manual das
+%   chaves para indexaÁ„o da Ficha Catalogr·fica; correÁ„o da Folha de AprovaÁ„o}
+% \changes{v1.43}{2011-01-31}{TraduÁ„o de alguns termos do estilo do BibTeX;
+%   correÁ„o de p·gina em branco no fim do documento e de contagem do n˙mero de
+%   p·ginas do frontmatter; correÁ„o de bugs}
+% \changes{v1.42}{2010-04-22}{CorreÁ„o no timing de interpretaÁ„o da data do
 %   documento}
-% \changes{v1.41}{2009-06-30}{Corre√ß√£o de timing para a constru√ß√£o correta do
-%   Sum√°rio, no que diz respeito ao t√≠tulo de ap√™ndices e anexos}
-% \changes{v1.40}{2009-04-22}{Altera√ß√£o da posi√ß√£o do Sum√°rio; op√ß√£o para a
-%   inser√ß√£o de material antes do Sum√°rio}
-% \changes{v1.31}{2009-04-07}{Retirada de r√©gua do cabe√ßalho no modo `oneside'}
-% \changes{v1.30}{2009-03-12}{Ajuste de alguns detalhes de formata√ß√£o}
+% \changes{v1.41}{2009-06-30}{CorreÁ„o de timing para a construÁ„o correta do
+%   Sum·rio, no que diz respeito ao tÌtulo de apÍndices e anexos}
+% \changes{v1.40}{2009-04-22}{AlteraÁ„o da posiÁ„o do Sum·rio; opÁ„o para a
+%   inserÁ„o de material antes do Sum·rio}
+% \changes{v1.31}{2009-04-07}{Retirada de rÈgua do cabeÁalho no modo `oneside'}
+% \changes{v1.30}{2009-03-12}{Ajuste de alguns detalhes de formataÁ„o}
 % \changes{v1.21}{2008-10-20}{\string\cleardoublepage antes de
 %   \string\tableof...}
-% \changes{v1.20}{2008-10-16}{Cria√ß√£o do comando \string\keywords; op√ß√£o
-%   `abstract' permite especificar a linguagem do resumo; descri√ß√£o do
-%   documento inclui ``Instituto de Ci√™ncias Exatas''; mudan√ßa na posi√ß√£o do
+% \changes{v1.20}{2008-10-16}{CriaÁ„o do comando \string\keywords; opÁ„o
+%   `abstract' permite especificar a linguagem do resumo; descriÁ„o do
+%   documento inclui ``Instituto de CiÍncias Exatas''; mudanÁa na posiÁ„o do
 %   nome do orientador na Folha de Rosto}
-% \changes{v1.10}{2008-10-02}{Ficha Catalogr√°fica condicional (n√£o √© criada
-%   para projetos e propostas); comando \string\sloppy √© disparado
-%   automaticamente; o pacote n√£o comp√µe mais a Folha de Aprova√ß√£o; mudan√ßa na
-%   contagem das p√°ginas introdut√≥rias; inclus√£o da p√°gina de ep√≠grafe; estilo
+% \changes{v1.10}{2008-10-02}{Ficha Catalogr·fica condicional (n„o È criada
+%   para projetos e propostas); comando \string\sloppy È disparado
+%   automaticamente; o pacote n„o compıe mais a Folha de AprovaÁ„o; mudanÁa na
+%   contagem das p·ginas introdutÛrias; inclus„o da p·gina de epÌgrafe; estilo
 %   de bibliografia alterado de ufmg.bst para ppgccufmg.bst}
 % \changes{v1.0}{2008-05-09}{Nome da classe alterada de `ufmgthesis' para
-%   `ppgccufmg'; mudan√ßa na contagem das p√°ginas introdut√≥rias; inclus√£o da
-%   Ficha Catalogr√°fica}
-% \changes{v0.31}{2008-02-26}{Corre√ß√£o da contra-capa, em que aparecia o nome
+%   `ppgccufmg'; mudanÁa na contagem das p·ginas introdutÛrias; inclus„o da
+%   Ficha Catalogr·fica}
+% \changes{v0.31}{2008-02-26}{CorreÁ„o da contra-capa, em que aparecia o nome
 %   do autor duplicado}
-% \changes{v0.30}{2007-12-13}{Mudan√ßa na especifica√ß√£o de dedicat√≥rias e
-%   agradecimentos; cabe√ßalho da p√°gina de t√≠tulo agora apresenta nome do autor
+% \changes{v0.30}{2007-12-13}{MudanÁa na especificaÁ„o de dedicatÛrias e
+%   agradecimentos; cabeÁalho da p·gina de tÌtulo agora apresenta nome do autor
 %   e do orientador}
-% \changes{v0.20}{2007-11-09}{Mudan√ßa na especifica√ß√£o de resumos e
-%   \emph{abstracts}; t√©rmino da tradu√ß√£o da documenta√ß√£o para o portugu√™s}
-% \changes{v0.14}{2006-11-05}{Documenta√ß√£o traduzida para o portugu√™s.
-%   Eliminados brokentitle e similares. Corrigidos bugs de formata√ß√£o.
-%   Corrigido cabe√ßalho quando ap√™ndices s√£o postos ap√≥s as Refer√™ncias
-%   Bibliogr√°ficas}
+% \changes{v0.20}{2007-11-09}{MudanÁa na especificaÁ„o de resumos e
+%   \emph{abstracts}; tÈrmino da traduÁ„o da documentaÁ„o para o portuguÍs}
+% \changes{v0.14}{2006-11-05}{DocumentaÁ„o traduzida para o portuguÍs.
+%   Eliminados brokentitle e similares. Corrigidos bugs de formataÁ„o.
+%   Corrigido cabeÁalho quando apÍndices s„o postos apÛs as ReferÍncias
+%   Bibliogr·ficas}
 % \changes{v0.13}{2005-07-24}{The approval sheet now shows the broken title}
 % \changes{v0.12}{2005-07-21}{Bugs: arabic numbering in front matter (with
 %   ``easy way'') and no header in main matter (with command
@@ -136,8 +136,8 @@
 % \newcommand\pkg{\textsf}
 % \newcommand\bst{\textsf}
 %
-% \title{A classe \cls{ppgccufmg}\thanks{Este documento corresponde √† vers√£o
-% \fileversion{} da classe \cls{ppgccufmg}, lan√ßada em~\filedate.}}
+% \title{A classe \cls{ppgccufmg}\thanks{Este documento corresponde ‡ vers„o
+% \fileversion{} da classe \cls{ppgccufmg}, lanÁada em~\filedate.}}
 % \author{Vilar Fiuza da Camara Neto\qquad\qquad Eduardo Freire Nakamura \\
 % \texttt{\{neto,nakamura\}@dcc.ufmg.br}} \date{25 de abril de 2011}
 %
@@ -149,84 +149,84 @@
 % \tableofcontents
 %
 %
-% \section{Introdu√ß√£o}
+% \section{IntroduÁ„o}
 %
 % Este arquivo descreve a classe \LaTeX{} \cls{ppgccufmg} --- uma classe para
-% formatar disserta√ß√µes de mestrado, teses de doutorado e propostas de tese
-% para o Programa de P√≥s-Gradua√ß√£o em Ci√™ncia da Computa√ß√£o da Universidade
+% formatar dissertaÁıes de mestrado, teses de doutorado e propostas de tese
+% para o Programa de PÛs-GraduaÁ„o em CiÍncia da ComputaÁ„o da Universidade
 % Federal de Minas Gerais (PPGCC/UFMG). Durante um bom tempo esta classe se
-% chamou \pkg{ufmgthesis} e foi utilizada por v√°rios alunos em car√°ter
-% extra-oficial, embora incorporando sugest√µes tanto da Secretaria quanto da
-% Coordena√ß√£o do Curso. Por sua vez, a \pkg{ufmgthesis} √© baseada na classe
+% chamou \pkg{ufmgthesis} e foi utilizada por v·rios alunos em car·ter
+% extra-oficial, embora incorporando sugestıes tanto da Secretaria quanto da
+% CoordenaÁ„o do Curso. Por sua vez, a \pkg{ufmgthesis} È baseada na classe
 % original \pkg{ufmgthes} criada pelo estudante Eduardo Freire Nakamura.
 %
-% A vers√£o atual da classe est√° em conformidade com a padroniza√ß√£o oficial
+% A vers„o atual da classe est· em conformidade com a padronizaÁ„o oficial
 % estabelecida pelo PPGCC/UFMG.
 %
 %
 % \section{Como usar a classe}
 %
-% Esta se√ß√£o descreve como usar a classe \cls{ppgccufmg}.
+% Esta seÁ„o descreve como usar a classe \cls{ppgccufmg}.
 %
-% As subse√ß√µes mais importantes s√£o a \ref{sec:classoptions} (op√ß√µes da classe,
-% ou seja, as op√ß√µes para o comando |\documentclass|) e a \ref{sec:ppgccufmg}
+% As subseÁıes mais importantes s„o a \ref{sec:classoptions} (opÁıes da classe,
+% ou seja, as opÁıes para o comando |\documentclass|) e a \ref{sec:ppgccufmg}
 % (como usar o comando |\ppgccufmg|, que monta o documento automaticamente).
-% Para usu√°rios de vers√µes anteriores desta classe (ou da classe
-% \pkg{ufmgthesis}), cheque tamb√©m a subse√ß√£o \ref{sec:pastusers}, para checar
-% se houve alguma mudan√ßa na sintaxe dos comandos ou na forma de prover as
-% informa√ß√µes do documento.
+% Para usu·rios de versıes anteriores desta classe (ou da classe
+% \pkg{ufmgthesis}), cheque tambÈm a subseÁ„o \ref{sec:pastusers}, para checar
+% se houve alguma mudanÁa na sintaxe dos comandos ou na forma de prover as
+% informaÁıes do documento.
 %
-% Note que a classe \cls{ppgccufmg} √© baseada na classe \cls{memoir}, que √© uma
-% classe altamente configur√°vel. Voc√™ deve t√™-la instalada no seu sistema
-% \LaTeX. Alguns sistemas j√° v√™m com essa classe (incluindo a distribui√ß√£o mais
-% comum do Windows, o MiK\TeX). A Subse√ß√£o~\ref{sec:memoirtips} cont√©m uma
-% descri√ß√£o r√°pida sobre a instala√ß√£o do \cls{memoir}.
+% Note que a classe \cls{ppgccufmg} È baseada na classe \cls{memoir}, que È uma
+% classe altamente configur·vel. VocÍ deve tÍ-la instalada no seu sistema
+% \LaTeX. Alguns sistemas j· vÍm com essa classe (incluindo a distribuiÁ„o mais
+% comum do Windows, o MiK\TeX). A SubseÁ„o~\ref{sec:memoirtips} contÈm uma
+% descriÁ„o r·pida sobre a instalaÁ„o do \cls{memoir}.
 %
 %
 % \subsection{Para os impacientes}
 % \label{sec:quickintro}
 %
-% Esta √© a estrutura de um arquivo \LaTeX{} baseado no estilo \cls{ppgccufmg},
-% j√° com alguns pacotes recomendados:
+% Esta È a estrutura de um arquivo \LaTeX{} baseado no estilo \cls{ppgccufmg},
+% j· com alguns pacotes recomendados:
 %
 % \begin{quote}
 % \begin{verbatim}
-% \documentclass[phd]{ppgccufmg}    % ou [msc] para disserta√ß√µes
+% \documentclass[phd]{ppgccufmg}    % ou [msc] para dissertaÁıes
 %                                   % de mestrado
 %
-% \usepackage[brazil]{babel}        % ajusta v√°rios detalhes para
-%                                   % documentos escritos em portugu√™s,
-%                                   % principalmente hifeniza√ß√£o
-% \usepackage[T1]{fontenc}          % permite a hifeniza√ß√£o de
+% \usepackage[brazil]{babel}        % ajusta v·rios detalhes para
+%                                   % documentos escritos em portuguÍs,
+%                                   % principalmente hifenizaÁ„o
+% \usepackage[T1]{fontenc}          % permite a hifenizaÁ„o de
 %                                   % palavras acentuadas
 % \usepackage[latin1]{inputenc}     % ou [utf8x] para quem prefere
-%                                   % usar a codifica√ß√£o UTF-8
+%                                   % usar a codificaÁ„o UTF-8
 % \usepackage{graphicx}             % define o comando \includegraphics
-%                                   % para a inclus√£o de figuras
-% \usepackage[square]{natbib}       % permite cita√ß√µes naturalmente
+%                                   % para a inclus„o de figuras
+% \usepackage[square]{natbib}       % permite citaÁıes naturalmente
 %                                   % integradas ao texto
 %
 % \begin{document}
 %
 % \ppgccufmg{
-%   % inserir aqui as informa√ß√µes para o comando \ppgccufmg
+%   % inserir aqui as informaÁıes para o comando \ppgccufmg
 % }
 %
-% \chapter{Introdu√ß√£o}
+% \chapter{IntroduÁ„o}
 %
 % % a partir daqui vem o texto do seu documento
 %
 % % bibliografia:
-% \ppgccbibliography{nome do arquivo BibTeX, sem a extens√£o}
+% \ppgccbibliography{nome do arquivo BibTeX, sem a extens„o}
 %
-% % ap√™ndices, se houver
+% % apÍndices, se houver
 % \begin{appendices}
 %
-% \chapter{Um ap√™ndice}
-% ...conte√∫do do ap√™ndice...
+% \chapter{Um apÍndice}
+% ...conte˙do do apÍndice...
 %
-% \chapter{Outro ap√™ndice}
-% ...conte√∫do do ap√™ndice...
+% \chapter{Outro apÍndice}
+% ...conte˙do do apÍndice...
 %
 % \end{appendices}
 %
@@ -234,10 +234,10 @@
 % \begin{attachments}
 %
 % \chapter{Um anexo}
-% ...conte√∫do do anexo...
+% ...conte˙do do anexo...
 %
 % \chapter{Outro anexo}
-% ...conte√∫do do anexo...
+% ...conte˙do do anexo...
 %
 % \end{attachments}
 %
@@ -245,28 +245,28 @@
 %\end{verbatim}
 % \end{quote}
 %
-% A descri√ß√£o do comando |\ppgccufmg| √© vista na Subse√ß√£o~\ref{sec:ppgccufmg}.
+% A descriÁ„o do comando |\ppgccufmg| È vista na SubseÁ„o~\ref{sec:ppgccufmg}.
 %
-% Para quem quiser usar outras listas (Lista de Algoritmos, de S√≠mbolos, etc.),
+% Para quem quiser usar outras listas (Lista de Algoritmos, de SÌmbolos, etc.),
 % siga os seguintes passos:
 %
 % \begin{enumerate}
 %
-% \item \emph{N√£o altere o arquivo} |ppgccufmg.cls|;
+% \item \emph{N„o altere o arquivo} |ppgccufmg.cls|;
 %
-% \item Use a op√ß√£o |beforetoc| do comando |\ppgccufmg| para incluir os
-% comandos que devem ser executados antes do Sum√°rio:
+% \item Use a opÁ„o |beforetoc| do comando |\ppgccufmg| para incluir os
+% comandos que devem ser executados antes do Sum·rio:
 % \begin{quote}
 % \begin{verbatim}
 % \ppgccufmg{...,beforetoc={\listofalgorithms}}
 %\end{verbatim}
 % \end{quote}
 %
-% Todos os comandos indicados como par√¢metro para a op√ß√£o |beforetoc| s√£o
-% executados imediatamente antes da cria√ß√£o do Sum√°rio. Se a seq√º√™ncia de
-% comandos for mais extensa (por exemplo, se voc√™ comp√µe manualmente uma tabela
-% para a Lista de S√≠mbolos), ent√£o o melhor √© colocar esses comandos em um
-% arquivo separado --- digamos, |listadesimbolos.tex| --- e usar a op√ß√£o
+% Todos os comandos indicados como par‚metro para a opÁ„o |beforetoc| s„o
+% executados imediatamente antes da criaÁ„o do Sum·rio. Se a seq¸Íncia de
+% comandos for mais extensa (por exemplo, se vocÍ compıe manualmente uma tabela
+% para a Lista de SÌmbolos), ent„o o melhor È colocar esses comandos em um
+% arquivo separado --- digamos, |listadesimbolos.tex| --- e usar a opÁ„o
 % |beforetoc| da seguinte maneira:
 % \begin{quote}
 % \begin{verbatim}
@@ -277,336 +277,336 @@
 % \end{enumerate}
 %
 %
-% \subsection{Informa√ß√µes importantes para usu√°rios de vers√µes anteriores}
+% \subsection{InformaÁıes importantes para usu·rios de versıes anteriores}
 % \label{sec:pastusers}
 %
-% Se voc√™ estava usando uma vers√£o anterior da classe \cls{ppgccufmg} e est√°
-% atualizando-a para a vers√£o atual, algumas mudan√ßas estruturais (por exemplo,
-% na sintaxe dos comandos) podem ter ocorrido. D√™ uma olhada nas subse√ß√µes a
-% seguir para ver se essas mudan√ßas afetam o seu documento.
+% Se vocÍ estava usando uma vers„o anterior da classe \cls{ppgccufmg} e est·
+% atualizando-a para a vers„o atual, algumas mudanÁas estruturais (por exemplo,
+% na sintaxe dos comandos) podem ter ocorrido. DÍ uma olhada nas subseÁıes a
+% seguir para ver se essas mudanÁas afetam o seu documento.
 %
-% Naturalmente, se voc√™ est√° usando o \cls{ppgccufmg} pela primeira vez,
-% esta se√ß√£o n√£o √© importante.
+% Naturalmente, se vocÍ est· usando o \cls{ppgccufmg} pela primeira vez,
+% esta seÁ„o n„o È importante.
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 1.40}
+% \subsubsection{MudanÁas introduzidas na vers„o 1.40}
 %
-% O comando |\ppgccufmg| possui uma nova op√ß√£o: |beforetoc|. Esse comando deve
-% ser usado para listar os comandos que s√£o executados antes do Sum√°rio, em
-% particular para a gera√ß√£o de listas extras, como a Lista de Algoritmos ou de
-% S√≠mbolos.
+% O comando |\ppgccufmg| possui uma nova opÁ„o: |beforetoc|. Esse comando deve
+% ser usado para listar os comandos que s„o executados antes do Sum·rio, em
+% particular para a geraÁ„o de listas extras, como a Lista de Algoritmos ou de
+% SÌmbolos.
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 1.20}
+% \subsubsection{MudanÁas introduzidas na vers„o 1.20}
 %
-% O comando \cmd{\keywords} foi criado para automatizar a especifica√ß√£o das
+% O comando \cmd{\keywords} foi criado para automatizar a especificaÁ„o das
 % palavras-chave em resumos e \emph{abstracts}. O antigo comando
 % \cmd{\keywords} foi alterado para \cmd{\fckeywords}, para separar a
-% funcionalidade espec√≠fica da Ficha Catalogr√°fica.
+% funcionalidade especÌfica da Ficha Catalogr·fica.
 %
-% A op√ß√£o |abstract| permite especificar a linguagem do resumo em quest√£o.
+% A opÁ„o |abstract| permite especificar a linguagem do resumo em quest„o.
 % Recomenda-se usar |abstract=[english]{Abstract}{arquivo}| para o
-% \emph{abstract} (resumo em ingl√™s) --- assim o comando \cmd{\keywords} gera o
-% termo em ingl√™s ``Keywords''.
+% \emph{abstract} (resumo em inglÍs) --- assim o comando \cmd{\keywords} gera o
+% termo em inglÍs ``Keywords''.
 %
 % Foram criados os ambientes |appendices| e |attachments| para facilitar a
-% cria√ß√£o de ap√™ndices e anexos.
+% criaÁ„o de apÍndices e anexos.
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 1.10}
+% \subsubsection{MudanÁas introduzidas na vers„o 1.10}
 %
 % O comando |\ufmgbibliography| foi alterado para |\ppgccbibliography|, para
-% refletir o fato de que o estilo n√£o √© adotado pela UFMG como um todo (somente
+% refletir o fato de que o estilo n„o È adotado pela UFMG como um todo (somente
 % pelo PPGCC).
 %
-% O padr√£o para o tamanho da fonte foi mudado para 12pt, ao inv√©s de 11pt.
+% O padr„o para o tamanho da fonte foi mudado para 12pt, ao invÈs de 11pt.
 %
-% Como a Folha de Aprova√ß√£o √© um documento fornecido pela Secretaria do Curso,
-% n√£o faz sentido que esta classe gere essa p√°gina. Assim, as seguintes
-% mudan√ßas foram feitas:
+% Como a Folha de AprovaÁ„o È um documento fornecido pela Secretaria do Curso,
+% n„o faz sentido que esta classe gere essa p·gina. Assim, as seguintes
+% mudanÁas foram feitas:
 %
 % \begin{itemize}
-% \item A sintaxe da op√ß√£o |advisor| mudou. Agora √© necess√°rio informar somente
-%   o nome do orientador, n√£o mais o seu t√≠tulo e institui√ß√£o. A mesma mudan√ßa
+% \item A sintaxe da opÁ„o |advisor| mudou. Agora È necess·rio informar somente
+%   o nome do orientador, n„o mais o seu tÌtulo e instituiÁ„o. A mesma mudanÁa
 %   se aplica ao comando |\advisor|;
-% \item Todas as op√ß√µes de |\ppgccufmg| e comandos para especificar as
-%   informa√ß√µes da Folha de Aprova√ß√£o foram suprimidas. Assim, as op√ß√µes
-%   |coadvisor|, |member| e |logo| n√£o s√£o mais reconhecidas, assim como os
+% \item Todas as opÁıes de |\ppgccufmg| e comandos para especificar as
+%   informaÁıes da Folha de AprovaÁ„o foram suprimidas. Assim, as opÁıes
+%   |coadvisor|, |member| e |logo| n„o s„o mais reconhecidas, assim como os
 %   comandos |\coadvisor|, |\addtocomitee| e |\logo|;
-% \item A Folha de Aprova√ß√£o deve ser digitalizada ap√≥s a emiss√£o pela
-%   Secretaria (preferencialmente em formato |png| se voc√™ estiver usando o
+% \item A Folha de AprovaÁ„o deve ser digitalizada apÛs a emiss„o pela
+%   Secretaria (preferencialmente em formato |png| se vocÍ estiver usando o
 %   |pdflatex| ou em |eps| se estiver usando o |latex|). O nome do arquivo
-%   correspondente deve ser informado pela op√ß√£o |approval| (ou pelo comando
+%   correspondente deve ser informado pela opÁ„o |approval| (ou pelo comando
 %   |\approval|).
 % \end{itemize}
 %
-% Fora isso, a numera√ß√£o das p√°ginas mudou novamente: a falsa folha de rosto
-% (antes chamada de ``capa'') n√£o conta na numera√ß√£o.
+% Fora isso, a numeraÁ„o das p·ginas mudou novamente: a falsa folha de rosto
+% (antes chamada de ``capa'') n„o conta na numeraÁ„o.
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 1.0}
+% \subsubsection{MudanÁas introduzidas na vers„o 1.0}
 %
-% Esta √© a primeira vers√£o oficial da classe. As principais mudan√ßas s√£o as
+% Esta È a primeira vers„o oficial da classe. As principais mudanÁas s„o as
 % seguintes:
 %
 % \begin{itemize}
 % \item o nome da classe foi mudado de \pkg{ufmgthesis} para
-%   \cls{ppgccufmg} (e o comando |\ufmgthesis| tamb√©m foi mudado para
+%   \cls{ppgccufmg} (e o comando |\ufmgthesis| tambÈm foi mudado para
 %   |\ppgccufmg|);
-% \item recomanda-se usar a chave |authorrev| ao inv√©s de |author|;
-% \item das op√ß√µes de classe |a4paper,11pt,twoside| s√£o adotadas por padr√£o
-%   (n√£o √© necess√°rio cit√°-las no |\documentclass|);
-% \item foi criada a Ficha Catalogr√°fica;
-% \item foi alterada a numera√ß√£o das p√°ginas introdut√≥rias (a p√°gina `i' √© a
+% \item recomanda-se usar a chave |authorrev| ao invÈs de |author|;
+% \item das opÁıes de classe |a4paper,11pt,twoside| s„o adotadas por padr„o
+%   (n„o È necess·rio cit·-las no |\documentclass|);
+% \item foi criada a Ficha Catalogr·fica;
+% \item foi alterada a numeraÁ„o das p·ginas introdutÛrias (a p·gina `i' È a
 %   capa).
 % \end{itemize}
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 0.30}
+% \subsubsection{MudanÁas introduzidas na vers„o 0.30}
 %
-% Por sugest√£o da Secretaria do nosso curso, decidimos (e achei melhor) colocar
-% a Dedicat√≥ria e os Agradecimentos antes dos resumos. Al√©m disso, mudou o
-% cabe√ßalho da p√°gina de t√≠tulo: ao inv√©s do nome da institui√ß√£o, passa a
+% Por sugest„o da Secretaria do nosso curso, decidimos (e achei melhor) colocar
+% a DedicatÛria e os Agradecimentos antes dos resumos. AlÈm disso, mudou o
+% cabeÁalho da p·gina de tÌtulo: ao invÈs do nome da instituiÁ„o, passa a
 % aparecer os nomes do autor e o orientador.
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 0.20}
+% \subsubsection{MudanÁas introduzidas na vers„o 0.20}
 %
-% A defini√ß√£o de resumos e \emph{abstracts} mudou: os diversos comandos
+% A definiÁ„o de resumos e \emph{abstracts} mudou: os diversos comandos
 % |\abstract|, |\englishabstract| e |\portugueseabstract| foram centralizados
-% em um √∫nico comando |\abstract|. A sintaxe deste comando √©
-% |\abstract|\marg{t√≠tulo}\marg{arquivo} (note que especificar o t√≠tulo √©
-% obrigat√≥rio, como ``Resumo'', ``Abstract'' ou ``Resumo Estendido''). √â
-% poss√≠vel definir qualquer n√∫mero de resumos e \emph{abstracts}.
+% em um ˙nico comando |\abstract|. A sintaxe deste comando È
+% |\abstract|\marg{tÌtulo}\marg{arquivo} (note que especificar o tÌtulo È
+% obrigatÛrio, como ``Resumo'', ``Abstract'' ou ``Resumo Estendido''). …
+% possÌvel definir qualquer n˙mero de resumos e \emph{abstracts}.
 %
-% A mesma observa√ß√£o se aplica √†s op√ß√µes |abstract|, |englishabstract| e
-% |portugueseabstract| do comando |\ufmgthesis|, substitu√≠das pela op√ß√£o
+% A mesma observaÁ„o se aplica ‡s opÁıes |abstract|, |englishabstract| e
+% |portugueseabstract| do comando |\ufmgthesis|, substituÌdas pela opÁ„o
 % |abstract|.
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 0.14}
+% \subsubsection{MudanÁas introduzidas na vers„o 0.14}
 %
-% As op√ß√µes |brokentitle| e |portuguesebrokentitle| e os comandos
-% |\brokentitle| e |\portuguesebrokentitle| foram eliminados. Sem d√≥ nem
-% piedade. Caso voc√™ queira definir manualmente as quebras de linha para
-% balancear melhor o t√≠tulo na capa e na folha de t√≠tulo, introduza as quebras
-% de linha (|\\|) na pr√≥pria op√ß√£o |title| ou no comando |\title|.
+% As opÁıes |brokentitle| e |portuguesebrokentitle| e os comandos
+% |\brokentitle| e |\portuguesebrokentitle| foram eliminados. Sem dÛ nem
+% piedade. Caso vocÍ queira definir manualmente as quebras de linha para
+% balancear melhor o tÌtulo na capa e na folha de tÌtulo, introduza as quebras
+% de linha (|\\|) na prÛpria opÁ„o |title| ou no comando |\title|.
 %
-% O comando |\backmatter| n√£o √© mais chamado automaticamente. Isso resolve
-% o problema da numera√ß√£o inexistente dos ap√™ndices, para quem prefere
-% coloc√°-los ap√≥s as Refer√™ncias Bibliogr√°ficas. (Entretanto, alguns recomendam
-% que as Refer√™ncias Bibliogr√°ficas sejam colocadas \emph{ap√≥s} os ap√™ndices.)
+% O comando |\backmatter| n„o È mais chamado automaticamente. Isso resolve
+% o problema da numeraÁ„o inexistente dos apÍndices, para quem prefere
+% coloc·-los apÛs as ReferÍncias Bibliogr·ficas. (Entretanto, alguns recomendam
+% que as ReferÍncias Bibliogr·ficas sejam colocadas \emph{apÛs} os apÍndices.)
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 0.11}
+% \subsubsection{MudanÁas introduzidas na vers„o 0.11}
 %
-% \textbf{Importante!} Vers√µes anteriores tinham um erro de grafia no comando
+% \textbf{Importante!} Versıes anteriores tinham um erro de grafia no comando
 % |\ufmgthesis|: seu nome era definido como |\ufmghesis| (ou seja, sem o
-% \textbf{t}). Esse erro foi corrigido a partir da vers√£o 0.11. Se voc√™ estiver
-% atualizando de uma vers√£o anterior, por favor altere o seu documento para
+% \textbf{t}). Esse erro foi corrigido a partir da vers„o 0.11. Se vocÍ estiver
+% atualizando de uma vers„o anterior, por favor altere o seu documento para
 % chamar o comando com a grafia correta.
 %
-% O comando |\mainmatter| agora √© chamado automaticamente, a n√£o ser que a
-% op√ß√£o de classe |nomainmatter| seja especificada.
+% O comando |\mainmatter| agora È chamado automaticamente, a n„o ser que a
+% opÁ„o de classe |nomainmatter| seja especificada.
 %
-% A formata√ß√£o dos cabe√ßalhos e rodap√©s mudou: o t√≠tulo da se√ß√£o n√£o aparece
-% mais, porque muitas vezes o cabe√ßalho ficava sobrecarregado com muito texto
-% (especialmente no caso de se√ß√µes com t√≠tulos compridos).
+% A formataÁ„o dos cabeÁalhos e rodapÈs mudou: o tÌtulo da seÁ„o n„o aparece
+% mais, porque muitas vezes o cabeÁalho ficava sobrecarregado com muito texto
+% (especialmente no caso de seÁıes com tÌtulos compridos).
 %
-% Al√©m disso, a numera√ß√£o das p√°ginas come√ßa logo ap√≥s a folha de t√≠tulo. (Nas
-% vers√µes anteriores, a numera√ß√£o come√ßava somente ap√≥s o Sum√°rio.)
+% AlÈm disso, a numeraÁ„o das p·ginas comeÁa logo apÛs a folha de tÌtulo. (Nas
+% versıes anteriores, a numeraÁ„o comeÁava somente apÛs o Sum·rio.)
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 0.10}
+% \subsubsection{MudanÁas introduzidas na vers„o 0.10}
 %
-% A formata√ß√£o da capa e da p√°gina de t√≠tulo mudou. Na nova vers√£o, a posi√ß√£o
-% do nome do autor do documento √© diferente.
+% A formataÁ„o da capa e da p·gina de tÌtulo mudou. Na nova vers„o, a posiÁ„o
+% do nome do autor do documento È diferente.
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 0.09}
+% \subsubsection{MudanÁas introduzidas na vers„o 0.09}
 %
-% Foram criadas as op√ß√µes |portuguesetitle|, |portuguesebrokentitle|,
-% |portugueseuniversity| e |portuguesecourse|. Elas s√≥ s√£o importantes se voc√™
-% estiver escrevendo o documento em uma l√≠ngua diferente do portugu√™s. Al√©m
-% disso, a op√ß√£o |department| desapareceu, pois essa informa√ß√£o n√£o era usada.
+% Foram criadas as opÁıes |portuguesetitle|, |portuguesebrokentitle|,
+% |portugueseuniversity| e |portuguesecourse|. Elas sÛ s„o importantes se vocÍ
+% estiver escrevendo o documento em uma lÌngua diferente do portuguÍs. AlÈm
+% disso, a opÁ„o |department| desapareceu, pois essa informaÁ„o n„o era usada.
 %
-% \subsubsection{Mudan√ßas introduzidas na vers√£o 0.08}
+% \subsubsection{MudanÁas introduzidas na vers„o 0.08}
 %
-% O formato da data fornecido pela op√ß√£o |date=|\meta{data} (para o comando
-% |\ufmgthesis|) ou pelo comando |\date|\marg{data} mudou. Ao inv√©s de fornecer
+% O formato da data fornecido pela opÁ„o |date=|\meta{data} (para o comando
+% |\ufmgthesis|) ou pelo comando |\date|\marg{data} mudou. Ao invÈs de fornecer
 % a data de forma textual (ou seja, ``10 de janeiro de 2005'' ou ``January 10,
-% 2005''), voc√™ deve agora fornecer a data no formato |aaaa-mm-dd| ou
-% |aaaa-mm|. Veja a Se√ß√£o~\ref{sec:ppgccufmg} para mais detalhes.
+% 2005''), vocÍ deve agora fornecer a data no formato |aaaa-mm-dd| ou
+% |aaaa-mm|. Veja a SeÁ„o~\ref{sec:ppgccufmg} para mais detalhes.
 %
 %
-% \subsection{Op√ß√µes da classe}
+% \subsection{OpÁıes da classe}
 % \label{sec:classoptions}
 %
 % \newcommand{\defmark}{$\triangleright$}
 % \newcommand{\sep}{$\mid$}
 %
-% Ao usar o comando |\documentclass|, voc√™ pode fornecer algumas op√ß√µes para
-% configurar a apar√™ncia do documento.
+% Ao usar o comando |\documentclass|, vocÍ pode fornecer algumas opÁıes para
+% configurar a aparÍncia do documento.
 %
-% \emph{Para os impacientes:} o mais comum √© usar somente o seguinte (para
+% \emph{Para os impacientes:} o mais comum È usar somente o seguinte (para
 % teses de doutorado):
 % \begin{quote}
 % |\documentclass[phd]{ppgccufmg}|
 % \end{quote}
-% Para disserta√ß√µes de mestrado, basta colocar |msc| no lugar de |phd|. No caso
-% de documento de proposta ou projeto, usar tamb√©m a op√ß√£o |proposal| ou
+% Para dissertaÁıes de mestrado, basta colocar |msc| no lugar de |phd|. No caso
+% de documento de proposta ou projeto, usar tambÈm a opÁ„o |proposal| ou
 % |project|, ou seja:
 % \begin{quote}
 % |\documentclass[phd,project]{ppgccufmg}|
 % \end{quote}
 % para o projeto de tese.
 %
-% As op√ß√µes dispon√≠veis s√£o listadas a seguir. A op√ß√£o padr√£o em cada caso √©
-% identificada pelo s√≠mbolo \defmark.
+% As opÁıes disponÌveis s„o listadas a seguir. A opÁ„o padr„o em cada caso È
+% identificada pelo sÌmbolo \defmark.
 %
 % \begin{itemize}
 %
 % \item |msc| \sep{} \defmark|phd|
 %
-%   Define se este documento √© uma disserta√ß√£o de mestrado ou uma tese de
+%   Define se este documento È uma dissertaÁ„o de mestrado ou uma tese de
 %   doutorado.
 %
 % \item |proposal| ou |project|
 %
-%   Se qualquer uma dessas op√ß√µes for fornecida, o documento torna-se uma
-%   proposta de disserta√ß√£o ou um projeto de tese. O efeito √© o mesmo para
-%   qualquer uma das duas op√ß√µes.
+%   Se qualquer uma dessas opÁıes for fornecida, o documento torna-se uma
+%   proposta de dissertaÁ„o ou um projeto de tese. O efeito È o mesmo para
+%   qualquer uma das duas opÁıes.
 %
 % \item |single| \sep{} \defmark|onehalf| \sep{} |double|
 %
-%   Define o espa√ßamento padr√£o entre as linhas: simples, 1\,\textonehalf{} ou
+%   Define o espaÁamento padr„o entre as linhas: simples, 1\,\textonehalf{} ou
 %   duplo.
 %
 % \item |centertitles|
 %
-%   Por padr√£o, o texto-t√≠tulo das p√°ginas introdut√≥rias (resumos,
-%   Agradecimentos, Sum√°rio, Lista de Figuras e Lista de Tabelas) √© alinhado √†
-%   esquerda. Com esta op√ß√£o, os t√≠tulos passam a ser centralizados. Tamb√©m √©
-%   afetado o t√≠tulo das ``Refer√™ncias Bibliogr√°ficas''. Esta op√ß√£o n√£o altera
-%   o alinhamento do t√≠tulo dos cap√≠tulos ao longo do documento.
+%   Por padr„o, o texto-tÌtulo das p·ginas introdutÛrias (resumos,
+%   Agradecimentos, Sum·rio, Lista de Figuras e Lista de Tabelas) È alinhado ‡
+%   esquerda. Com esta opÁ„o, os tÌtulos passam a ser centralizados. TambÈm È
+%   afetado o tÌtulo das ``ReferÍncias Bibliogr·ficas''. Esta opÁ„o n„o altera
+%   o alinhamento do tÌtulo dos capÌtulos ao longo do documento.
 %
 % \item \defmark|a4paper| \sep{} |letterpaper|
 %
-%   Define o tamanho da p√°gina: A4 ou carta (``letter''). O tamanho normatizado
-%   no Brasil √© A4.
+%   Define o tamanho da p·gina: A4 ou carta (``letter''). O tamanho normatizado
+%   no Brasil È A4.
 %
 % \item |9pt| \sep{} |10pt| \sep{} |11pt| \sep{} \defmark|12pt| \sep{} |14pt|
 %   \sep{} |17pt|
 %
-%   Define o tamanho da fonte. 12 pontos √© o padr√£o. As demais alternativas
-%   devem ser ignoradas na vers√£o final.
+%   Define o tamanho da fonte. 12 pontos È o padr„o. As demais alternativas
+%   devem ser ignoradas na vers„o final.
 %
 % \item |oneside| \sep{} \defmark|twoside|
 %
-%   Define se a impress√£o ser√° feita apenas em um lado da folha (|oneside|) ou
-%   em ambos (|twoside|). A impress√£o em dupla face deve ser adotada sempre que
-%   poss√≠vel, j√° que reduz o consumo de papel.
+%   Define se a impress„o ser· feita apenas em um lado da folha (|oneside|) ou
+%   em ambos (|twoside|). A impress„o em dupla face deve ser adotada sempre que
+%   possÌvel, j· que reduz o consumo de papel.
 %
 % \item \defmark|showcover| \sep{} |hidecover|
 %
-%   Habilita ou desabilita a gera√ß√£o da falsa folha de rosto.
+%   Habilita ou desabilita a geraÁ„o da falsa folha de rosto.
 %
 % \item \defmark|showtitle| \sep{} |hidetitle|
 %
-%   Habilita ou desabilita a gera√ß√£o da folha de rosto.
+%   Habilita ou desabilita a geraÁ„o da folha de rosto.
 %
 % \item \defmark|showfc| \sep{} |hidefc|
 %
-%   Habilita ou desabilita a gera√ß√£o da Ficha Catalogr√°fica. (Se uma das op√ß√µes
-%   |proposal| ou |project| for usada, o padr√£o √© |hidefc|.)
+%   Habilita ou desabilita a geraÁ„o da Ficha Catalogr·fica. (Se uma das opÁıes
+%   |proposal| ou |project| for usada, o padr„o È |hidefc|.)
 %
 % \item \defmark|showapproval| \sep{} |hideapproval|
 %
-%   Habilita ou desabilita a gera√ß√£o da Folha de Aprova√ß√£o.
+%   Habilita ou desabilita a geraÁ„o da Folha de AprovaÁ„o.
 %
 % \item \defmark|showabstract| \sep{} |hideabstract|
 %
-%   Habilita ou desabilita a gera√ß√£o das p√°ginas de resumo (\emph{abstract}).
+%   Habilita ou desabilita a geraÁ„o das p·ginas de resumo (\emph{abstract}).
 %
 % \item \defmark|showdedication| \sep{} |hidededication|
 %
-%   Habilita ou desabilita a gera√ß√£o da p√°gina de dedicat√≥ria.
+%   Habilita ou desabilita a geraÁ„o da p·gina de dedicatÛria.
 %
 % \item \defmark|showack| \sep{} |hideack|
 %
-%   Habilita ou desabilita a gera√ß√£o da p√°gina de agradecimentos.
+%   Habilita ou desabilita a geraÁ„o da p·gina de agradecimentos.
 %
 % \item \defmark|showepigraph| \sep{} |hideepigraph|
 %
-%   Habilita ou desabilita a gera√ß√£o da p√°gina com a ep√≠grafe.
+%   Habilita ou desabilita a geraÁ„o da p·gina com a epÌgrafe.
 %
 % \item \defmark|showlof| \sep{} |hidelof|
 %
-%   Habilita ou desabilita a gera√ß√£o da Lista de Figuras.
+%   Habilita ou desabilita a geraÁ„o da Lista de Figuras.
 %
 % \item \defmark|showlot| \sep{} |hidelot|
 %
-%   Habilita ou desabilita a gera√ß√£o da Lista de Tabelas.
+%   Habilita ou desabilita a geraÁ„o da Lista de Tabelas.
 %
 % \item \defmark|showtoc| \sep{} |hidetoc|
 %
-%   Habilita ou desabilita a gera√ß√£o do Sum√°rio (\emph{Table of Contents}).
+%   Habilita ou desabilita a geraÁ„o do Sum·rio (\emph{Table of Contents}).
 %
 % \item \defmark|showall| \sep{} |hideall|
 %
-%   Habilita ou desabilita a gera√ß√£o de todas as p√°ginas opcionais. Voc√™ pode
-%   usar a op√ß√£o |hideall| para acelerar a compila√ß√£o do documento enquanto ele
-%   est√° sendo constru√≠do e alterar para |showall| somente na gera√ß√£o das
-%   vers√µes finais.
+%   Habilita ou desabilita a geraÁ„o de todas as p·ginas opcionais. VocÍ pode
+%   usar a opÁ„o |hideall| para acelerar a compilaÁ„o do documento enquanto ele
+%   est· sendo construÌdo e alterar para |showall| somente na geraÁ„o das
+%   versıes finais.
 %
 % \item |nomainmatter|
 %
 %   A classe \cls{ppgccufmg} chama automaticamente o comando |\mainmatter|
-%   depois da constru√ß√£o de todas as p√°ginas introdut√≥rias. (O comando
-%   |\mainmatter| reinicia a numera√ß√£o das p√°ginas e configura-as para o
-%   formato ar√°bico: 1, 2, 3, etc.) Se voc√™ quiser inserir manualmente outras
-%   p√°ginas antes do corpo principal do documento de modo a manter a numera√ß√£o
-%   romana (i, ii, iii, etc.), ent√£o use esta op√ß√£o. Neste caso, por√©m,
-%   \emph{n√£o se esque√ßa} de colocar o comando |\mainmatter| antes do primeiro
-%   cap√≠tulo. Se voc√™ esquecer desse comando, todas as p√°ginas do seu documento
-%   ser√£o numerados conforme a formata√ß√£o romana.
+%   depois da construÁ„o de todas as p·ginas introdutÛrias. (O comando
+%   |\mainmatter| reinicia a numeraÁ„o das p·ginas e configura-as para o
+%   formato ar·bico: 1, 2, 3, etc.) Se vocÍ quiser inserir manualmente outras
+%   p·ginas antes do corpo principal do documento de modo a manter a numeraÁ„o
+%   romana (i, ii, iii, etc.), ent„o use esta opÁ„o. Neste caso, porÈm,
+%   \emph{n„o se esqueÁa} de colocar o comando |\mainmatter| antes do primeiro
+%   capÌtulo. Se vocÍ esquecer desse comando, todas as p·ginas do seu documento
+%   ser„o numerados conforme a formataÁ„o romana.
 %
-%   Note que esta op√ß√£o \emph{n√£o deve mais ser usada} para a inser√ß√£o da Lista
-%   de Algoritmos ou outras listas. Para isso, consulte a op√ß√£o |beforetoc| do
-%   comando |\ppgccufmg| (Se√ß√£o~\ref{sec:ppgccufmg}) e o exemplo da
-%   Se√ß√£o~\ref{sec:quickintro}.
+%   Note que esta opÁ„o \emph{n„o deve mais ser usada} para a inserÁ„o da Lista
+%   de Algoritmos ou outras listas. Para isso, consulte a opÁ„o |beforetoc| do
+%   comando |\ppgccufmg| (SeÁ„o~\ref{sec:ppgccufmg}) e o exemplo da
+%   SeÁ„o~\ref{sec:quickintro}.
 %
 % \end{itemize}
 %
 %
-% \subsection{O jeito muito f√°cil de usar a classe}
+% \subsection{O jeito muito f·cil de usar a classe}
 % \label{sec:ppgccufmg}
 %
-% Todas as p√°ginas introdut√≥rias --- falsa folha de rosto, folha de rosto,
-% Folha de Aprova√ß√£o, resumo, resumo estendido, \emph{abstract}, dedicat√≥ria,
-% agradecimentos, Sum√°rio, lista de figuras e lista de tabelas --- podem ser
-% geradas por um √∫nico comando: |\ppgccufmg|, que recebe todas as informa√ß√µes
+% Todas as p·ginas introdutÛrias --- falsa folha de rosto, folha de rosto,
+% Folha de AprovaÁ„o, resumo, resumo estendido, \emph{abstract}, dedicatÛria,
+% agradecimentos, Sum·rio, lista de figuras e lista de tabelas --- podem ser
+% geradas por um ˙nico comando: |\ppgccufmg|, que recebe todas as informaÁıes
 % por meio de pares \meta{chave}|=|\meta{valor}. A chamada ao comando se parece
 % com algo como:
 %
 % \begin{quote}
 % \begin{raggedright}
 % |\ppgccufmg{|\\
-% |  title={O T√≠tulo da Tese},|\\
+% |  title={O TÌtulo da Tese},|\\
 % |  authorrev={da Camara Neto, Vilar Fiuza},|\\
 % |  university={Universidade Federal de Minas Gerais},|\\
-% |  |\emph{demais informa√ß√µes\ldots}\\
+% |  |\emph{demais informaÁıes\ldots}\\
 % |}|
 % \end{raggedright}
 % \end{quote}
 %
-% \emph{Para os impacientes:} cheque os exemplos no fim desta se√ß√£o. Cheque
-% tamb√©m o arquivo de exemplo, |exemplo.tex|, distribu√≠do com este pacote.
+% \emph{Para os impacientes:} cheque os exemplos no fim desta seÁ„o. Cheque
+% tambÈm o arquivo de exemplo, |exemplo.tex|, distribuÌdo com este pacote.
 %
-% Bom, agora voc√™ precisa da lista de todas as chaves que podem ser fornecidas
-% como par√¢metros para o comando |\ppgccufmg|. Eis a lista:
+% Bom, agora vocÍ precisa da lista de todas as chaves que podem ser fornecidas
+% como par‚metros para o comando |\ppgccufmg|. Eis a lista:
 %
 % \begin{itemize}
 %
-% \item |title|=\marg{t√≠tulo}
+% \item |title|=\marg{tÌtulo}
 %
-%   Define o t√≠tulo da disserta√ß√£o ou da tese.
+%   Define o tÌtulo da dissertaÁ„o ou da tese.
 %
-%   Ao compilar o texto, se voc√™ perceber que as quebras de linha que ocorrem
+%   Ao compilar o texto, se vocÍ perceber que as quebras de linha que ocorrem
 %   na folha de rosto criam um efeito desbalanceado, marque manualmente os
 %   pontos de quebra de linha com duas contra-barras (|\\|). Para maiores
-%   informa√ß√µes, veja a descri√ß√£o do comando |\title| na
-%   p√°gina~\pageref{macro:title}.
+%   informaÁıes, veja a descriÁ„o do comando |\title| na
+%   p·gina~\pageref{macro:title}.
 %
 % \item |authorrev|=\marg{sobrenome,nome}
 %
@@ -614,13 +614,13 @@
 %
 % \item |author|=\marg{nome}
 %
-%   Define o nome do autor. Se esta chave n√£o for usada, o nome √© montado
-%   automaticamente com base na chave |authorrev|: portanto, o ideal √© usar
+%   Define o nome do autor. Se esta chave n„o for usada, o nome È montado
+%   automaticamente com base na chave |authorrev|: portanto, o ideal È usar
 %   apenas |authorrev|.
 %
 % \item |cutter|=\marg{cutter}
 %
-%   Define o c√≥digo ``cutter'' do documento.
+%   Define o cÛdigo ``cutter'' do documento.
 %
 % \item |cdu|=\marg{CDU}
 %
@@ -628,13 +628,13 @@
 %
 % \item |keywords|=\marg{chave,chave,\ldots}
 %
-%   Define as palavras-chave que dever√£o constar na Ficha Catalogr√°fica,
-%   separadas por v√≠rgulas.
+%   Define as palavras-chave que dever„o constar na Ficha Catalogr·fica,
+%   separadas por vÌrgulas.
 %
-% \item |indexkeys|=\marg{chaves para indexa√ß√£o}
+% \item |indexkeys|=\marg{chaves para indexaÁ„o}
 %
-%   Define o texto da Ficha Catalogr√°fica com as informa√ß√µes para indexa√ß√£o.
-%   Esta informa√ß√£o √© fornecida pela Secretaria do Curso ou pela biblioteca.
+%   Define o texto da Ficha Catalogr·fica com as informaÁıes para indexaÁ„o.
+%   Esta informaÁ„o È fornecida pela Secretaria do Curso ou pela biblioteca.
 %
 % \item |university|=\marg{nome}
 %
@@ -644,109 +644,109 @@
 %
 %   Define o nome do curso.
 %
-% \item |portuguesetitle|=\marg{t√≠tulo}\\
+% \item |portuguesetitle|=\marg{tÌtulo}\\
 %   |portugueseuniversity|=\marg{nome}\\
 %   |portuguesecourse|=\marg{nome}
 %
-%   Se voc√™ est√° escrevendo o documento em l√≠ngua estrangeira, voc√™ precisar√°
-%   fornecer tamb√©m o t√≠tulo do documento e os nomes da universidade e do curso
-%   em portugu√™s. Essas chaves servem para isso.
+%   Se vocÍ est· escrevendo o documento em lÌngua estrangeira, vocÍ precisar·
+%   fornecer tambÈm o tÌtulo do documento e os nomes da universidade e do curso
+%   em portuguÍs. Essas chaves servem para isso.
 %
-% \item |address|=\marg{endere√ßo}
+% \item |address|=\marg{endereÁo}
 %
-%   N√£o √© o endere√ßo completo: apenas a cidade e o estado, para constarem na
+%   N„o È o endereÁo completo: apenas a cidade e o estado, para constarem na
 %   folha de rosto.
 %
 % \item |date|=\marg{data}
 %
 %   Define a data do documento, \emph{sempre} no formato |aaaa-mm-dd| ou
-%   |aaaa-mm| (ou seja, o dia n√£o √© obrigat√≥rio). Note a ordem (ano-m√™s-dia), o
-%   h√≠fen como separador e o uso de 4 d√≠gitos para o ano.
+%   |aaaa-mm| (ou seja, o dia n„o È obrigatÛrio). Note a ordem (ano-mÍs-dia), o
+%   hÌfen como separador e o uso de 4 dÌgitos para o ano.
 %
-% \item |approval|=\oarg{ajuste}\oarg{escala}\marg{arquivo gr√°fico}
+% \item |approval|=\oarg{ajuste}\oarg{escala}\marg{arquivo gr·fico}
 %
-%   Especifica o arquivo gr√°fico que cont√©m a Folha de Aprova√ß√£o digitalizada.
-%   Este gr√°fico √© inclu√≠do no documento. O argumento \meta{ajuste} √© uma
-%   dist√¢ncia para deslocar a imagem para baixo (por exemplo, |-2.5cm| desloca
-%   a imagem 25mm para cima), e \meta{escala} √© um fator de escala para a
+%   Especifica o arquivo gr·fico que contÈm a Folha de AprovaÁ„o digitalizada.
+%   Este gr·fico È incluÌdo no documento. O argumento \meta{ajuste} È uma
+%   dist‚ncia para deslocar a imagem para baixo (por exemplo, |-2.5cm| desloca
+%   a imagem 25mm para cima), e \meta{escala} È um fator de escala para a
 %   imagem (por exemplo, |0.9| escala a imagem em 90\%).
 %
 % \item |advisor|=\marg{nome}
 %
 %   Define o nome do orientador.
 %
-% \item |abstract|=\marg{t√≠tulo}\marg{arquivo}
+% \item |abstract|=\marg{tÌtulo}\marg{arquivo}
 %
-%   Define um arquivo \texttt{.tex} que cont√©m o texto do resumo (ou
-%   \emph{abstract}). O argumento \meta{t√≠tulo} refere-se ao t√≠tulo a constar
-%   na p√°gina: geralmente ``Resumo'', ``Abstract'' ou ``Resumo Estendido''.
-%   \emph{N√£o use o comando} |\chapter| \emph{nesse arquivo.}
+%   Define um arquivo \texttt{.tex} que contÈm o texto do resumo (ou
+%   \emph{abstract}). O argumento \meta{tÌtulo} refere-se ao tÌtulo a constar
+%   na p·gina: geralmente ``Resumo'', ``Abstract'' ou ``Resumo Estendido''.
+%   \emph{N„o use o comando} |\chapter| \emph{nesse arquivo.}
 %
-%   Voc√™ pode usar esta op√ß√£o diversas vezes, para especificar vers√µes
-%   diferentes do resumo. O mais comum √© que sejam especificadas pelo menos uma
-%   vers√£o em portugu√™s e uma em ingl√™s. Observe os exemplos descritos a seguir.
+%   VocÍ pode usar esta opÁ„o diversas vezes, para especificar versıes
+%   diferentes do resumo. O mais comum È que sejam especificadas pelo menos uma
+%   vers„o em portuguÍs e uma em inglÍs. Observe os exemplos descritos a seguir.
 %
 % \item |dedication|=\marg{arquivo}
 %
-%   Define um arquivo \texttt{.tex} que cont√©m a dedicat√≥ria. \emph{N√£o use o
-%   comando} |\chapter| \emph{nesse arquivo}, inclusive porque p√°ginas de
-%   dedicat√≥ria n√£o apresentam t√≠tulo.
+%   Define um arquivo \texttt{.tex} que contÈm a dedicatÛria. \emph{N„o use o
+%   comando} |\chapter| \emph{nesse arquivo}, inclusive porque p·ginas de
+%   dedicatÛria n„o apresentam tÌtulo.
 %
-%   Voc√™ pode usar esta op√ß√£o diversas vezes, geralmente se quiser apresentar
-%   dedicat√≥rias em mais de uma linguagem.
+%   VocÍ pode usar esta opÁ„o diversas vezes, geralmente se quiser apresentar
+%   dedicatÛrias em mais de uma linguagem.
 %
-% \item |ack|=\oarg{t√≠tulo}\marg{arquivo}
+% \item |ack|=\oarg{tÌtulo}\marg{arquivo}
 %
-%   Define um arquivo \texttt{.tex} que cont√©m os agradecimentos. Se o
-%   argumento \meta{t√≠tulo} for omitido, ser√° adotado ``Agradecimentos'' na
-%   linguagem do documento. \emph{N√£o use o comando} |\chapter| \emph{nesse
+%   Define um arquivo \texttt{.tex} que contÈm os agradecimentos. Se o
+%   argumento \meta{tÌtulo} for omitido, ser· adotado ``Agradecimentos'' na
+%   linguagem do documento. \emph{N„o use o comando} |\chapter| \emph{nesse
 %   arquivo.}
 %
-%   Voc√™ pode usar esta op√ß√£o diversas vezes, geralmente se quiser apresentar
+%   VocÍ pode usar esta opÁ„o diversas vezes, geralmente se quiser apresentar
 %   agradecimentos em mais de uma linguagem.
 %
 % \item |epigraphtext|=\marg{texto}\marg{autor}
 %
-%   Define a ep√≠grafe, que ser√° colocada em p√°gina pr√≥pria.
+%   Define a epÌgrafe, que ser· colocada em p·gina prÛpria.
 %
 % \item |beforetoc|=\marg{comandos}
 %
 %   Define um conjunto de comandos que deve ser executado imediatamente antes
-%   da composi√ß√£o do Sum√°rio. Usado principalmente para a gera√ß√£o da Lista de
+%   da composiÁ„o do Sum·rio. Usado principalmente para a geraÁ„o da Lista de
 %   Algoritmos ou outras listas (ex.: |beforetoc={\listofalgorithms}|).
 %
 % \end{itemize}
 %
-% Eis um exemplo completo, para um documento escrito em l√≠ngua portuguesa:
+% Eis um exemplo completo, para um documento escrito em lÌngua portuguesa:
 %
 % \begin{quote}
 % \begin{verbatim}
 % \ppgccufmg{
-%   title={Protocolo para Verifica√ß√£o de Erros\\em Redes Totalmente
-%     Confi√°veis},
+%   title={Protocolo para VerificaÁ„o de Erros\\em Redes Totalmente
+%     Confi·veis},
 %   authorrev={da Camara Neto, Vilar Fiuza},
 %   university={Universidade Federal de Minas Gerais},
-%   course={Ci√™ncia da Computa√ß√£o},
+%   course={CiÍncia da ComputaÁ„o},
 %   address={Belo Horizonte},
 %   date={2005-01},
-%   advisor={Adamastor Pompeu Set√∫bal},
+%   advisor={Adamastor Pompeu Set˙bal},
 %   approval={img/approvalsheet.eps},
 %   abstract={Resumo}{resumo},
 %   abstract=[english]{Abstract}{abstract},
 %   abstract={Resumo Estendido}{resumoest},
 %   dedication={dedicatoria},
 %   ack={agradecimentos},
-%   epigraphtext={A verdade √© o contr√°rio da mentira, \\
-%     e a mentira √© o oposto da verdade.}{Autor desconhecido},
+%   epigraphtext={A verdade È o contr·rio da mentira, \\
+%     e a mentira È o oposto da verdade.}{Autor desconhecido},
 % }
 %\end{verbatim}
 % \end{quote}
 %
-% Note que neste exemplo a chave |abstract| foi usada v√°rias vezes para definir
-% vers√µes diferentes do resumo.
+% Note que neste exemplo a chave |abstract| foi usada v·rias vezes para definir
+% versıes diferentes do resumo.
 %
 % Eis um exemplo para ilustrar a estrutura do comando |\ppgccufmg| para um
-% documento escrito em l√≠ngua estrangeira (note que √© necess√°rio definir tamb√©m
+% documento escrito em lÌngua estrangeira (note que È necess·rio definir tambÈm
 % as chaves |portuguesetitle|, |portugueseuniversity| e |portuguesecourse|):
 %
 % \begin{quote}
@@ -757,13 +757,13 @@
 %   authorrev={da Camara Neto, Vilar Fiuza},
 %   university={Federal University of Minas Gerais},
 %   course={Computer Science},
-%   portuguesetitle={Protocolo para Verifica√ß√£o de Erros\\em Redes
-%     Totalmente Confi√°veis},
+%   portuguesetitle={Protocolo para VerificaÁ„o de Erros\\em Redes
+%     Totalmente Confi·veis},
 %   portugueseuniversity={Universidade Federal de Minas Gerais},
-%   portuguesecourse={Ci√™ncia da Computa√ß√£o},
+%   portuguesecourse={CiÍncia da ComputaÁ„o},
 %   address={Belo Horizonte},
 %   date={2005-01},
-%   advisor={Adamastor Pompeu Set√∫bal},
+%   advisor={Adamastor Pompeu Set˙bal},
 %   approval={img/approvalsheet.eps},
 %   abstract=[brazil]{Resumo}{resumo},
 %   abstract={Abstract}{abstract},
@@ -775,238 +775,238 @@
 % \end{quote}
 %
 %
-% \subsection{O jeito f√°cil de usar a classe}
+% \subsection{O jeito f·cil de usar a classe}
 %
-% H√° outra maneira de compor as p√°ginas introdut√≥rias: pode-se esquecer o
-% comando m√°gico |\ppgccufmg| e chamar v√°rios comandos --- alguns para definir
-% as informa√ß√µes do documento, outros para construir cada p√°gina introdut√≥ria.
-% √â um procedimento menos automatizado, mas voc√™ ter√° um controle mais preciso
-% da ordem das p√°ginas que ser√£o montadas.
+% H· outra maneira de compor as p·ginas introdutÛrias: pode-se esquecer o
+% comando m·gico |\ppgccufmg| e chamar v·rios comandos --- alguns para definir
+% as informaÁıes do documento, outros para construir cada p·gina introdutÛria.
+% … um procedimento menos automatizado, mas vocÍ ter· um controle mais preciso
+% da ordem das p·ginas que ser„o montadas.
 %
-% Os comandos para definir as informa√ß√µes do documento possuem os mesmos nomes
-% e argumentos das chaves descritas na se√ß√£o anterior: voc√™ chama os comandos
-% |\title|\marg{t√≠tulo}, |\author|\marg{autorrev}, e assim por diante.
+% Os comandos para definir as informaÁıes do documento possuem os mesmos nomes
+% e argumentos das chaves descritas na seÁ„o anterior: vocÍ chama os comandos
+% |\title|\marg{tÌtulo}, |\author|\marg{autorrev}, e assim por diante.
 %
-% Ap√≥s definir todas as informa√ß√µes, voc√™ deve chamar comandos para construir
-% cada p√°gina. Esses comandos s√£o descritos a seguir:
+% ApÛs definir todas as informaÁıes, vocÍ deve chamar comandos para construir
+% cada p·gina. Esses comandos s„o descritos a seguir:
 %
 % \begin{itemize}
 %
 % \item |\makecoverpage|
 %
-%   Comp√µe a falsa folha de rosto, que cont√©m somente o t√≠tulo da obra.
+%   Compıe a falsa folha de rosto, que contÈm somente o tÌtulo da obra.
 %
 % \item |\maketitlepage|
 %
-%   Comp√µe a folha de rosto, onde constam os nomes do autor e do orientador, o
-%   t√≠tulo da obra, a descri√ß√£o formal do documento, a localidade (cidade e
+%   Compıe a folha de rosto, onde constam os nomes do autor e do orientador, o
+%   tÌtulo da obra, a descriÁ„o formal do documento, a localidade (cidade e
 %   estado) e a data.
 %
 % \item |\makefc|
 %
-%   Comp√µe a Ficha Catalogr√°fica. Essa p√°gina apresenta algumas informa√ß√µes
-%   sobre o documento necess√°rias para a classifica√ß√£o em bases de dados
-%   bibliotec√°rios. √â necess√°ria somente para a vers√£o final de teses e
-%   disserta√ß√µes (propostas e projetos n√£o requerem essa folha).
+%   Compıe a Ficha Catalogr·fica. Essa p·gina apresenta algumas informaÁıes
+%   sobre o documento necess·rias para a classificaÁ„o em bases de dados
+%   bibliotec·rios. … necess·ria somente para a vers„o final de teses e
+%   dissertaÁıes (propostas e projetos n„o requerem essa folha).
 %
 % \item |\makeapproval|
 %
-%   Inclui a Folha de Aprova√ß√£o. Essa folha √© fornecida pela Secretaria do
-%   Curso ap√≥s a aprova√ß√£o do documento final. Ela deve ser digitalizada e
-%   armazenada em formato gr√°fico (preferencialmente em formato PNG ou EPS), e
-%   a op√ß√£o |approval| (ou o comando |\approval|) deve especificar o nome do
-%   arquivo gr√°fico. Se o nome do arquivo n√£o for especificado, o comando
-%   |\makeapproval| gera uma p√°gina com as instru√ß√µes para digitalizar a Folha
-%   de Aprova√ß√£o.
+%   Inclui a Folha de AprovaÁ„o. Essa folha È fornecida pela Secretaria do
+%   Curso apÛs a aprovaÁ„o do documento final. Ela deve ser digitalizada e
+%   armazenada em formato gr·fico (preferencialmente em formato PNG ou EPS), e
+%   a opÁ„o |approval| (ou o comando |\approval|) deve especificar o nome do
+%   arquivo gr·fico. Se o nome do arquivo n„o for especificado, o comando
+%   |\makeapproval| gera uma p·gina com as instruÁıes para digitalizar a Folha
+%   de AprovaÁ„o.
 %
-% \item |\includeabstract|\marg{t√≠tulo}\marg{arquivo}
+% \item |\includeabstract|\marg{tÌtulo}\marg{arquivo}
 %
-%   Inclui um arquivo |.tex| com o texto do resumo. \meta{t√≠tulo} √© o t√≠tulo do
-%   resumo. Pode ser usado para incluir um resumo alternativo escrito em l√≠ngua
-%   estrangeira. \emph{N√£o use o comando} |\chapter| \emph{nesse arquivo.}
+%   Inclui um arquivo |.tex| com o texto do resumo. \meta{tÌtulo} È o tÌtulo do
+%   resumo. Pode ser usado para incluir um resumo alternativo escrito em lÌngua
+%   estrangeira. \emph{N„o use o comando} |\chapter| \emph{nesse arquivo.}
 %
 % \item |\includededication|\marg{arquivo}
 %
-%   Inclui um arquivo |.tex| com o texto da dedicat√≥ria. \emph{N√£o use o
+%   Inclui um arquivo |.tex| com o texto da dedicatÛria. \emph{N„o use o
 %   comando} |\chapter| \emph{nesse arquivo.}
 %
-% \item |\includeack|\oarg{t√≠tulo}\marg{arquivo}
+% \item |\includeack|\oarg{tÌtulo}\marg{arquivo}
 %
-%   Inclui um arquivo |.tex| com o texto dos agradecimentos. Se \meta{t√≠tulo}
-%   for omitido, ser√° adotado ``Agradecimentos'' na linguagem do documento.
-%   \emph{N√£o use o comando} |\chapter| \emph{nesse arquivo.}
+%   Inclui um arquivo |.tex| com o texto dos agradecimentos. Se \meta{tÌtulo}
+%   for omitido, ser· adotado ``Agradecimentos'' na linguagem do documento.
+%   \emph{N„o use o comando} |\chapter| \emph{nesse arquivo.}
 %
 % \item |\makeepigraph|
 %
-%   Comp√µe a p√°gina com a Ep√≠grafe. As informa√ß√µes necess√°rias (texto e autor)
-%   devem ser fornecidas pela op√ß√£o |epigraphtext| (ou pelo comando
+%   Compıe a p·gina com a EpÌgrafe. As informaÁıes necess·rias (texto e autor)
+%   devem ser fornecidas pela opÁ„o |epigraphtext| (ou pelo comando
 %   |\epigraphtext|).
 %
 % \item |\listoffigures|
 %
-%   Comp√µe a Lista de Figuras.
+%   Compıe a Lista de Figuras.
 %
 % \item |\listoftables|
 %
-%   Comp√µe a Lista de Tabelas.
+%   Compıe a Lista de Tabelas.
 %
 % \item |\tableofcontents|
 %
-%   Comp√µe o Sum√°rio.
+%   Compıe o Sum·rio.
 %
 % \end{itemize}
 %
-% Ap√≥s usar esses comandos, voc√™ deve usar o comando |\mainmatter|, que
-% reinicia a numera√ß√£o das p√°ginas e configura-as para a formata√ß√£o ar√°bica (1,
+% ApÛs usar esses comandos, vocÍ deve usar o comando |\mainmatter|, que
+% reinicia a numeraÁ„o das p·ginas e configura-as para a formataÁ„o ar·bica (1,
 % 2, 3, etc.).
 %
 %
-% \subsection{O jeito dif√≠cil de usar a classe}
+% \subsection{O jeito difÌcil de usar a classe}
 %
-% Ainda n√£o foi implementado\ldots{} :-)
+% Ainda n„o foi implementado\ldots{} :-)
 %
 %
-% \subsection{As refer√™ncias bibliogr√°ficas}
+% \subsection{As referÍncias bibliogr·ficas}
 %
-% Voc√™ pode usar qualquer sistema e estilo para as refer√™ncias bibliogr√°ficas:
-% a classe \cls{ppgccufmg} n√£o obriga a ado√ß√£o de nada em particular.
+% VocÍ pode usar qualquer sistema e estilo para as referÍncias bibliogr·ficas:
+% a classe \cls{ppgccufmg} n„o obriga a adoÁ„o de nada em particular.
 %
-% Entretanto, se voc√™ estiver usando o sistema Bib\TeX{} (que gerencia arquivos
-% |.bib|), voc√™ pode estar se perguntando sobre o estilo a ser adotado (ou
+% Entretanto, se vocÍ estiver usando o sistema Bib\TeX{} (que gerencia arquivos
+% |.bib|), vocÍ pode estar se perguntando sobre o estilo a ser adotado (ou
 % seja, qual deve ser o argumento para o comando |\bibliographystyle{}|?). Como
-% no momento n√£o h√° nenhum estilo oficial adotado pelo PPGCC/UFMG, aqui n√≥s
+% no momento n„o h· nenhum estilo oficial adotado pelo PPGCC/UFMG, aqui nÛs
 % fornecemos um estilo fortemente baseado no tradicional |apalike|: o estilo
-% \bst{ppgccufmg} (arquivo |ppgccufmg.bst|). Se quiser adot√°-lo, voc√™ deve
-% colocar o arquivo |ppgccufmg.bst| em um diret√≥rio vis√≠vel ao sistema
-% Bib\TeX{} (pode ser no mesmo diret√≥rio que cont√©m o seu arquivo |.bib|).
+% \bst{ppgccufmg} (arquivo |ppgccufmg.bst|). Se quiser adot·-lo, vocÍ deve
+% colocar o arquivo |ppgccufmg.bst| em um diretÛrio visÌvel ao sistema
+% Bib\TeX{} (pode ser no mesmo diretÛrio que contÈm o seu arquivo |.bib|).
 %
-% Se voc√™ adotar o estilo \bst{ppgccufmg}, ent√£o a classe \cls{ppgccufmg} prov√™
-% um modo de gerar automaticamente a se√ß√£o de refer√™ncias bibliogr√°ficas.
-% Trata-se do comando |\ppgccbibliography|. √â somente isso: n√£o h√° necessidade
-% de usar os comandos |\bibliographystyle| ou |\bibliography|. A sintaxe √©:
+% Se vocÍ adotar o estilo \bst{ppgccufmg}, ent„o a classe \cls{ppgccufmg} provÍ
+% um modo de gerar automaticamente a seÁ„o de referÍncias bibliogr·ficas.
+% Trata-se do comando |\ppgccbibliography|. … somente isso: n„o h· necessidade
+% de usar os comandos |\bibliographystyle| ou |\bibliography|. A sintaxe È:
 %
 % \begin{quote}
-% |\ppgccbibliography|\oarg{op√ß√µes}\marg{arquivo-de-bibliografia}
+% |\ppgccbibliography|\oarg{opÁıes}\marg{arquivo-de-bibliografia}
 % \end{quote}
-% onde \meta{arquivo-de-bibliografia} √© o nome do seu arquivo |.bib| sem a
-% extens√£o. Assim, se o seu banco de dados bibliogr√°fico est√° armazenado no
-% arquivo |referencias.bib|, voc√™ deve chamar |\ppgccbibliography{referencias}|.
+% onde \meta{arquivo-de-bibliografia} È o nome do seu arquivo |.bib| sem a
+% extens„o. Assim, se o seu banco de dados bibliogr·fico est· armazenado no
+% arquivo |referencias.bib|, vocÍ deve chamar |\ppgccbibliography{referencias}|.
 %
-% H√° algumas \meta{op√ß√µes} dispon√≠veis, tratando em geral da formata√ß√£o da
-% bibliografia. S√£o elas:
+% H· algumas \meta{opÁıes} disponÌveis, tratando em geral da formataÁ„o da
+% bibliografia. S„o elas:
 %
 % \begin{itemize}
 %
 % \item |noauthorrepeat|
 %
-%   Se voc√™ tiver uma s√©rie de itens bibliogr√°ficos de mesma autoria, essa
-%   op√ß√£o faz com que os autores apare√ßam somente no primeiro item: nos demais
-%   itens, um travess√£o triplo (``---------'') aparece no lugar dos autores.
-%   (Isso pode ser alterado: veja a pr√≥xima op√ß√£o.)
+%   Se vocÍ tiver uma sÈrie de itens bibliogr·ficos de mesma autoria, essa
+%   opÁ„o faz com que os autores apareÁam somente no primeiro item: nos demais
+%   itens, um travess„o triplo (``---------'') aparece no lugar dos autores.
+%   (Isso pode ser alterado: veja a prÛxima opÁ„o.)
 %
 % \item |noauthorrepstring|
 %
-%   Ao usar a op√ß√£o |noauthorrepeat|, voc√™ pode configurar o que aparece no
-%   lugar dos autores quando h√° repeti√ß√£o de autoria. O padr√£o √© um travess√£o
-%   triplo (ou seja, uma seq√º√™ncia de 9 h√≠fens, pois o \LaTeX{} converte tr√™s
-%   h√≠fens em um travess√£o). Exemplo: |noauthorrepstring={Idem}| apresenta o
+%   Ao usar a opÁ„o |noauthorrepeat|, vocÍ pode configurar o que aparece no
+%   lugar dos autores quando h· repetiÁ„o de autoria. O padr„o È um travess„o
+%   triplo (ou seja, uma seq¸Íncia de 9 hÌfens, pois o \LaTeX{} converte trÍs
+%   hÌfens em um travess„o). Exemplo: |noauthorrepstring={Idem}| apresenta o
 %   texto ``Idem'' no lugar dos autores repetidos.
 %
 % \item |nobreakitems|
 %
-%   Esta op√ß√£o impede a ocorr√™ncia de quebra de p√°gina no meio de um item
-%   bibligr√°fico.
+%   Esta opÁ„o impede a ocorrÍncia de quebra de p·gina no meio de um item
+%   bibligr·fico.
 %
 % \item |bibauthorand|
 %
-%   Define o texto que aparece antes do √∫ltimo autor em um item bibliogr√°fico.
-%   O padr√£o √© ``e'' (em portugu√™s) ou ``and'' (em ingl√™s). Exemplo: para
+%   Define o texto que aparece antes do ˙ltimo autor em um item bibliogr·fico.
+%   O padr„o È ``e'' (em portuguÍs) ou ``and'' (em inglÍs). Exemplo: para
 %   especificar um ``e'' comercial, use |bibauthorand=\&|.
 %
 % \item |citeauthorand|
 %
-%   Define o texto que aparece antes do √∫ltimo autor em uma cita√ß√£o
-%   bibliogr√°fica. O padr√£o √© ``e'' (em portugu√™s) ou ``and'' (em ingl√™s).
+%   Define o texto que aparece antes do ˙ltimo autor em uma citaÁ„o
+%   bibliogr·fica. O padr„o È ``e'' (em portuguÍs) ou ``and'' (em inglÍs).
 %   Exemplo: para especificar um ``e'' comercial, use |citeauthorand=\&|.
 %
 % \item |authorformat|
 %
-%   Define a formata√ß√£o da lista de autores. O padr√£o √© a formata√ß√£o do texto
-%   padr√£o. Exemplo: para formatar a lista de autores em
-%   versalete\footnote{Versalete: ``O que √© isso?'' ``√â o famoso \emph{small
-%   caps}'', ou seja, as letras min√∫sculas s√£o exibidas como mai√∫sculas de
+%   Define a formataÁ„o da lista de autores. O padr„o È a formataÁ„o do texto
+%   padr„o. Exemplo: para formatar a lista de autores em
+%   versalete\footnote{Versalete: ``O que È isso?'' ``… o famoso \emph{small
+%   caps}'', ou seja, as letras min˙sculas s„o exibidas como mai˙sculas de
 %   tamanho reduzido.}, use |authorformat=\scshape|.
 %
 % \item |titleformat|
 %
-%   Define a formata√ß√£o do t√≠tulo. O padr√£o √© a formata√ß√£o do texto padr√£o.
-%   Exemplo: para colocar o t√≠tulo em it√°lico, use |titleformat=\itshape|.
+%   Define a formataÁ„o do tÌtulo. O padr„o È a formataÁ„o do texto padr„o.
+%   Exemplo: para colocar o tÌtulo em it·lico, use |titleformat=\itshape|.
 %
 % \item |btitleformat|
 %
-%   Define a formata√ß√£o do \emph{booktitle} para itens do tipo |@incollection|
-%   e |@inproceedings|. O padr√£o √© |\itshape| (it√°lico).
+%   Define a formataÁ„o do \emph{booktitle} para itens do tipo |@incollection|
+%   e |@inproceedings|. O padr„o È |\itshape| (it·lico).
 %
 % \item |booktitleformat|
 %
-%   Define a formata√ß√£o do \emph{booktitle} para itens do tipo |@book|,
-%   |@inbook|, |@manual|, |@phdthesis| e |@proceedings|. O padr√£o √© |\itshape|
-%   (it√°lico).
+%   Define a formataÁ„o do \emph{booktitle} para itens do tipo |@book|,
+%   |@inbook|, |@manual|, |@phdthesis| e |@proceedings|. O padr„o È |\itshape|
+%   (it·lico).
 %
 % \item |journalformat|
 %
-%   Define a formata√ß√£o do nome do peri√≥dico para itens do tipo |@article|. O
-%   padr√£o √© |\itshape| (it√°lico).
+%   Define a formataÁ„o do nome do periÛdico para itens do tipo |@article|. O
+%   padr„o È |\itshape| (it·lico).
 %
 % \end{itemize}
 %
-% Certas coisas s√£o automaticamente traduzidas (atualmente para portugu√™s e
-% ingl√™s somente). Por exemplo, se voc√™ tem um artigo dos autores ``Michael J.
-% Brooks and Berthold K. P. Horn'', ele ser√° citado como sendo de ``Brooks e
-% Horn'' se o seu documento estiver em portugu√™s ou de ``Brooks and Horn'' se
-% estiver em ingl√™s. Para ativar a tradu√ß√£o, voc√™ n√£o precisa especificar
-% nenhuma op√ß√£o: basta informar a linguagem correta para o pacote \pkg{babel},
+% Certas coisas s„o automaticamente traduzidas (atualmente para portuguÍs e
+% inglÍs somente). Por exemplo, se vocÍ tem um artigo dos autores ``Michael J.
+% Brooks and Berthold K. P. Horn'', ele ser· citado como sendo de ``Brooks e
+% Horn'' se o seu documento estiver em portuguÍs ou de ``Brooks and Horn'' se
+% estiver em inglÍs. Para ativar a traduÁ„o, vocÍ n„o precisa especificar
+% nenhuma opÁ„o: basta informar a linguagem correta para o pacote \pkg{babel},
 % ou seja:
 % \begin{quote}
-% |\usepackage[brazil]{babel}     % para documentos em portugu√™s|
+% |\usepackage[brazil]{babel}     % para documentos em portuguÍs|
 % \end{quote}
 % ou
 % \begin{quote}
-% |\usepackage[english]{babel}    % para documentos em ingl√™s|
+% |\usepackage[english]{babel}    % para documentos em inglÍs|
 % \end{quote}
 %
-% Finalmente, recomanda-se \emph{fortemente} a ado√ß√£o do pacote \pkg{natbib},
-% para que as refer√™ncias tenham uma apar√™ncia mais profissional. Cheque a
-% documenta√ß√£o desse pacote para saber do que se trata e como us√°-lo, em
+% Finalmente, recomanda-se \emph{fortemente} a adoÁ„o do pacote \pkg{natbib},
+% para que as referÍncias tenham uma aparÍncia mais profissional. Cheque a
+% documentaÁ„o desse pacote para saber do que se trata e como us·-lo, em
 % particular sobre os comandos |\cite| e |\citep|.
 %
 %
-% \subsubsection{Ap√™ndices e anexos}
+% \subsubsection{ApÍndices e anexos}
 %
-% H√° dois ambientes feitos para a cria√ß√£o de ambientes e anexos: |appendices| e
-% |attachments|, respectivamente. Ao usar ap√™ndices no seu documento, encapsule
-% todos os cap√≠tulos que correspondem aos ap√™ndices com os comandos
+% H· dois ambientes feitos para a criaÁ„o de ambientes e anexos: |appendices| e
+% |attachments|, respectivamente. Ao usar apÍndices no seu documento, encapsule
+% todos os capÌtulos que correspondem aos apÍndices com os comandos
 % |\begin{appendices}| e |\end{appendices}|:
 %
 % \begin{quote}
 % \begin{verbatim}
 % \begin{appendices}
 %
-% \chapter{Um ap√™ndice}
-% ...conte√∫do do ap√™ndice...
+% \chapter{Um apÍndice}
+% ...conte˙do do apÍndice...
 %
-% \chapter{Outro ap√™ndice}
-% ...conte√∫do do ap√™ndice...
+% \chapter{Outro apÍndice}
+% ...conte˙do do apÍndice...
 %
 % \end{appendices}
 %\end{verbatim}
 % \end{quote}
 %
-% Com isso, os ap√™ndices s√£o numerados com letras ar√°bicas em mai√∫sculas e o
-% Sum√°rio insere a palavra ``Ap√™ndice'' antes de cada entrada.
+% Com isso, os apÍndices s„o numerados com letras ar·bicas em mai˙sculas e o
+% Sum·rio insere a palavra ``ApÍndice'' antes de cada entrada.
 %
-% Os anexos seguem a mesma filosofia, por√©m os comandos s√£o
-% |\begin{attachments}| e |\end{attachments}|. O Sum√°rio lista os anexos
+% Os anexos seguem a mesma filosofia, porÈm os comandos s„o
+% |\begin{attachments}| e |\end{attachments}|. O Sum·rio lista os anexos
 % precedidos da palavra ``Anexo''.
 %
 %
@@ -1014,50 +1014,50 @@
 % \label{sec:memoirtips}
 %
 % Como foi dito anteriormente, a classe \cls{ppgccufmg} baseia-se na classe
-% \cls{memoir}, que deve estar instalada no seu sistema. Caso contr√°rio, o
-% compilador \LaTeX{} dever√° reclamar da aus√™ncia do arquivo |memoir.cls| e
-% voc√™ dever√° instalar essa classe. Se voc√™ estiver usando a distribui√ß√£o
-% MiK\TeX{} para Windows, √© bastante simples: basta executar o aplicativo
+% \cls{memoir}, que deve estar instalada no seu sistema. Caso contr·rio, o
+% compilador \LaTeX{} dever· reclamar da ausÍncia do arquivo |memoir.cls| e
+% vocÍ dever· instalar essa classe. Se vocÍ estiver usando a distribuiÁ„o
+% MiK\TeX{} para Windows, È bastante simples: basta executar o aplicativo
 % \emph{MiKTeX Package Manager} ou o \emph{Browse Packages}, selecionar
-% ``memoir'' da lista de pacotes e comandar a instala√ß√£o do mesmo. Talvez voc√™
-% precise de privil√©gios de administra√ß√£o na m√°quina para fazer isso: consulte
+% ``memoir'' da lista de pacotes e comandar a instalaÁ„o do mesmo. Talvez vocÍ
+% precise de privilÈgios de administraÁ„o na m·quina para fazer isso: consulte
 % o administrador do computador ou da rede.
 %
-% Sob Linux, a instala√ß√£o talvez n√£o seja automatizada, mas n√£o √© dif√≠cil.
-% Antes de mais nada, verifique se a classe j√° est√° dispon√≠vel no pr√≥prio
-% reposit√≥rio da distribui√ß√£o (por exemplo, atrav√©s do |apt|, |aptitude| ou
-% |synaptic| do Debian/Ubuntu): desse jeito a instala√ß√£o e as atualiza√ß√µes s√£o
+% Sob Linux, a instalaÁ„o talvez n„o seja automatizada, mas n„o È difÌcil.
+% Antes de mais nada, verifique se a classe j· est· disponÌvel no prÛprio
+% repositÛrio da distribuiÁ„o (por exemplo, atravÈs do |apt|, |aptitude| ou
+% |synaptic| do Debian/Ubuntu): desse jeito a instalaÁ„o e as atualizaÁıes s„o
 % automatizadas.
 %
-% No caso de necessidade de instala√ß√£o manual: Antes de mais nada, baixe todos
-% os arquivos do reposit√≥rio CTAN: atualmente, o \emph{link} √©
+% No caso de necessidade de instalaÁ„o manual: Antes de mais nada, baixe todos
+% os arquivos do repositÛrio CTAN: atualmente, o \emph{link} È
 % \begin{quote}
 % |http://www.ctan.org/tex-archive/macros/latex/contrib/memoir/|
 % \end{quote}
 %
 % Quando os arquivos estiverem no seu computador, abra um terminal, entre no
-% diret√≥rio que cont√©m os arquivos baixados e execute o comando
+% diretÛrio que contÈm os arquivos baixados e execute o comando
 % \begin{quote}
 % |latex memoir.ins| \\
 % |latex mempatch.ins|
 % \end{quote}
-% que criar√° o arquivo |memoir.cls|. Opcionalmente, para gerar a documenta√ß√£o
+% que criar· o arquivo |memoir.cls|. Opcionalmente, para gerar a documentaÁ„o
 % da classe \cls{memoir}, execute:
 % \begin{quote}
 % |latex memoir.dtx|
 % \end{quote}
-% Agora crie um diret√≥rio local |texmf| no seu diret√≥rio \emph{home}:
+% Agora crie um diretÛrio local |texmf| no seu diretÛrio \emph{home}:
 % \begin{quote}
 % |mkdir ~/texmf/tex/latex/memoir|
 % \end{quote}
-% e copie para l√° todos os arquivos |*.cls|, |*.sty| e |*.clo|. Finalmente,
-% execute o comando |texhash|. Pronto, est√° terminado!
+% e copie para l· todos os arquivos |*.cls|, |*.sty| e |*.clo|. Finalmente,
+% execute o comando |texhash|. Pronto, est· terminado!
 %
-% De qualquer forma, d√™ uma lida no arquivo |README| que vem com a classe
+% De qualquer forma, dÍ uma lida no arquivo |README| que vem com a classe
 % \cls{memoir}.
 %
-% Esta se√ß√£o foi escrita com base nas informa√ß√µes contidas no arquivo |README|
-% e nas instru√ß√µes presentes em |http://www.tex.ac.uk/|
+% Esta seÁ„o foi escrita com base nas informaÁıes contidas no arquivo |README|
+% e nas instruÁıes presentes em |http://www.tex.ac.uk/|
 % |cgi-bin/texfaq2html?label=instpackages|.
 %
 %
@@ -1065,7 +1065,7 @@
 %
 % \subsubsection{Pacotes essenciais}
 %
-% Provavelmente voc√™ vai querer os seguintes comandos no pre√¢mbulo do seu
+% Provavelmente vocÍ vai querer os seguintes comandos no pre‚mbulo do seu
 % documento:
 %
 % \begin{quote}
@@ -1077,7 +1077,7 @@
 %\end{verbatim}
 % \end{quote}
 %
-% Se tamb√©m quiser gr√°ficos (quem n√£o quer?):
+% Se tambÈm quiser gr·ficos (quem n„o quer?):
 %
 % \begin{quote}
 % \begin{verbatim}
@@ -1085,10 +1085,10 @@
 %\end{verbatim}
 % \end{quote}
 %
-% \subsubsection{\emph{Links} clic√°veis}
+% \subsubsection{\emph{Links} clic·veis}
 %
-% Se voc√™ quiser que o arquivo |.pdf| gerado possua \emph{links} clic√°veis em
-% todas as refer√™ncias a se√ß√µes, figuras, tabelas, p√°ginas, cita√ß√µes, etc.:
+% Se vocÍ quiser que o arquivo |.pdf| gerado possua \emph{links} clic·veis em
+% todas as referÍncias a seÁıes, figuras, tabelas, p·ginas, citaÁıes, etc.:
 %
 % \begin{quote}
 % \begin{verbatim}
@@ -1106,17 +1106,17 @@
 %\end{verbatim}
 % \end{quote}
 %
-% As op√ß√µes \ldots|color| padronizam a cor preta para os \emph{links}
-% clic√°veis, o que √© a melhor alternativa para a impress√£o.
+% As opÁıes \ldots|color| padronizam a cor preta para os \emph{links}
+% clic·veis, o que È a melhor alternativa para a impress„o.
 %
-% \subsection{Poss√≠veis problemas e suas solu√ß√µes}
+% \subsection{PossÌveis problemas e suas soluÁıes}
 %
 % \subsubsection{Pacote \pkg{algorithm}, ou ``Command \texttt{\textbackslash
 % newfloat} already defined''}
 %
-% Um problema freq√ºente √© causado por uma incompatibilidade entre a classe
-% \cls{memoir} e o pacote \pkg{algorithm}. Esse problema √© facilmente
-% identificado pela ocorr√™ncia do seguinte erro:
+% Um problema freq¸ente È causado por uma incompatibilidade entre a classe
+% \cls{memoir} e o pacote \pkg{algorithm}. Esse problema È facilmente
+% identificado pela ocorrÍncia do seguinte erro:
 % \begin{quote}
 % \begin{verbatim}
 % ! LaTeX Error: Command \newfloat already defined.
@@ -1127,8 +1127,8 @@
 %\end{verbatim}
 % \end{quote}
 %
-% A solu√ß√£o √© simples: basta colocar o comando |\let\newfloat=\undefined| antes
-% de |\includepackage{algorithm}|. Dessa forma, o seu pre√¢mbulo deve ficar mais
+% A soluÁ„o È simples: basta colocar o comando |\let\newfloat=\undefined| antes
+% de |\includepackage{algorithm}|. Dessa forma, o seu pre‚mbulo deve ficar mais
 % ou menos como segue:
 % \begin{quote}
 % \begin{verbatim}
@@ -1143,33 +1143,33 @@
 %
 % Espero que esse ``bug'' na classe \cls{memoir} seja resolvido em breve. Por
 % enquanto, esse ``hack'' funciona bem e nunca ouvi falar de algum efeito
-% adverso. (Se voc√™ descobrir algum, por favor me avise!)
+% adverso. (Se vocÍ descobrir algum, por favor me avise!)
 %
 % \subsubsection{``\texttt{\textbackslash cftchapterformatpnum} undefined''}
 %
-% Se o seguinte erro ocorrer durante a compila√ß√£o:
+% Se o seguinte erro ocorrer durante a compilaÁ„o:
 % \begin{quote}
 % \begin{verbatim}
 % ppgccufmg.cls:xxxx:\cftchapterformatpnum undefined.
 % \renewcommand*{\cftchapterformatpnum}
 %\end{verbatim}
 % \end{quote}
-% \ldots ent√£o o seu sistema \LaTeX{} precisa ser atualizado, principalmente os
-% arquivos da classe \cls{memoir}. Verifique a Subse√ß√£o~\ref{sec:memoirtips}
-% para maiores informa√ß√µes.
+% \ldots ent„o o seu sistema \LaTeX{} precisa ser atualizado, principalmente os
+% arquivos da classe \cls{memoir}. Verifique a SubseÁ„o~\ref{sec:memoirtips}
+% para maiores informaÁıes.
 %
 %
-% \section{C√≥digo-fonte}
+% \section{CÛdigo-fonte}
 %
-% Esta se√ß√£o documenta o c√≥digo-fonte do arquivo |ppgccufmg.cls|. Voc√™ n√£o
-% precisa ler esta se√ß√£o: ela serve como refer√™ncia para os desenvolvedores do
+% Esta seÁ„o documenta o cÛdigo-fonte do arquivo |ppgccufmg.cls|. VocÍ n„o
+% precisa ler esta seÁ„o: ela serve como referÍncia para os desenvolvedores do
 % pacote.
 %
 %
-% \subsection*{Pr√©-requisitos e comandos gerais}
+% \subsection*{PrÈ-requisitos e comandos gerais}
 %
-% A classe \cls{ppgccufmg} requer alguns pacotes, portanto eles ser√£o
-% inclu√≠dos:
+% A classe \cls{ppgccufmg} requer alguns pacotes, portanto eles ser„o
+% incluÌdos:
 %
 %    \begin{macrocode}
 \RequirePackage{keyval}
@@ -1179,36 +1179,36 @@
 
 
 % \DescribeMacro{\ppgcc@classname}%
-% Defini√ß√£o do nome da classe, usada em alguns pontos do c√≥digo:
+% DefiniÁ„o do nome da classe, usada em alguns pontos do cÛdigo:
 %
 %    \begin{macrocode}
 \def\ppgcc@classname{ppgccufmg}
 %    \end{macrocode}
 
-% As op√ß√µes de classe s√£o gerenciadas por diretivas do tipo |\newif|, que s√£o
+% As opÁıes de classe s„o gerenciadas por diretivas do tipo |\newif|, que s„o
 % declaradas e inicializadas a seguir:
 %
 %    \begin{macrocode}
-%% Op√ß√µes gerais:
+%% OpÁıes gerais:
 
 \newif\ifppgcc@phd                 % Tese de doutorado?
-\newif\ifppgcc@msc                 % Disserta√ß√£o de mestrado?
-\newif\ifppgcc@proposal            % Op√ß√£o de proposta/projeto?
+\newif\ifppgcc@msc                 % DissertaÁ„o de mestrado?
+\newif\ifppgcc@proposal            % OpÁ„o de proposta/projeto?
 \newif\ifppgcc@showcover           % Compor a falsa folha de rosto?
 \newif\ifppgcc@showtitle           % Compor a folha de rosto?
-\newif\ifppgcc@showfc              % Compor a Ficha Catalogr√°fica?
-\newif\ifppgcc@showapproval        % Incluir a Folha de Aprova√ß√£o?
-\newif\ifppgcc@showabstract        % Compor as p√°ginas de resumo/abstract?
-\newif\ifppgcc@showdedication      % Compor a dedicat√≥ria?
+\newif\ifppgcc@showfc              % Compor a Ficha Catalogr·fica?
+\newif\ifppgcc@showapproval        % Incluir a Folha de AprovaÁ„o?
+\newif\ifppgcc@showabstract        % Compor as p·ginas de resumo/abstract?
+\newif\ifppgcc@showdedication      % Compor a dedicatÛria?
 \newif\ifppgcc@showack             % Compor os agradecimentos?
-\newif\ifppgcc@showepigraph        % Compor a Ep√≠grafe?
+\newif\ifppgcc@showepigraph        % Compor a EpÌgrafe?
 \newif\ifppgcc@showlof             % Compor a Lista de Figuras?
 \newif\ifppgcc@showlot             % Compor a Lista de Tabelas?
-\newif\ifppgcc@showtoc             % Compor o Sum√°rio?
-\newif\ifppgcc@extraporttitlepage  % Exibir tamb√©m uma folha de t√≠tulo
-                                   % em portugu√™s?
+\newif\ifppgcc@showtoc             % Compor o Sum·rio?
+\newif\ifppgcc@extraporttitlepage  % Exibir tambÈm uma folha de tÌtulo
+                                   % em portuguÍs?
 \newif\ifppgcc@putmainmatter       % Chamar automaticamente \mainmatter depois
-                                   % das p√°ginas introdut√≥rias?
+                                   % das p·ginas introdutÛrias?
 
 \newif\if@selfdoc
 \ifx\ppgcc@selfdoc\undefined\else\@selfdoctrue\fi
@@ -1246,17 +1246,17 @@
 \ppgcc@showall
 \ppgcc@putmainmattertrue
 
-%% Op√ß√µes das refer√™ncias bibliogr√°ficas:
+%% OpÁıes das referÍncias bibliogr·ficas:
 
 \newif\if@bibnorepauthor  % Substituir autorias repetidas por linha comprida?
-\newif\if@nobreakitems    % Impedir quebra de p√°gina no meio de um item?
+\newif\if@nobreakitems    % Impedir quebra de p·gina no meio de um item?
 
 \@bibnorepauthorfalse
 \@nobreakitemsfalse
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@gobblespaces}%
-% Esta √© uma pequena macro auxiliar para remover os espa√ßos iniciais de uma
+% Esta È uma pequena macro auxiliar para remover os espaÁos iniciais de uma
 % string.
 %
 %    \begin{macrocode}
@@ -1264,10 +1264,10 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\BreakableUppercase}%
-% |\BreakableUppercase| prov√™ um ``hack'' para |\MakeUppercase| que permite a
-% ocorr√™ncia de quebras de linha (|\\|) em seu argumento. Assim como o comando
-% |\MakeUppercase|, este comando √© chamado com um argumento obrigat√≥rio:
-% |\BreakableUppercase| \marg{t√≠tulo}.
+% |\BreakableUppercase| provÍ um ``hack'' para |\MakeUppercase| que permite a
+% ocorrÍncia de quebras de linha (|\\|) em seu argumento. Assim como o comando
+% |\MakeUppercase|, este comando È chamado com um argumento obrigatÛrio:
+% |\BreakableUppercase| \marg{tÌtulo}.
 %
 %    \begin{macrocode}
 \def\BreakableUppercase#1{%
@@ -1280,8 +1280,8 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@defspacing}%
-% Esta macro armazena o espa√ßamento padr√£o entre linhas, que pode ser escolhida
-% pelo usu√°rio por meio de uma das seguintes op√ß√µes de classe: |single|,
+% Esta macro armazena o espaÁamento padr„o entre linhas, que pode ser escolhida
+% pelo usu·rio por meio de uma das seguintes opÁıes de classe: |single|,
 % |onehalf| ou |double|.
 %
 %    \begin{macrocode}
@@ -1289,9 +1289,9 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@redefchaptitlefont}%
-% Esta macro redefine a formata√ß√£o do texto produzido pelo comando |\chapter|.
-% O √∫nico objetivo √© redefinir |\chaptitlefont| (consulte o manual do
-% \cls{memoir}) para incluir o comando |\centering| se a op√ß√£o de classe
+% Esta macro redefine a formataÁ„o do texto produzido pelo comando |\chapter|.
+% O ˙nico objetivo È redefinir |\chaptitlefont| (consulte o manual do
+% \cls{memoir}) para incluir o comando |\centering| se a opÁ„o de classe
 % |centertitles| for especificada.
 %
 %    \begin{macrocode}
@@ -1307,8 +1307,8 @@
 % \DescribeMacro{\cutter}%
 % \DescribeMacro{\cdu}%
 % \DescribeMacro{\indexkeys}%
-% Este conjunto de comandos define algumas informa√ß√µes sobre o documento. Cada
-% comando recebe um argumento obrigat√≥rio, que √© a informa√ß√£o associada ao
+% Este conjunto de comandos define algumas informaÁıes sobre o documento. Cada
+% comando recebe um argumento obrigatÛrio, que È a informaÁ„o associada ao
 % comando.
 %
 %    \begin{macrocode}
@@ -1316,10 +1316,10 @@
 \newcommand*{\advisor}[1]{\gdef\ppgcc@advisorname{#1}} % Nome do orientador
 \newcommand*{\university}[1]{\gdef\@university{#1}}    % Nome da universidade
 \newcommand*{\course}[1]{\gdef\@course{#1}}            % Nome do curso
-\newcommand*{\address}[1]{\gdef\@address{#1}}          % Endere√ßo (cidade/UF)
-\newcommand*{\cutter}[1]{\gdef\ppgcc@cutter{#1}}       % C√≥digo "cutter"
-\newcommand*{\cdu}[1]{\gdef\ppgcc@cdu{#1}}             % C√≥digo CDU
-\newcommand*{\indexkeys}[1]{\gdef\ppgcc@indexkeys{#1}} % Chaves para indexa√ß√£o
+\newcommand*{\address}[1]{\gdef\@address{#1}}          % EndereÁo (cidade/UF)
+\newcommand*{\cutter}[1]{\gdef\ppgcc@cutter{#1}}       % CÛdigo "cutter"
+\newcommand*{\cdu}[1]{\gdef\ppgcc@cdu{#1}}             % CÛdigo CDU
+\newcommand*{\indexkeys}[1]{\gdef\ppgcc@indexkeys{#1}} % Chaves para indexaÁ„o
 
 \let\ppgcc@origdatecmd=\date
 \renewcommand{\date}[1]{%                              % Data (aaaa-mm ou aaaa-mm-dd)
@@ -1327,53 +1327,53 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\coursedegree}%
-% Este comando define a titula√ß√£o buscada pelo autor. N√£o √© obrigat√≥rio chamar
-% este comando, pois um padr√£o √© automaticamente configurado --- ``Mestre'',
-% ``Doutor'' ou uma tradu√ß√£o correspondente --- de acordo com a op√ß√£o de classe
+% Este comando define a titulaÁ„o buscada pelo autor. N„o È obrigatÛrio chamar
+% este comando, pois um padr„o È automaticamente configurado --- ``Mestre'',
+% ``Doutor'' ou uma traduÁ„o correspondente --- de acordo com a opÁ„o de classe
 % (|msc| ou |phd|) e a linguagem corrente (selecionada por meio do pacote
 % |babel|).
 %
 %    \begin{macrocode}
-\newcommand*{\coursedegree}[1]{\gdef\@degree{#1}}      % Titula√ß√£o
+\newcommand*{\coursedegree}[1]{\gdef\@degree{#1}}      % TitulaÁ„o
 %    \end{macrocode}
 %
 % \DescribeMacro{\title}%
 % \label{macro:title}%
-% Este comando define o t√≠tulo do documento, que nas folhas de rosto e na Ficha
-% Catalogr√°fica.
+% Este comando define o tÌtulo do documento, que nas folhas de rosto e na Ficha
+% Catalogr·fica.
 %
-% Quando o t√≠tulo do documento √© longo e n√£o cabe em uma √∫nica linha (nas
-% folhas de rosto), a quebra autom√°tica de linha pode causar um
-% desbalanceamento do texto entre as linhas. Por exemplo, se o t√≠tulo for
-% ``Este √© o t√≠tulo comprido da minha tese'', o texto pode ser quebrado da
+% Quando o tÌtulo do documento È longo e n„o cabe em uma ˙nica linha (nas
+% folhas de rosto), a quebra autom·tica de linha pode causar um
+% desbalanceamento do texto entre as linhas. Por exemplo, se o tÌtulo for
+% ``Este È o tÌtulo comprido da minha tese'', o texto pode ser quebrado da
 % seguinte maneira:
 % \begin{center}
-% Este √© o t√≠tulo comprido da minha\\tese
+% Este È o tÌtulo comprido da minha\\tese
 % \end{center}
 %
 % Nesses casos, pode-se especificar manualmente as quebras de linha com duas
-% contra-barras. Por exemplo: |\title{Este √© o t√≠tulo comprido\\da minha tese}|
+% contra-barras. Por exemplo: |\title{Este È o tÌtulo comprido\\da minha tese}|
 % gera uma quebra mais balanceada:
 %
 % \begin{center}
-% Este √© o t√≠tulo comprido\\da minha tese
+% Este È o tÌtulo comprido\\da minha tese
 % \end{center}
 %
-% O uso do comando de quebra de linha (|\\|) n√£o √© necess√°rio se o autor
+% O uso do comando de quebra de linha (|\\|) n„o È necess·rio se o autor
 % estiver satisfeito com o balanceamento gerado automaticamente.
 %
 %    \begin{macrocode}
-\renewcommand*{\title}[1]                             % T√≠tulo
+\renewcommand*{\title}[1]                             % TÌtulo
   {\gdef\@title{#1}}
 %    \end{macrocode}
 
 % \DescribeMacro{\portuguesetitle}%
 % \DescribeMacro{\portugueseuniversity}%
 % \DescribeMacro{\portuguesecourse}%
-% Para documentos n√£o escritos em portugu√™s, esses comandos especificam as
-% informa√ß√µes correspondentes em l√≠ngua portuguesa:
+% Para documentos n„o escritos em portuguÍs, esses comandos especificam as
+% informaÁıes correspondentes em lÌngua portuguesa:
 %    \begin{macrocode}
-\newcommand*{\portuguesetitle}[1]                     % T√≠tulo em portugu√™s
+\newcommand*{\portuguesetitle}[1]                     % TÌtulo em portuguÍs
   {\gdef\@portuguesetitle{#1}}
 \newcommand*{\portugueseuniversity}[1]                % Nome da univers. em pt.
   {\gdef\@portugueseuniversity{#1}}
@@ -1383,9 +1383,9 @@
 
 % \DescribeMacro{\fckeywords}%
 % Este comando define a lista de palavras-chave que aparece na Ficha
-% Catalogr√°fica, separadas por v√≠rgulas. Exemplo:
+% Catalogr·fica, separadas por vÌrgulas. Exemplo:
 % \begin{quote}
-%   |\fckeywords{Vis√£o Computacional, Computa√ß√£o Gr√°fica, Renderiza√ß√£o}|
+%   |\fckeywords{Vis„o Computacional, ComputaÁ„o Gr·fica, RenderizaÁ„o}|
 % \end{quote}
 %    \begin{macrocode}
 \newcounter{ppgcc@c@keywords}
@@ -1412,14 +1412,14 @@
 %    \end{macrocode}
 %
 % \DescribeMacro{\approval}%
-% Este comando define o arquivo gr√°fico que cont√©m a Folha de Aprova√ß√£o
-% digitalizada. (A Folha de Aprova√ß√£o √© fornecida pela Secretaria do Curso ap√≥s
-% a aprova√ß√£o da vers√£o final do documento.) Pode-se especificar o diret√≥rio
-% e/ou a extens√£o do arquivo. Se o comando n√£o for usado, uma p√°gina com as
-% instru√ß√µes de digitaliza√ß√£o ser√° inclu√≠da no documento. Lembre-se de que o
-% formato do arquivo (dado por sua extens√£o) deve ser compat√≠vel com o sistema
-% \LaTeX{} em uso: por exemplo, o formato de arquivo |.eps| n√£o √© compat√≠vel
-% com a gera√ß√£o de arquivos |.pdf| pelo |pdflatex|.
+% Este comando define o arquivo gr·fico que contÈm a Folha de AprovaÁ„o
+% digitalizada. (A Folha de AprovaÁ„o È fornecida pela Secretaria do Curso apÛs
+% a aprovaÁ„o da vers„o final do documento.) Pode-se especificar o diretÛrio
+% e/ou a extens„o do arquivo. Se o comando n„o for usado, uma p·gina com as
+% instruÁıes de digitalizaÁ„o ser· incluÌda no documento. Lembre-se de que o
+% formato do arquivo (dado por sua extens„o) deve ser compatÌvel com o sistema
+% \LaTeX{} em uso: por exemplo, o formato de arquivo |.eps| n„o È compatÌvel
+% com a geraÁ„o de arquivos |.pdf| pelo |pdflatex|.
 %
 %    \begin{macrocode}
 \newlength{\ppgcc@approvalwidth}
@@ -1442,8 +1442,8 @@
 %    \end{macrocode}
 %
 % \DescribeMacro{\epigraphtext}%
-% Este comando define o texto da ep√≠grafe, que ser√° inserido em uma p√°gina
-% pr√≥pria. Recebe dois argumentos: |\epigraphtext|\marg{texto}\marg{autor}.
+% Este comando define o texto da epÌgrafe, que ser· inserido em uma p·gina
+% prÛpria. Recebe dois argumentos: |\epigraphtext|\marg{texto}\marg{autor}.
 %
 %    \begin{macrocode}
 \newcommand*{\epigraphtext}[2]{%
@@ -1451,7 +1451,7 @@
 }
 %    \end{macrocode}
 
-% V√°rios comandos s√£o criados para lidar com as op√ß√µes de classe:
+% V·rios comandos s„o criados para lidar com as opÁıes de classe:
 %
 %    \begin{macrocode}
 \DeclareOption{msc}{\ppgcc@phdfalse\ppgcc@msctrue}
@@ -1513,7 +1513,7 @@
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{memoir}}
 %    \end{macrocode}
 
-% As op√ß√µes padr√£o s√£o configuradas a seguir:
+% As opÁıes padr„o s„o configuradas a seguir:
 %
 %    \begin{macrocode}
 \ExecuteOptions{a4paper,12pt,phd,onehalf,showall}
@@ -1521,14 +1521,14 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@setdoctype}%
-% Esta macro checa algumas op√ß√µes do documento e ajusta os registros internos
-% |\@degree| e |\@documenttype|. Esta macro √© chamada pela macro
-% |\ppgcc@selectlanguage|, que √© chamada durante o comando |\begin{document}|.
+% Esta macro checa algumas opÁıes do documento e ajusta os registros internos
+% |\@degree| e |\@documenttype|. Esta macro È chamada pela macro
+% |\ppgcc@selectlanguage|, que È chamada durante o comando |\begin{document}|.
 %
 %    \begin{macrocode}
 \def\ppgcc@setdoctype{%
   \ifppgcc@phd
-    % Esta √© uma tese de doutorado
+    % Esta È uma tese de doutorado
     \coursedegree{\ppgcc@phd}
     \ifppgcc@proposal
       \gdef\@documenttype{\ppgcc@phddocproj}%
@@ -1538,7 +1538,7 @@
       \ppgcc@set@phddoc
     \fi
   \else
-    % Esta √© uma disserta√ß√£o de mestrado
+    % Esta È uma dissertaÁ„o de mestrado
     \coursedegree{\ppgcc@msc}
     \ifppgcc@proposal
       \gdef\@documenttype{\ppgcc@mscdocprop}%
@@ -1551,10 +1551,10 @@
 }
 %    \end{macrocode}
 
-% Agora a p√°gina √© formatada. Aqui est√£o as op√ß√µes sobre o tamanho da p√°gina,
-% tamanho padr√£o da fonte, pagina√ß√£o, margens da p√°gina, etc. Todo o trabalho √©
+% Agora a p·gina È formatada. Aqui est„o as opÁıes sobre o tamanho da p·gina,
+% tamanho padr„o da fonte, paginaÁ„o, margens da p·gina, etc. Todo o trabalho È
 % feito pela classe \cls{memoir}, o que simplifica bastante o gerenciamento do
-% \emph{layout}. Consulte a Se√ß√£o~\ref{sec:memoirtips} sobre o uso da classe
+% \emph{layout}. Consulte a SeÁ„o~\ref{sec:memoirtips} sobre o uso da classe
 % \cls{memoir}.
 %
 %    \begin{macrocode}
@@ -1576,7 +1576,7 @@
 \checkandfixthelayout[fixed]
 %    \end{macrocode}
 
-% Configura√ß√£o da profundidade do Sum√°rio e da numera√ß√£o de se√ß√µes:
+% ConfiguraÁ„o da profundidade do Sum·rio e da numeraÁ„o de seÁıes:
 %
 %    \begin{macrocode}
 \maxsecnumdepth{subsubsection}
@@ -1584,8 +1584,8 @@
 \setcounter{secnumdepth}{3}
 %    \end{macrocode}
 
-% Remove a defini√ß√£o de |\@author|, para que seja detectada a falta de
-% defini√ß√£o do autor:
+% Remove a definiÁ„o de |\@author|, para que seja detectada a falta de
+% definiÁ„o do autor:
 %
 %    \begin{macrocode}
 \let\@author=\undefined
@@ -1627,12 +1627,12 @@
 %    \end{macrocode}
 
 
-% \subsection*{Rotinas de tradu√ß√£o}
+% \subsection*{Rotinas de traduÁ„o}
 %
 % \DescribeMacro{\ppgcc@langgroup}%
-% Agora s√£o definidas as rotinas de tradu√ß√£o. Tenta-se usar a linguagem
-% configurada para o pacote \pkg{babel}; se esse pacote n√£o for usado, a
-% linguagem padr√£o √© |brazil|.
+% Agora s„o definidas as rotinas de traduÁ„o. Tenta-se usar a linguagem
+% configurada para o pacote \pkg{babel}; se esse pacote n„o for usado, a
+% linguagem padr„o È |brazil|.
 %
 %    \begin{macrocode}
 \def\ppgcc@langgroup{\@ifundefined{languagename}{brazil}{\languagename}}
@@ -1642,11 +1642,11 @@
 % \DescribeMacro{\ppgcc@selectlanguage}%
 % O par de comandos |\ppgcc@deflanguage|\marg{linguagem} e
 % |\ppgcc@selectlanguage| trabalham em conjunto para configurar a tabela de
-% tradu√ß√µes a ser usada na composi√ß√£o do texto. O primeiro comando recebe o
+% traduÁıes a ser usada na composiÁ„o do texto. O primeiro comando recebe o
 % nome da linguagem como argumento; o segundo efetivamente configura o sistema.
-% Atualmente, somente as linguagens |brazil| e |english| s√£o reconhecidas. Caso
-% uma outra linguagem seja especificada, uma advert√™ncia √© disparada e o padr√£o
-% |brazil| √© adotado.
+% Atualmente, somente as linguagens |brazil| e |english| s„o reconhecidas. Caso
+% uma outra linguagem seja especificada, uma advertÍncia È disparada e o padr„o
+% |brazil| È adotado.
 %
 %    \begin{macrocode}
 \def\ppgcc@deflanguage#1{%
@@ -1661,8 +1661,8 @@
 }
 %    \end{macrocode}
 
-% Os seguintes comandos e |\newif|s auxiliares s√£o definidos para ajudar nas
-% rotinas de tradu√ß√£o.
+% Os seguintes comandos e |\newif|s auxiliares s„o definidos para ajudar nas
+% rotinas de traduÁ„o.
 %
 %    \begin{macrocode}
 \newif\ifppgcc@dateerror\ppgcc@dateerrortrue
@@ -1694,7 +1694,7 @@
 
 % \DescribeMacro{\ppgcc@lang@brazil}%
 % \DescribeMacro{\ppgcc@lang@english}%
-% Agora s√£o definidas as tabelas de tradu√ß√£o. Voc√™ pode melhorar a classe e
+% Agora s„o definidas as tabelas de traduÁ„o. VocÍ pode melhorar a classe e
 % adicionar novas tabelas, desde que \emph{todos} os dados sejam traduzidos!
 %
 %    \begin{macrocode}
@@ -1734,7 +1734,7 @@
     parcial para a obten\c{c}\~{a}o do grau de \@degree{} em \@deflang@course.}
   \def\ppgcc@acknowledgments{Agradecimentos}
   \def\ppgcc@keywordsname{Palavras-chave}
-  \def\ppgcc@indexkeys{\ppgcc@fc@keywords{} I.~T√≠tulo.}
+  \def\ppgcc@indexkeys{\ppgcc@fc@keywords{} I.~TÌtulo.}
 
   \def\ppgcc@set@phddocproj{\def\ppgcc@doctype@gender{o}}
   \def\ppgcc@set@phddoc{\def\ppgcc@doctype@gender{a}}
@@ -1821,13 +1821,13 @@
 %
 % \DescribeMacro{\makecoverpage}%
 % \DescribeMacro{\maketitlepage}%
-% Em geral, o documento possui duas folhas de apresenta√ß√£o: a \emph{falsa folha
-% de rosto}, que cont√©m somente o t√≠tulo da obra; e a \emph{folha de rosto},
-% que inclui os nomes do autor e do orientador, a descri√ß√£o formal do
+% Em geral, o documento possui duas folhas de apresentaÁ„o: a \emph{falsa folha
+% de rosto}, que contÈm somente o tÌtulo da obra; e a \emph{folha de rosto},
+% que inclui os nomes do autor e do orientador, a descriÁ„o formal do
 % documento, a localidade (cidade e estado) e a data.
 %
-% Se o documento n√£o for escrito em portugu√™s, o comando |\maketitlepage|
-% comp√µe duas folhas de rosto: uma em portugu√™s e outra na linguagem do
+% Se o documento n„o for escrito em portuguÍs, o comando |\maketitlepage|
+% compıe duas folhas de rosto: uma em portuguÍs e outra na linguagem do
 % documento.
 %
 %    \begin{macrocode}
@@ -1849,14 +1849,14 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@docdescriptionwidth}%
-% Esta √© a largura do bloco com a descri√ß√£o formal do texto.
+% Esta È a largura do bloco com a descriÁ„o formal do texto.
 %    \begin{macrocode}
 \def\ppgcc@docdescriptionwidth{0.5\textwidth}
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@makedocdescription}%
-% Este comando comp√µe o texto com a descri√ß√£o formal do documento, que √© parte
-% da folha de t√≠tulo.
+% Este comando compıe o texto com a descriÁ„o formal do documento, que È parte
+% da folha de tÌtulo.
 %
 %    \begin{macrocode}
 \def\ppgcc@makedocdescription{%
@@ -1871,8 +1871,8 @@
 % \DescribeMacro{\ppgcc@titpag@fmttitle}%
 % \DescribeMacro{\ppgcc@titpag@fmtaddress}%
 % \DescribeMacro{\ppgcc@titpag@fmtdate}%
-% Essas macros armazenam a formata√ß√£o de cada segmento das folhas de rosto. Se
-% for necess√°rio alterar a formata√ß√£o, altere estas macros e \emph{n√£o} a
+% Essas macros armazenam a formataÁ„o de cada segmento das folhas de rosto. Se
+% for necess·rio alterar a formataÁ„o, altere estas macros e \emph{n„o} a
 % estrutura do comando |\ppgcc@maketitlepage|!
 %
 %    \begin{macrocode}
@@ -1884,8 +1884,8 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@maketitlepage}%
-% Este comando comp√µe as folhas de rosto. √â chamado com um argumento
-% obrigat√≥rio, que √© |\z@| para compor a falsa folha de rosto ou |\@ne| para
+% Este comando compıe as folhas de rosto. … chamado com um argumento
+% obrigatÛrio, que È |\z@| para compor a falsa folha de rosto ou |\@ne| para
 % compor a folha de rosto.
 %
 %    \begin{macrocode}
@@ -2008,36 +2008,36 @@
 %    \end{macrocode}
 
 
-% \subsection*{Ficha Catalogr√°fica}
+% \subsection*{Ficha Catalogr·fica}
 %
-% A composi√ß√£o da Ficha Catalogr√°fica √© dividida em alguns assuntos distintos,
-% para organizar o c√≥digo-fonte.
+% A composiÁ„o da Ficha Catalogr·fica È dividida em alguns assuntos distintos,
+% para organizar o cÛdigo-fonte.
 %
 %
-% \subsubsection*{Ocorr√™ncia de ilustra√ß√µes}
+% \subsubsection*{OcorrÍncia de ilustraÁıes}
 %
-% Determinar se h√° ou n√£o ilustra√ß√µes no documento √© um pouco mais complicado
-% do que parece √† primeira vista. O problema √© que o \LaTeX{} processa as
-% informa√ß√µes √† medida em que o documento √© processado; no entanto, a ficha
-% catalogr√°fica aparece muito antes de qualquer ilustra√ß√£o. Portanto,
-% determinar se a part√≠cula ``il.'' aparece ou n√£o na ficha requer duas
-% compila√ß√µes: uma para varrer a ocorr√™ncia de comandos ou ambientes que
-% incluem ilustra√ß√µes (por exemplo, |\begin{figure}|\ldots|\end{figure}|) e
+% Determinar se h· ou n„o ilustraÁıes no documento È um pouco mais complicado
+% do que parece ‡ primeira vista. O problema È que o \LaTeX{} processa as
+% informaÁıes ‡ medida em que o documento È processado; no entanto, a ficha
+% catalogr·fica aparece muito antes de qualquer ilustraÁ„o. Portanto,
+% determinar se a partÌcula ``il.'' aparece ou n„o na ficha requer duas
+% compilaÁıes: uma para varrer a ocorrÍncia de comandos ou ambientes que
+% incluem ilustraÁıes (por exemplo, |\begin{figure}|\ldots|\end{figure}|) e
 % armazenar o resultado da procura em um arquivo auxiliar (|.aux|); e outra
-% para ler essa informa√ß√£o logo no in√≠cio do documento para inserir
-% condicionalmente a part√≠cula ``il.''.
+% para ler essa informaÁ„o logo no inÌcio do documento para inserir
+% condicionalmente a partÌcula ``il.''.
 %
 % \DescribeMacro{\if@fc@ilhookcalled}%
 % \DescribeMacro{\if@fc@hasil}%
-% Duas condicionais s√£o definidas atrav√©s de |\newif| para detectar a
-% ocorr√™ncia de ilustra√ß√µes: |\if@fc@ilhookcalled|, que √© ligada quando um
-% comando ou ambiente de ilustra√ß√£o √© usado no documento, e |\if@fc@hasil|, que
-% √© ligada para que a part√≠cula ``il.'' efetivamente apare√ßa na ficha
-% catalogr√°fica. A checagem de ilustra√ß√µes √© feita em duas etapas (duas
-% compila√ß√µes): a primeira √© a verifica√ß√£o do uso de comandos ou ambientes (que
-% chama o comando |\ppgcc@fc@ilhook| e grava uma informa√ß√£o no arquivo |.aux|);
-% a segunda √© o uso da informa√ß√£o do arquivo auxiliar para gerar a ficha
-% catalogr√°fica (que ocorre antes de qualquer ilustra√ß√£o do documento).
+% Duas condicionais s„o definidas atravÈs de |\newif| para detectar a
+% ocorrÍncia de ilustraÁıes: |\if@fc@ilhookcalled|, que È ligada quando um
+% comando ou ambiente de ilustraÁ„o È usado no documento, e |\if@fc@hasil|, que
+% È ligada para que a partÌcula ``il.'' efetivamente apareÁa na ficha
+% catalogr·fica. A checagem de ilustraÁıes È feita em duas etapas (duas
+% compilaÁıes): a primeira È a verificaÁ„o do uso de comandos ou ambientes (que
+% chama o comando |\ppgcc@fc@ilhook| e grava uma informaÁ„o no arquivo |.aux|);
+% a segunda È o uso da informaÁ„o do arquivo auxiliar para gerar a ficha
+% catalogr·fica (que ocorre antes de qualquer ilustraÁ„o do documento).
 %
 %    \begin{macrocode}
 \newif\if@fc@ilhookcalled\@fc@ilhookcalledfalse
@@ -2045,9 +2045,9 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@fc@ilaux}%
-% Esee comando √© chamado somente pelo arquivo |.aux|: indica que uma compila√ß√£o
-% anterior detectou ilustra√ß√µes no documento, portanto a part√≠cula ``il.'' deve
-% aparecer na ficha catalogr√°fica (ou seja, ativa a condicional
+% Esee comando È chamado somente pelo arquivo |.aux|: indica que uma compilaÁ„o
+% anterior detectou ilustraÁıes no documento, portanto a partÌcula ``il.'' deve
+% aparecer na ficha catalogr·fica (ou seja, ativa a condicional
 % |\if@fc@hasil|).
 %
 %    \begin{macrocode}
@@ -2055,9 +2055,9 @@
 %    \end{macrocode}
 %
 % \DescribeMacro{\ppgcc@fc@ilhook}%
-% Este comando √© chamado por comandos e ambientes que inserem ilustra√ß√µes no
-% texto. Grava no arquivo |.aux| a informa√ß√£o de que a pr√≥xima compila√ß√£o deve
-% conter a part√≠cula ``il.'' na ficha catalogr√°fica.
+% Este comando È chamado por comandos e ambientes que inserem ilustraÁıes no
+% texto. Grava no arquivo |.aux| a informaÁ„o de que a prÛxima compilaÁ„o deve
+% conter a partÌcula ``il.'' na ficha catalogr·fica.
 %
 %    \begin{macrocode}
 \def\ppgcc@fc@ilhook{%
@@ -2075,9 +2075,9 @@
 % \DescribeMacro{\ppgccaddilcmd}%
 % \DescribeMacro{\ppgccaddilenv}%
 % Estes comandos permitem especificar comandos e ambientes que correspondem a
-% ilustra√ß√µes do documento. Ambos possuem um argumento obrigat√≥rio:
+% ilustraÁıes do documento. Ambos possuem um argumento obrigatÛrio:
 % |\ppgccaddilcmd|\marg{\textbackslash comando} ou
-% |\ppgccaddilenv|\marg{nome\_do\_ambiente}. \emph{Obs.:} N√£o √© necess√°rio
+% |\ppgccaddilenv|\marg{nome\_do\_ambiente}. \emph{Obs.:} N„o È necess·rio
 % chamar |\ppgccaddilenv{figure}|.
 %
 %    \begin{macrocode}
@@ -2093,23 +2093,23 @@
 }
 %    \end{macrocode}
 
-% O ambiente |figure| √© um dos ambientes de ilustra√ß√£o. √â mais seguro definir
-% isso no escopo do comando |\AtBeginDocument|, j√° que o ambiente |figure| pode
-% ser redefinido por algum outro pacote inclu√≠do pelo usu√°rio.
+% O ambiente |figure| È um dos ambientes de ilustraÁ„o. … mais seguro definir
+% isso no escopo do comando |\AtBeginDocument|, j· que o ambiente |figure| pode
+% ser redefinido por algum outro pacote incluÌdo pelo usu·rio.
 %
 %    \begin{macrocode}
 \AtBeginDocument{\ppgccaddilenv{figure}}
 %    \end{macrocode}
 
 
-% \subsubsection*{Medidas da Ficha Catalogr√°fica}
+% \subsubsection*{Medidas da Ficha Catalogr·fica}
 %
-% Aqui s√£o definidas v√°rias medidas (dimens√µes, espa√ßamentos, etc.) para a
-% montagem da Ficha Catalogr√°fica. S√£o todas definidas como comandos (|\def|),
-% pois n√£o h√° necessidade de consumir registros de dimens√µes do \TeX{}.
+% Aqui s„o definidas v·rias medidas (dimensıes, espaÁamentos, etc.) para a
+% montagem da Ficha Catalogr·fica. S„o todas definidas como comandos (|\def|),
+% pois n„o h· necessidade de consumir registros de dimensıes do \TeX{}.
 %
 % \DescribeMacro{\ppgcc@fc@width}%
-% Largura do ret√¢ngulo da ficha (pode-se citar |\textwidth| para adotar a mesma
+% Largura do ret‚ngulo da ficha (pode-se citar |\textwidth| para adotar a mesma
 % largura do bloco de texto):
 %
 %    \begin{macrocode}
@@ -2118,7 +2118,7 @@
 
 % \DescribeMacro{\ppgcc@fc@sep}%
 % \DescribeMacro{\ppgcc@fc@rule}%
-% Grossura da linha e margem interna do ret√¢ngulo da ficha:
+% Grossura da linha e margem interna do ret‚ngulo da ficha:
 %
 %    \begin{macrocode}
 \def\ppgcc@fc@sep{1em}
@@ -2127,7 +2127,7 @@
 
 % \DescribeMacro{\ppgcc@fc@smallsep}%
 % \DescribeMacro{\ppgcc@fc@bigsep}%
-% Separa√ß√£o vertical entre os par√°grafos pr√≥ximos e distantes:
+% SeparaÁ„o vertical entre os par·grafos prÛximos e distantes:
 %
 %    \begin{macrocode}
 \def\ppgcc@fc@smallsep{0cm}
@@ -2136,7 +2136,7 @@
 
 % \DescribeMacro{\ppgcc@fc@parindent}%
 % \DescribeMacro{\ppgcc@fc@colsep}%
-% Indenta√ß√£o dos par√°grafos e separa√ß√£o entre as colunas:
+% IndentaÁ„o dos par·grafos e separaÁ„o entre as colunas:
 %
 %    \begin{macrocode}
 \def\ppgcc@fc@parindent{.5cm}
@@ -2144,21 +2144,21 @@
 %    \end{macrocode}
 
 
-% \subsubsection*{Montagem da Ficha Catalogr√°fica}
+% \subsubsection*{Montagem da Ficha Catalogr·fica}
 %
-% Este trecho de c√≥digo-fonte lida especificamente com os detalhes da montagem
-% da ficha catalogr√°fica.
+% Este trecho de cÛdigo-fonte lida especificamente com os detalhes da montagem
+% da ficha catalogr·fica.
 %
-% Defini√ß√£o do contador para armazenar o n√∫mero de p√°ginas introdut√≥rias (a
-% informa√ß√£o √© colhida automaticamente):
+% DefiniÁ„o do contador para armazenar o n˙mero de p·ginas introdutÛrias (a
+% informaÁ„o È colhida automaticamente):
 %
 %    \begin{macrocode}
 \newcounter{ppgcc@fc@frontpages}
 %    \end{macrocode}
 
-% Reprograma√ß√£o do |\mainmatter| para registrar o n√∫mero de p√°ginas
-% introdut√≥rias (desde a √∫ltima ocorr√™ncia de |\frontmatter|), para constar na
-% Ficha Catalogr√°fica:
+% ReprogramaÁ„o do |\mainmatter| para registrar o n˙mero de p·ginas
+% introdutÛrias (desde a ˙ltima ocorrÍncia de |\frontmatter|), para constar na
+% Ficha Catalogr·fica:
 %
 %    \begin{macrocode}
 \let\ppgcc@mainmatter=\mainmatter
@@ -2173,8 +2173,8 @@
 }
 %    \end{macrocode}
 
-% Comandos auxiliares para checar defini√ß√µes obrigat√≥rias e disparar erros se
-% as defini√ß√µes n√£o tiverem sido feitas:
+% Comandos auxiliares para checar definiÁıes obrigatÛrias e disparar erros se
+% as definiÁıes n„o tiverem sido feitas:
 %
 %    \begin{macrocode}
 \def\ppgcc@fc@checkerr#1#2#3{%
@@ -2201,12 +2201,12 @@
 \def\ppgcc@fc@check{%
   \ppgcc@fc@checkparamerr{ppgcc@authorrev}{o nome reverso do autor}{authorrev}
     {\authorrev}
-  \ppgcc@fc@checkparamwarn{ppgcc@cutter}{o c√≥digo ``cutter''}{cutter}{\cutter}
-  \ppgcc@fc@checkparamwarn{ppgcc@cdu}{o c√≥digo CDU}{cdu}{\cdu}
+  \ppgcc@fc@checkparamwarn{ppgcc@cutter}{o cÛdigo ``cutter''}{cutter}{\cutter}
+  \ppgcc@fc@checkparamwarn{ppgcc@cdu}{o cÛdigo CDU}{cdu}{\cdu}
 }
 %    \end{macrocode}
 
-% Comando para converter as quebras de linha (|\\|) do t√≠tulo em espa√ßos:
+% Comando para converter as quebras de linha (|\\|) do tÌtulo em espaÁos:
 %
 %    \begin{macrocode}
 \def\ppgcc@titlenobreak{%
@@ -2217,7 +2217,7 @@
 }
 %    \end{macrocode}
 
-% Defini√ß√£o e c√°lculo de algumas dimens√µes auxiliares para a composi√ß√£o da
+% DefiniÁ„o e c·lculo de algumas dimensıes auxiliares para a composiÁ„o da
 % ficha:
 %
 %    \begin{macrocode}
@@ -2249,7 +2249,7 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgcc@makefc}%
-% Comando que comp√µe a p√°gina com a Ficha Catalogr√°fica:
+% Comando que compıe a p·gina com a Ficha Catalogr·fica:
 %
 %    \begin{macrocode}
 \def\ppgcc@makefc{%
@@ -2331,8 +2331,8 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\makefc}%
-% Finalmente, o comando de usu√°rio para disparar condicionalmente a composi√ß√£o
-% da p√°gina com a Ficha Catalogr√°fica:
+% Finalmente, o comando de usu·rio para disparar condicionalmente a composiÁ„o
+% da p·gina com a Ficha Catalogr·fica:
 %
 %    \begin{macrocode}
 \newcommand{\makefc}{%
@@ -2341,17 +2341,17 @@
 %    \end{macrocode}
 
 
-% \subsection*{A Folha de Aprova√ß√£o}
+% \subsection*{A Folha de AprovaÁ„o}
 %
-% A Folha de Aprova√ß√£o √© fornecida pela Secretaria do Curso. Ela deve ser
-% digitalizada para a inclus√£o na vers√£o final do documento. Cheque a op√ß√£o
-% |approval| (ou o comando |\approval|) para maiores informa√ß√µes.
+% A Folha de AprovaÁ„o È fornecida pela Secretaria do Curso. Ela deve ser
+% digitalizada para a inclus„o na vers„o final do documento. Cheque a opÁ„o
+% |approval| (ou o comando |\approval|) para maiores informaÁıes.
 %
 % \DescribeMacro{\makeapproval}%
-% Esta macro comp√µe a Folha de Aprova√ß√£o. Se a op√ß√£o |approval| (ou o comando
-% |\approval|) tiver sido usada, o documento digitalizado ser√° inclu√≠do; caso
-% contr√°rio, ser√° gerada uma p√°gina com as instru√ß√µes para digitalizar a Folha
-% de Aprova√ß√£o.
+% Esta macro compıe a Folha de AprovaÁ„o. Se a opÁ„o |approval| (ou o comando
+% |\approval|) tiver sido usada, o documento digitalizado ser· incluÌdo; caso
+% contr·rio, ser· gerada uma p·gina com as instruÁıes para digitalizar a Folha
+% de AprovaÁ„o.
 %
 %    \begin{macrocode}
 \newcommand{\makeapproval}{%
@@ -2383,7 +2383,7 @@
         Se a imagem da folha de aprova\c{c}\~ao precisar ser ajustada, use:\par
         \texttt{approval=[}\emph{ajuste}\texttt{][}\emph{escala}\texttt{]\{}%
         \emph{nome do arquivo}\texttt{\}}\par
-        onde \emph{ajuste} √© uma dist\^ancia para deslocar a imagem para baixo\par
+        onde \emph{ajuste} È uma dist\^ancia para deslocar a imagem para baixo\par
         e \emph{escala} \'e um fator de escala para a imagem. Por exemplo:\par
         \texttt{approval=[-2cm][0.9]\{}\emph{nome do arquivo}\texttt{\}}\par
         desloca a imagem 2cm para cima e a escala em 90\%.\par
@@ -2407,32 +2407,32 @@
 
 % \subsection*{Resumos e \emph{Abstracts}}
 %
-% O trabalho pode incluir uma ou mais vers√µes de resumos (\emph{abstracts}):
-% tradicionalmente h√° uma vers√£o em portugu√™s e outra em ingl√™s, mas podem ser
-% exigidas duas vers√µes em uma mesma l√≠ngua (``Resumo'' e ``Resumo Estendido'',
+% O trabalho pode incluir uma ou mais versıes de resumos (\emph{abstracts}):
+% tradicionalmente h· uma vers„o em portuguÍs e outra em inglÍs, mas podem ser
+% exigidas duas versıes em uma mesma lÌngua (``Resumo'' e ``Resumo Estendido'',
 % por exemplo).
 %
 % Para comportar a variedade de possibilidades, a classe \cls{ppgccufmg}
-% permite a defini√ß√£o de um n√∫mero arbitr√°rio de resumos. Para cada um,
-% especifica-se o t√≠tulo (``Resumo'', ``Abstract'', etc.) e um arquivo |.tex|
-% com o texto do resumo em quest√£o.
+% permite a definiÁ„o de um n˙mero arbitr·rio de resumos. Para cada um,
+% especifica-se o tÌtulo (``Resumo'', ``Abstract'', etc.) e um arquivo |.tex|
+% com o texto do resumo em quest„o.
 %
-% O arquivo |.tex| especificado pode vir com a especifica√ß√£o de um diret√≥rio,
-% mas cuidado: os compiladores \LaTeX{} n√£o gostam muito de nomes de arquivos
-% (ou diret√≥rios) com espa√ßos ou letras acentuadas. Portanto, n√£o use nomes de
-% arquivo como ``\texttt{Cap√≠tulo 1.tex}''. Al√©m disso, ao especificar
-% diret√≥rios use barras (|/|) ao inv√©s de contra-barras (|\|), mesmo que voc√™
+% O arquivo |.tex| especificado pode vir com a especificaÁ„o de um diretÛrio,
+% mas cuidado: os compiladores \LaTeX{} n„o gostam muito de nomes de arquivos
+% (ou diretÛrios) com espaÁos ou letras acentuadas. Portanto, n„o use nomes de
+% arquivo como ``\texttt{CapÌtulo 1.tex}''. AlÈm disso, ao especificar
+% diretÛrios use barras (|/|) ao invÈs de contra-barras (|\|), mesmo que vocÍ
 % esteja trabalhando no Microsoft Windows.
 %
 % Nenhum desses arquivos |.tex| especificados deve conter o comando |\chapter|.
-% Ele √© chamado automaticamente. Al√©m disso, se for necess√°rio usar |\section|,
+% Ele È chamado automaticamente. AlÈm disso, se for necess·rio usar |\section|,
 % |\subsection|, etc., coloque um asterisco depois do comando (ou seja,
-% |\section*|, |\subsection*|, etc.), para que as se√ß√µes n√£o apare√ßam no
-% Conte√∫do.
+% |\section*|, |\subsection*|, etc.), para que as seÁıes n„o apareÁam no
+% Conte˙do.
 %
 % \DescribeMacro{\includeabstract}%
-% Este comando inclui uma p√°gina de resumo. A forma de uso √©:
-% |\includeabstract| \marg{t√≠tulo} \marg{arquivo}. \meta{t√≠tulo} √© o t√≠tulo do
+% Este comando inclui uma p·gina de resumo. A forma de uso È:
+% |\includeabstract| \marg{tÌtulo} \marg{arquivo}. \meta{tÌtulo} È o tÌtulo do
 % resumo, conforme explicado anteriormente.
 %
 %    \begin{macrocode}
@@ -2453,8 +2453,8 @@
 }
 %    \end{macrocode}
 
-% Para a inclus√£o de v√°rios arquivos de resumo, √© necess√°rio um contador para
-% armazenar o n√∫mero de resumos definidos:
+% Para a inclus„o de v·rios arquivos de resumo, È necess·rio um contador para
+% armazenar o n˙mero de resumos definidos:
 %
 %    \begin{macrocode}
 \newcounter{ppgcc@c@abstract}
@@ -2462,7 +2462,7 @@
 
 % \DescribeMacro{\addabstract}%
 % Agora o comando que registra um arquivo de resumo: |\addabstract|
-% \marg{t√≠tulo} \marg{arquivo}.
+% \marg{tÌtulo} \marg{arquivo}.
 %
 %    \begin{macrocode}
 \newcommand{\addabstract}[3][]{%
@@ -2500,7 +2500,7 @@
 
 % \DescribeMacro{\keywords}%
 % Este comando deve ser usado no fim dos arquivos de resumo para especificar as
-% palavras-chave do documento. A forma de uso √©: \cmd{\includeabstract}
+% palavras-chave do documento. A forma de uso È: \cmd{\includeabstract}
 % \marg{chave, chave, \ldots}.
 %
 %    \begin{macrocode}
@@ -2511,26 +2511,26 @@
 %    \end{macrocode}
 
 
-% \subsection*{Dedicat√≥ria e agradecimentos}
+% \subsection*{DedicatÛria e agradecimentos}
 %
-% As p√°ginas de dedicat√≥ria e agradecimentos s√£o baseadas em arquivos |.tex|
-% externos, j√° que n√£o h√° maneira de comp√¥-las automaticamente :-) . Todos os
-% comandos recebem como argumento obrigat√≥rio o nome do arquivo |.tex| (que
-% pode incluir o diret√≥rio), mas valem as mesmas regras descritas para os
-% resumos: nomes de arquivos n√£o podem ter espa√ßos ou letras acentuadas; sempre
-% especifique diret√≥rios com barras (|/|) ao inv√©s de contra-barras (|\|); n√£o
+% As p·ginas de dedicatÛria e agradecimentos s„o baseadas em arquivos |.tex|
+% externos, j· que n„o h· maneira de compÙ-las automaticamente :-) . Todos os
+% comandos recebem como argumento obrigatÛrio o nome do arquivo |.tex| (que
+% pode incluir o diretÛrio), mas valem as mesmas regras descritas para os
+% resumos: nomes de arquivos n„o podem ter espaÁos ou letras acentuadas; sempre
+% especifique diretÛrios com barras (|/|) ao invÈs de contra-barras (|\|); n„o
 % use o comando |\chapter|; e coloque asterisco nos comandos |\section*|,
 % |\subsection*|, etc.
 %
-% Embora o mais comum seja a inclus√£o de somente uma p√°gina de cada
-% (dedicat√≥ria e agradecimentos), h√° autores que preferem fornecer mais de uma
-% vers√£o de cada (em portugu√™s e em l√≠ngua estrangeira). Portanto, √© poss√≠vel
-% citar v√°rias dedicat√≥rias e/ou agradecimentos pelo uso repetido dos comandos
-% |\includededication| e |\includeack| (ou das op√ß√µes |dedication| e |ack| do
+% Embora o mais comum seja a inclus„o de somente uma p·gina de cada
+% (dedicatÛria e agradecimentos), h· autores que preferem fornecer mais de uma
+% vers„o de cada (em portuguÍs e em lÌngua estrangeira). Portanto, È possÌvel
+% citar v·rias dedicatÛrias e/ou agradecimentos pelo uso repetido dos comandos
+% |\includededication| e |\includeack| (ou das opÁıes |dedication| e |ack| do
 % comando |\ppgccufmg|).
 %
-% Para a inclus√£o de v√°rios arquivos de cada, √© necess√°rio um contador para
-% armazenar o n√∫mero de arquivos definidos:
+% Para a inclus„o de v·rios arquivos de cada, È necess·rio um contador para
+% armazenar o n˙mero de arquivos definidos:
 %
 %    \begin{macrocode}
 \newcounter{ppgcc@c@dedication}
@@ -2539,8 +2539,8 @@
 
 % \DescribeMacro{\adddedication}%
 % \ldots e o comando que registra um arquivo de agradecimentos:
-% |\adddedication| \marg{arquivo} (note que a dedicat√≥ria n√£o requer um
-% t√≠tulo).
+% |\adddedication| \marg{arquivo} (note que a dedicatÛria n„o requer um
+% tÌtulo).
 %
 %    \begin{macrocode}
 \newcommand{\adddedication}[1]{%
@@ -2552,8 +2552,8 @@
 
 % \DescribeMacro{\addack}%
 % Agora o comando que registra um arquivo de agradecimentos: |\addack|
-% \oarg{t√≠tulo} \marg{arquivo}. Se \meta{t√≠tulo} for omitido, ser√° adotado
-% ``Agradecimentos'' (ou a tradu√ß√£o correspondente √† linguagem configurada).
+% \oarg{tÌtulo} \marg{arquivo}. Se \meta{tÌtulo} for omitido, ser· adotado
+% ``Agradecimentos'' (ou a traduÁ„o correspondente ‡ linguagem configurada).
 %
 %    \begin{macrocode}
 \newcommand{\addack}[2][]{%
@@ -2572,7 +2572,7 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\includededication}%
-% Este comando inclui a dedicat√≥ria. A forma de uso √©: |\includededication|
+% Este comando inclui a dedicatÛria. A forma de uso È: |\includededication|
 % \marg{arquivo}.
 %
 %    \begin{macrocode}
@@ -2588,8 +2588,8 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\includeack}%
-% Este comando inclui os agradecimentos. A forma de uso √©: |\includeack|
-% \oarg{t√≠tulo} \marg{arquivo}.
+% Este comando inclui os agradecimentos. A forma de uso È: |\includeack|
+% \oarg{tÌtulo} \marg{arquivo}.
 %
 %    \begin{macrocode}
 \newcommand{\includeack}[2][]{%
@@ -2645,12 +2645,12 @@
 %    \end{macrocode}
 
 
-% \subsection*{Ep√≠grafe}
+% \subsection*{EpÌgrafe}
 %
 % \DescribeMacro{\ppgcc@epigraph@fmttext}%
 % \DescribeMacro{\ppgcc@epigraph@fmtauthor}%
-% Essas macros armazenam a formata√ß√£o de cada segmento da ep√≠grafe. Se for
-% necess√°rio alterar a formata√ß√£o, altere estas macros e \emph{n√£o} a
+% Essas macros armazenam a formataÁ„o de cada segmento da epÌgrafe. Se for
+% necess·rio alterar a formataÁ„o, altere estas macros e \emph{n„o} a
 % estrutura do comando |\makeepigraph|!
 %
 %    \begin{macrocode}
@@ -2659,17 +2659,17 @@
 %    \end{macrocode}
 %
 % \DescribeMacro{\ppgcc@epigraph@fmtvspace}%
-% O espa√ßo vertical entre o texto e o autor da ep√≠grafe √© definido pela macro
-% |\ppgcc@epigraph@fmtvspace|. Note que esta √© apenas uma macro, n√£o uma
-% dimens√£o.
+% O espaÁo vertical entre o texto e o autor da epÌgrafe È definido pela macro
+% |\ppgcc@epigraph@fmtvspace|. Note que esta È apenas uma macro, n„o uma
+% dimens„o.
 %
 %    \begin{macrocode}
 \def\ppgcc@epigraph@fmtvspace{0em}
 %    \end{macrocode}
 
 % \DescribeMacro{\makeepigraph}%
-% Comp√µe a p√°gina com o texto da ep√≠grafe. A p√°gina √© composta somente se a
-% op√ß√£o |epigraphtext| ou o comando |\epigraphtext| forem usados.
+% Compıe a p·gina com o texto da epÌgrafe. A p·gina È composta somente se a
+% opÁ„o |epigraphtext| ou o comando |\epigraphtext| forem usados.
 %
 %    \begin{macrocode}
 \newcommand{\makeepigraph}{%
@@ -2690,10 +2690,10 @@
 %    \end{macrocode}
 
 
-% \subsection*{Cabe√ßalhos e rodap√©s}
+% \subsection*{CabeÁalhos e rodapÈs}
 %
-% O c√≥digo a seguir lida com todo o necess√°rio para configurar os cabe√ßalhos e
-% rodap√©s das p√°ginas.
+% O cÛdigo a seguir lida com todo o necess·rio para configurar os cabeÁalhos e
+% rodapÈs das p·ginas.
 %
 %    \begin{macrocode}
 \if@twoside
@@ -2749,14 +2749,14 @@
 %    \end{macrocode}
 
 
-% \subsection*{Sum√°rio, Lista de Figuras e Lista de Tabelas}
+% \subsection*{Sum·rio, Lista de Figuras e Lista de Tabelas}
 %
 % \DescribeMacro{\ppgcclistoffigures}%
 % \DescribeMacro{\ppgcclistoftables}%
 % \DescribeMacro{\ppgcctableofcontents}%
-% Estes comandos comp√µem a Lista de Figuras, a Lista de Tabelas e o Sum√°rio. Os
-% comandos originais s√£o modificados para lidar corretamente com a formata√ß√£o
-% dos cabe√ßalhos e rodap√©s das p√°ginas.
+% Estes comandos compıem a Lista de Figuras, a Lista de Tabelas e o Sum·rio. Os
+% comandos originais s„o modificados para lidar corretamente com a formataÁ„o
+% dos cabeÁalhos e rodapÈs das p·ginas.
 %
 %    \begin{macrocode}
 \let\ppgcc@orig@listoffigures=\listoffigures
@@ -2800,12 +2800,12 @@
 %    \end{macrocode}
 
 
-% \subsection*{O comando ``deixe que eu fa√ßo tudo''}
+% \subsection*{O comando ``deixe que eu faÁo tudo''}
 %
 % \DescribeMacro{\ppgccufmg}%
-% Este √© o ``comando m√°gico'' que comp√µe todas as p√°ginas introdut√≥rias. Ele
-% recebe como argumento uma s√©rie de pares do tipo \meta{chave}|=|\meta{valor},
-% descritos na Se√ß√£o~\ref{sec:ppgccufmg}. Leia essa se√ß√£o!
+% Este È o ``comando m·gico'' que compıe todas as p·ginas introdutÛrias. Ele
+% recebe como argumento uma sÈrie de pares do tipo \meta{chave}|=|\meta{valor},
+% descritos na SeÁ„o~\ref{sec:ppgccufmg}. Leia essa seÁ„o!
 %
 %    \begin{macrocode}
 
@@ -2850,30 +2850,30 @@
   \makecoverpage
   % Folha(s) de rosto
   \maketitlepage
-  % Ficha Catalogr√°fica
+  % Ficha Catalogr·fica
   \makefc
-  % Folha de aprova√ß√£o
+  % Folha de aprovaÁ„o
   \makeapproval
-  % Dedicat√≥ria
+  % DedicatÛria
   \ppgcc@includededicationlist
   % Agradecimentos
   \ppgcc@includeacklist
-  % Ep√≠grafe
+  % EpÌgrafe
   \makeepigraph
   % Resumo, Abstract, etc.
   \ppgcc@includeabstractlist
 
-  % Sum√°rio e lista de figuras e de tabelas
+  % Sum·rio e lista de figuras e de tabelas
   \listoffigures
   \listoftables
   \ppgcc@beforetoc
   \tableofcontents
 
-  % ***** ATEN√á√ÉO *****
+  % ***** ATEN«√O *****
   %
   % Se precisar incluir outras listas, como a Lista de Algoritmos ou de
-  % S√≠mbolos, N√ÉO ALTERE ESTE ARQUIVO PARA COLOCAR O COMANDO AQUI, sen√£o o
-  % documento ser√° gerado com problemas! Veja o exemplo da se√ß√£o "Para os
+  % SÌmbolos, N√O ALTERE ESTE ARQUIVO PARA COLOCAR O COMANDO AQUI, sen„o o
+  % documento ser· gerado com problemas! Veja o exemplo da seÁ„o "Para os
   % impacientes", que descreve esse caso.
 
   \ifppgcc@putmainmatter\mainmatter\fi
@@ -2881,13 +2881,13 @@
 %    \end{macrocode}
 
 %
-% \subsection*{Refer√™ncias bibliogr√°ficas}
+% \subsection*{ReferÍncias bibliogr·ficas}
 %
-% Aqui est√£o todos os comandos, op√ß√µes e processamentos relacionados √†
-% composi√ß√£o das refer√™ncias bibliogr√°ficas (caso se queira adotar o estilo
+% Aqui est„o todos os comandos, opÁıes e processamentos relacionados ‡
+% composiÁ„o das referÍncias bibliogr·ficas (caso se queira adotar o estilo
 % \bst{ppgccufmg} de bibliografia para o Bib\TeX).
 %
-% A seguir, as macros que definem as op√ß√µes configur√°veis:
+% A seguir, as macros que definem as opÁıes configur·veis:
 %
 %    \begin{macrocode}
 \def\ppgcc@bibauthorformat{}
@@ -2899,8 +2899,8 @@
 \def\ppgcc@norepstring{---------}
 %    \end{macrocode}
 
-% As macros a seguir devem ser usadas de maneira autom√°tica e somente dentro do
-% arquivo |.bbl| file (que √© gerado pelo sistema Bib\TeX):
+% As macros a seguir devem ser usadas de maneira autom·tica e somente dentro do
+% arquivo |.bbl| file (que È gerado pelo sistema Bib\TeX):
 %
 %    \begin{macrocode}
 \newcommand{\ppgccbibauthordoformat}[1]{%
@@ -2923,7 +2923,7 @@
 \let\ppgccvolumedoformat\empty
 %    \end{macrocode}
 
-% Eis a declara√ß√£o das op√ß√µes para o comando |\ppgccbibliography|:
+% Eis a declaraÁ„o das opÁıes para o comando |\ppgccbibliography|:
 %
 %    \begin{macrocode}
 \define@key{ufmgbib}{noauthorrepeat}[true]{\@bibnorepauthortrue}
@@ -2939,8 +2939,8 @@
 %    \end{macrocode}
 
 % \DescribeMacro{\ppgccbibliography}%
-% Finalmente, eis o comando m√°gico. O argumento obrigat√≥rio √© o nome do arquivo
-% de banco de dados bibliogr√°fico (o arquivo |.bib|), sem a extens√£o.
+% Finalmente, eis o comando m·gico. O argumento obrigatÛrio È o nome do arquivo
+% de banco de dados bibliogr·fico (o arquivo |.bib|), sem a extens„o.
 %
 %    \begin{macrocode}
 \newcommand{\ppgccbibliography}[2][]{%
@@ -2962,13 +2962,13 @@
 %    \end{macrocode}
 
 %
-% \subsection*{Ap√™ndices e anexos}
+% \subsection*{ApÍndices e anexos}
 %
 % \DescribeEnv{appendices}%
 % \DescribeEnv{attachments}%
-% Esses comandos auxiliam a cria√ß√£o de ap√™ndices e anexos, configurando a
-% numera√ß√£o em seq√º√™ncia ar√°bica mai√∫scula (A, B, etc.) e acrescentando o
-% indicador ``Ap√™ndice'' ou ``Anexo'' no Sum√°rio.
+% Esses comandos auxiliam a criaÁ„o de apÍndices e anexos, configurando a
+% numeraÁ„o em seq¸Íncia ar·bica mai˙scula (A, B, etc.) e acrescentando o
+% indicador ``ApÍndice'' ou ``Anexo'' no Sum·rio.
 %
 %    \begin{macrocode}
 \def\ppgcc@toc@switchto#1{%
@@ -3017,22 +3017,22 @@
 %    \end{macrocode}
 
 
-% \subsection*{Comandos de formata√ß√£o padr√£o}
+% \subsection*{Comandos de formataÁ„o padr„o}
 %
-% O comando |\sloppy| √© disparado para for√ßar a obedi√™ncia √† margem direita do
+% O comando |\sloppy| È disparado para forÁar a obediÍncia ‡ margem direita do
 % texto.
 %
 %    \begin{macrocode}
 \sloppy
 %    \end{macrocode}
 
-% Defini√ß√£o do recuo padr√£o de par√°grafo.
+% DefiniÁ„o do recuo padr„o de par·grafo.
 %
 %    \begin{macrocode}
 \setlength{\parindent}{1cm}
 %    \end{macrocode}
 
-% Defini√ß√£o dos estilos de t√≠tulos de cap√≠tulos, se√ß√µes, subse√ß√µes, etc.
+% DefiniÁ„o dos estilos de tÌtulos de capÌtulos, seÁıes, subseÁıes, etc.
 
 %    \begin{macrocode}
 \makechapterstyle{ppgccufmgsf}{%
@@ -3060,7 +3060,7 @@
 \chapterstyle{ppgccufmgsf}
 %    \end{macrocode}
 
-% Aqui √© definida a formata√ß√£o da identifica√ß√£o (\emph{caption}) de figuras,
+% Aqui È definida a formataÁ„o da identificaÁ„o (\emph{caption}) de figuras,
 % tabelas e outros elementos flutuantes (algoritmos, etc.).
 %
 %    \begin{macrocode}
@@ -3074,9 +3074,9 @@
 \changecaptionwidth
 %    \end{macrocode}
 
-% A seguir ser√° reprogramado o comando que apresenta os n√∫meros de p√°gina de
-% cap√≠tulos no Sum√°rio. Esta reprograma√ß√£o evita que qualquer indica√ß√£o
-% num√©rica invada a margem direita do corpo do texto.
+% A seguir ser· reprogramado o comando que apresenta os n˙meros de p·gina de
+% capÌtulos no Sum·rio. Esta reprogramaÁ„o evita que qualquer indicaÁ„o
+% numÈrica invada a margem direita do corpo do texto.
 %
 %    \begin{macrocode}
 \renewcommand*{\cftchapterformatpnum}[1]{%
@@ -3085,14 +3085,14 @@
 
 
 %
-% \subsection*{Rotina de p√≥s-processamento}
+% \subsection*{Rotina de pÛs-processamento}
 %
 % \DescribeMacro{\AtBeginDocument}%
-% Finalmente, a rotina atrelada ao comando |\AtBeginDocument|: aqui s√£o
-% chamados os comandos para configurar a linguagem e o espa√ßamento padr√£o entre
-% linhas. O pacote \pkg{graphicx} tamb√©m √© carregado automaticamente, embora
-% seja melhor que o usu√°rio inclua manualmente esse pacote: dessa maneira, o
-% usu√°rio poder√° carreg√°-lo com as op√ß√µes que desejar.
+% Finalmente, a rotina atrelada ao comando |\AtBeginDocument|: aqui s„o
+% chamados os comandos para configurar a linguagem e o espaÁamento padr„o entre
+% linhas. O pacote \pkg{graphicx} tambÈm È carregado automaticamente, embora
+% seja melhor que o usu·rio inclua manualmente esse pacote: dessa maneira, o
+% usu·rio poder· carreg·-lo com as opÁıes que desejar.
 %
 %    \begin{macrocode}
 \AtBeginDocument{%

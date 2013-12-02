@@ -40,26 +40,26 @@
 
 \def\ppgcc@classname{ppgccufmg}
 
-%% Op√ß√µes gerais:
+%% OpÁıes gerais:
 
 \newif\ifppgcc@phd                 % Tese de doutorado?
-\newif\ifppgcc@msc                 % Disserta√ß√£o de mestrado?
-\newif\ifppgcc@proposal            % Op√ß√£o de proposta/projeto?
+\newif\ifppgcc@msc                 % DissertaÁ„o de mestrado?
+\newif\ifppgcc@proposal            % OpÁ„o de proposta/projeto?
 \newif\ifppgcc@showcover           % Compor a falsa folha de rosto?
 \newif\ifppgcc@showtitle           % Compor a folha de rosto?
-\newif\ifppgcc@showfc              % Compor a Ficha Catalogr√°fica?
-\newif\ifppgcc@showapproval        % Incluir a Folha de Aprova√ß√£o?
-\newif\ifppgcc@showabstract        % Compor as p√°ginas de resumo/abstract?
-\newif\ifppgcc@showdedication      % Compor a dedicat√≥ria?
+\newif\ifppgcc@showfc              % Compor a Ficha Catalogr·fica?
+\newif\ifppgcc@showapproval        % Incluir a Folha de AprovaÁ„o?
+\newif\ifppgcc@showabstract        % Compor as p·ginas de resumo/abstract?
+\newif\ifppgcc@showdedication      % Compor a dedicatÛria?
 \newif\ifppgcc@showack             % Compor os agradecimentos?
-\newif\ifppgcc@showepigraph        % Compor a Ep√≠grafe?
+\newif\ifppgcc@showepigraph        % Compor a EpÌgrafe?
 \newif\ifppgcc@showlof             % Compor a Lista de Figuras?
 \newif\ifppgcc@showlot             % Compor a Lista de Tabelas?
-\newif\ifppgcc@showtoc             % Compor o Sum√°rio?
-\newif\ifppgcc@extraporttitlepage  % Exibir tamb√©m uma folha de t√≠tulo
-                                   % em portugu√™s?
+\newif\ifppgcc@showtoc             % Compor o Sum·rio?
+\newif\ifppgcc@extraporttitlepage  % Exibir tambÈm uma folha de tÌtulo
+                                   % em portuguÍs?
 \newif\ifppgcc@putmainmatter       % Chamar automaticamente \mainmatter depois
-                                   % das p√°ginas introdut√≥rias?
+                                   % das p·ginas introdutÛrias?
 
 \newif\if@selfdoc
 \ifx\ppgcc@selfdoc\undefined\else\@selfdoctrue\fi
@@ -97,10 +97,10 @@
 \ppgcc@showall
 \ppgcc@putmainmattertrue
 
-%% Op√ß√µes das refer√™ncias bibliogr√°ficas:
+%% OpÁıes das referÍncias bibliogr·ficas:
 
 \newif\if@bibnorepauthor  % Substituir autorias repetidas por linha comprida?
-\newif\if@nobreakitems    % Impedir quebra de p√°gina no meio de um item?
+\newif\if@nobreakitems    % Impedir quebra de p·gina no meio de um item?
 
 \@bibnorepauthorfalse
 \@nobreakitemsfalse
@@ -123,20 +123,20 @@
 \newcommand*{\advisor}[1]{\gdef\ppgcc@advisorname{#1}} % Nome do orientador
 \newcommand*{\university}[1]{\gdef\@university{#1}}    % Nome da universidade
 \newcommand*{\course}[1]{\gdef\@course{#1}}            % Nome do curso
-\newcommand*{\address}[1]{\gdef\@address{#1}}          % Endere√ßo (cidade/UF)
-\newcommand*{\cutter}[1]{\gdef\ppgcc@cutter{#1}}       % C√≥digo "cutter"
-\newcommand*{\cdu}[1]{\gdef\ppgcc@cdu{#1}}             % C√≥digo CDU
-\newcommand*{\indexkeys}[1]{\gdef\ppgcc@indexkeys{#1}} % Chaves para indexa√ß√£o
+\newcommand*{\address}[1]{\gdef\@address{#1}}          % EndereÁo (cidade/UF)
+\newcommand*{\cutter}[1]{\gdef\ppgcc@cutter{#1}}       % CÛdigo "cutter"
+\newcommand*{\cdu}[1]{\gdef\ppgcc@cdu{#1}}             % CÛdigo CDU
+\newcommand*{\indexkeys}[1]{\gdef\ppgcc@indexkeys{#1}} % Chaves para indexaÁ„o
 
 \let\ppgcc@origdatecmd=\date
 \renewcommand{\date}[1]{%                              % Data (aaaa-mm ou aaaa-mm-dd)
   \ppgcc@origdatecmd{#1}\ppgcc@parsedate#1---\relax}
 
-\newcommand*{\coursedegree}[1]{\gdef\@degree{#1}}      % Titula√ß√£o
-\renewcommand*{\title}[1]                             % T√≠tulo
+\newcommand*{\coursedegree}[1]{\gdef\@degree{#1}}      % TitulaÁ„o
+\renewcommand*{\title}[1]                             % TÌtulo
   {\gdef\@title{#1}}
 
-\newcommand*{\portuguesetitle}[1]                     % T√≠tulo em portugu√™s
+\newcommand*{\portuguesetitle}[1]                     % TÌtulo em portuguÍs
   {\gdef\@portuguesetitle{#1}}
 \newcommand*{\portugueseuniversity}[1]                % Nome da univers. em pt.
   {\gdef\@portugueseuniversity{#1}}
@@ -248,7 +248,7 @@
 
 \def\ppgcc@setdoctype{%
   \ifppgcc@phd
-    % Esta √© uma tese de doutorado
+    % Esta È uma tese de doutorado
     \coursedegree{\ppgcc@phd}
     \ifppgcc@proposal
       \gdef\@documenttype{\ppgcc@phddocproj}%
@@ -258,7 +258,7 @@
       \ppgcc@set@phddoc
     \fi
   \else
-    % Esta √© uma disserta√ß√£o de mestrado
+    % Esta È uma dissertaÁ„o de mestrado
     \coursedegree{\ppgcc@msc}
     \ifppgcc@proposal
       \gdef\@documenttype{\ppgcc@mscdocprop}%
@@ -395,7 +395,7 @@
     parcial para a obten\c{c}\~{a}o do grau de \@degree{} em \@deflang@course.}
   \def\ppgcc@acknowledgments{Agradecimentos}
   \def\ppgcc@keywordsname{Palavras-chave}
-  \def\ppgcc@indexkeys{\ppgcc@fc@keywords{} I.~T√≠tulo.}
+  \def\ppgcc@indexkeys{\ppgcc@fc@keywords{} I.~TÌtulo.}
 
   \def\ppgcc@set@phddocproj{\def\ppgcc@doctype@gender{o}}
   \def\ppgcc@set@phddoc{\def\ppgcc@doctype@gender{a}}
@@ -700,8 +700,8 @@
 \def\ppgcc@fc@check{%
   \ppgcc@fc@checkparamerr{ppgcc@authorrev}{o nome reverso do autor}{authorrev}
     {\authorrev}
-  \ppgcc@fc@checkparamwarn{ppgcc@cutter}{o c√≥digo ``cutter''}{cutter}{\cutter}
-  \ppgcc@fc@checkparamwarn{ppgcc@cdu}{o c√≥digo CDU}{cdu}{\cdu}
+  \ppgcc@fc@checkparamwarn{ppgcc@cutter}{o cÛdigo ``cutter''}{cutter}{\cutter}
+  \ppgcc@fc@checkparamwarn{ppgcc@cdu}{o cÛdigo CDU}{cdu}{\cdu}
 }
 
 \def\ppgcc@titlenobreak{%
@@ -847,7 +847,7 @@
         Se a imagem da folha de aprova\c{c}\~ao precisar ser ajustada, use:\par
         \texttt{approval=[}\emph{ajuste}\texttt{][}\emph{escala}\texttt{]\{}%
         \emph{nome do arquivo}\texttt{\}}\par
-        onde \emph{ajuste} √© uma dist\^ancia para deslocar a imagem para baixo\par
+        onde \emph{ajuste} È uma dist\^ancia para deslocar a imagem para baixo\par
         e \emph{escala} \'e um fator de escala para a imagem. Por exemplo:\par
         \texttt{approval=[-2cm][0.9]\{}\emph{nome do arquivo}\texttt{\}}\par
         desloca a imagem 2cm para cima e a escala em 90\%.\par
@@ -1140,30 +1140,30 @@
   \makecoverpage
   % Folha(s) de rosto
   \maketitlepage
-  % Ficha Catalogr√°fica
+  % Ficha Catalogr·fica
   \makefc
-  % Folha de aprova√ß√£o
+  % Folha de aprovaÁ„o
   \makeapproval
-  % Dedicat√≥ria
+  % DedicatÛria
   \ppgcc@includededicationlist
   % Agradecimentos
   \ppgcc@includeacklist
-  % Ep√≠grafe
+  % EpÌgrafe
   \makeepigraph
   % Resumo, Abstract, etc.
   \ppgcc@includeabstractlist
 
-  % Sum√°rio e lista de figuras e de tabelas
+  % Sum·rio e lista de figuras e de tabelas
   \listoffigures
   \listoftables
   \ppgcc@beforetoc
   \tableofcontents
 
-  % ***** ATEN√á√ÉO *****
+  % ***** ATEN«√O *****
   %
   % Se precisar incluir outras listas, como a Lista de Algoritmos ou de
-  % S√≠mbolos, N√ÉO ALTERE ESTE ARQUIVO PARA COLOCAR O COMANDO AQUI, sen√£o o
-  % documento ser√° gerado com problemas! Veja o exemplo da se√ß√£o "Para os
+  % SÌmbolos, N√O ALTERE ESTE ARQUIVO PARA COLOCAR O COMANDO AQUI, sen„o o
+  % documento ser· gerado com problemas! Veja o exemplo da seÁ„o "Para os
   % impacientes", que descreve esse caso.
 
   \ifppgcc@putmainmatter\mainmatter\fi

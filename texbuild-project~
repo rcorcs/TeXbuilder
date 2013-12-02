@@ -57,7 +57,7 @@ function createProject(){
 	#fi
 	#python texbuild-project.py $PYCMD $PROJNAME $TEMPLATE $PARAMETERS
 
-	#rm -r -f $TEMPLATE_DIR
+	rm -r -f $TEMPLATE_DIR
 }
 
 function main(){

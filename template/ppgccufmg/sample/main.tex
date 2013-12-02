@@ -1,18 +1,18 @@
-% INFORMA«√O SOBRE A VERS√O DESSE DOCUMENTO
-% VERS√O DA CLASSE ppgccufmg 1.44 (de 2011-04-25) - http://vilarneto.com/ppgccufmg
-% VERS√O ORIGINAL: http://www.dcc.ufmg.br/pos/alunos/modelodisstese.php
-% VERS√O COMENTADA e EXEMPLIFICADA: http://www.dcc.ufmg.br/~mirella @ janeiro/2012
+% INFORMA√á√ÉO SOBRE A VERS√ÉO DESSE DOCUMENTO
+% VERS√ÉO DA CLASSE ppgccufmg 1.44 (de 2011-04-25) - http://vilarneto.com/ppgccufmg
+% VERS√ÉO ORIGINAL: http://www.dcc.ufmg.br/pos/alunos/modelodisstese.php
+% VERS√ÉO COMENTADA e EXEMPLIFICADA: http://www.dcc.ufmg.br/~mirella @ janeiro/2012
 
-\documentclass[msc,proposal,hidelof,hidelot]{ppgccufmg}  % [phd] se for doutorado
+\documentclass[msc,proposal,hideall,showtitle,showcover,showtoc]{ppgccufmg}  % [phd] se for doutorado
                                 % [phd,project] para proposta de tese 
  				                        % [msc] se for mestrado
 
-\usepackage[brazil]{babel}      % se o documento for em portuguÍs, OU
-%\usepackage[english]{babel}    % se o documento for em inglÍs
-\usepackage[latin1]{inputenc}   % D· suporte para caracteres especiais como acentos e cedilha
-\usepackage[T1]{fontenc}        % LÍ a codificaÁ„o de fonte T1 (font encoding default È 0T1).
+\usepackage[brazil]{babel}      % se o documento for em portugu√™s, OU
+%\usepackage[english]{babel}    % se o documento for em ingl√™s
+\usepackage{utf8}{inputenc}   % D√° suporte para caracteres especiais como acentos e cedilha
+\usepackage[T1]{fontenc}        % L√™ a codifica√ß√£o de fonte T1 (font encoding default √© 0T1).
 \usepackage{type1ec}
-\usepackage{graphicx}						% define o comando \includegraphics para a inclus„o de figuras
+\usepackage{graphicx}						% define o comando \includegraphics para a inclus√£o de figuras
 \usepackage[a4paper,
   portuguese,
   bookmarks=true,
@@ -24,26 +24,26 @@
   linkcolor=black,
   filecolor=black,
   ]{hyperref}
-\usepackage[square]{natbib}    % permite citaÁıes naturalmente
+\usepackage[square]{natbib}    % permite cita√ß√µes naturalmente
                                % integradas ao texto
-\usepackage{multirow}					 % permite fazer tabelas com m˙ltiplas linhas
+\usepackage{multirow}					 % permite fazer tabelas com m√∫ltiplas linhas
 
 \hyphenation{re-qui-si-to % para separar corretamente 
    }
 
 \usepackage[usenames,dvipsnames]{xcolor}  % para poder usar os nomes das cores
-%cria um novo comando para coment·rios em vermelho no meio do texto
+%cria um novo comando para coment√°rios em vermelho no meio do texto
 \newcommand{\redcomment}[1]{\textcolor{red}{\textbf{\textit{#1}}}} %M
-%cria um novo comando para Dica I: em azul it·lico
+%cria um novo comando para Dica I: em azul it√°lico
 \newcounter{dicas}
 \renewcommand{\equation}{\Roman{dicas}}
 \setcounter{dicas}{1}
 \newcommand{\dica}[1]{\noindent\textcolor{blue}{\textbf{\textit{Dica \Roman{dicas}: #1}}}\addtocounter{dicas}{1}} %M
-%cria um novo comando para PortuguÍs I: em verde it·lico
+%cria um novo comando para Portugu√™s I: em verde it√°lico
 \newcounter{portugues}
 \renewcommand{\equation}{\Roman{dicas}}
 \setcounter{portugues}{1}
-\newcommand{\portugues}[1]{\noindent\textcolor{Maroon}{\textbf{\textit{PortuguÍs \Roman{portugues}:}} #1}\addtocounter{portugues}{1}} %M
+\newcommand{\portugues}[1]{\noindent\textcolor{Maroon}{\textbf{\textit{Portugu√™s \Roman{portugues}:}} #1}\addtocounter{portugues}{1}} %M
 
 % novo ambiente para o exemplo
 \newenvironment{Exemplo}
@@ -73,24 +73,24 @@
 
 \begin{document}
 
-% O comando a seguir, \ppgccufmg, provÍ todas as informaÁıes relevantes para a
-% classe ppgccufmg. Por favor, consulte a documentaÁ„o para a descriÁ„o de
+% O comando a seguir, \ppgccufmg, prov√™ todas as informa√ß√µes relevantes para a
+% classe ppgccufmg. Por favor, consulte a documenta√ß√£o para a descri√ß√£o de
 % cada chave.
 
 
-% Um exemplo para documentos em portuguÍs È apresentado a seguir:
+% Um exemplo para documentos em portugu√™s √© apresentado a seguir:
 \ppgccufmg{
-  title={Watershed: Remodelando a interface de \emph{streams}},
-  authorrev={Rocha, Rodrigo Caetano de Oliveira},
-  cutter={M1234x}, % INFORMA«√O QUE VAI NA FICHA CATALOGR¡FICA
+  title={Title},
+  authorrev={Author's name},
+  cutter={M1234x}, % INFORMA√á√ÉO QUE VAI NA FICHA CATALOGR√ÅFICA
   cdu={100.0*01.10},  % Define o identificador CDU do documento, fornecido pela Secretaria do Curso.
   university={Universidade Federal de Minas Gerais},
-  course={CiÍncia da ComputaÁ„o},
+  course={Ci√™ncia da Computa√ß√£o},
   address={Belo Horizonte},
-  date={2012-01}, % ANO-M S  DA DEFESA
-  keywords={Modelo de texto, PPGCC/UFMG, Latex}, %Define as palavras-chave que dever„o constar na Ficha Catalogr·fica,
-%   separadas por vÌrgulas.
-  advisor={Dorgival Olavo Guedes Neto},
+  date={2012-01}, % ANO-M√äS  DA DEFESA
+  keywords={Modelo de texto, PPGCC/UFMG, Latex}, %Define as palavras-chave que dever√£o constar na Ficha Catalogr√°fica,
+%   separadas por v√≠rgulas.
+  advisor={Advisor's name},
 %  approval={img/approvalsheet.eps},
 %  abstract=[brazil]{Resumo}{resumo}, %resumo.tex
 %  abstract=[english]{Abstract}{abstract}, %abstract.tex
@@ -98,22 +98,22 @@
   %dedication={dedicatoria},
   %ack={agradecimentos},
 %  ack=[Acknowledgments]{ack},
-  %epigraphtext={N„o existe objetivo alcanÁado sem trabalho realizado}{Mirella M. Moro},
+  %epigraphtext={N√£o existe objetivo alcan√ßado sem trabalho realizado}{Mirella M. Moro},
  }
- %OUTRAS SUGEST’ES DE EPIGRAPH:
-  %{Escolhe um trabalho de que gostes \\e n„o ter·s que trabalhar nem um dia na tua vida.}{Conf˙cio}
-  %{O ˙nico modo de escapar da corrupÁ„o causada pelo sucesso È continuar trabalhando.}{Albert Einstein},
-  %{Que ninguÈm se engane, sÛ se consegue a simplicidade atravÈs de muito trabalho.}{Clarice Lispector},
-  %{Um sonho sonhado sozinho È um sonho. Um sonho sonhado junto È realidade.}{Raul Seixas},
+ %OUTRAS SUGEST√ïES DE EPIGRAPH:
+  %{Escolhe um trabalho de que gostes \\e n√£o ter√°s que trabalhar nem um dia na tua vida.}{Conf√∫cio}
+  %{O √∫nico modo de escapar da corrup√ß√£o causada pelo sucesso √© continuar trabalhando.}{Albert Einstein},
+  %{Que ningu√©m se engane, s√≥ se consegue a simplicidade atrav√©s de muito trabalho.}{Clarice Lispector},
+  %{Um sonho sonhado sozinho √© um sonho. Um sonho sonhado junto √© realidade.}{Raul Seixas},
   %{Para o trabalho que gostamos levantamo-nos cedo e fazemo-lo com alegria.}{William Shakespeare},
-  %{Pensar È o trabalho mais difÌcil que existe. Talvez por isso t„o poucos se dediquem a ele.}{Henry Ford},
-  %{O prazer no trabalho aperfeiÁoa a obra.}{AristÛteles},
-  %{O caminho batido n„o leva a novas pastagens}{Indira Ghandi},
-  %{Uma jornada de mil milhas comeÁa com um ˙nico passo.}{Lao-Tzu},
-  %{… sempre o aventuroso que consegue grandes coisas}{Montesquieu},
+  %{Pensar √© o trabalho mais dif√≠cil que existe. Talvez por isso t√£o poucos se dediquem a ele.}{Henry Ford},
+  %{O prazer no trabalho aperfei√ßoa a obra.}{Arist√≥teles},
+  %{O caminho batido n√£o leva a novas pastagens}{Indira Ghandi},
+  %{Uma jornada de mil milhas come√ßa com um √∫nico passo.}{Lao-Tzu},
+  %{√â sempre o aventuroso que consegue grandes coisas}{Montesquieu},
   
 
-% Um exemplo para documentos em inglÍs È apresentado a seguir (lembre-se de
+% Um exemplo para documentos em ingl√™s √© apresentado a seguir (lembre-se de
 % usar \usepackage[english]{babel}):
 %\ppgccufmg{
 %  title={Protocol for Error-Verification inside\\Totally Error-Free
@@ -123,13 +123,13 @@
 %  cdu={519.6*82.10},
 %  university={Federal University of Minas Gerais},
 %  course={Computer Science},
-%  portuguesetitle={Protocolo para VerificaÁ„o de Erros\\em Redes Totalmente
-%    Confi·veis},
+%  portuguesetitle={Protocolo para Verifica√ß√£o de Erros\\em Redes Totalmente
+%    Confi√°veis},
 %  portugueseuniversity={Universidade Federal de Minas Gerais},
-%  portuguesecourse={CiÍncia da ComputaÁ„o},
+%  portuguesecourse={Ci√™ncia da Computa√ß√£o},
 %  address={Belo Horizonte},
 %  date={2008-03},
-%  advisor={Adamastor Pompeu Set˙bal},
+%  advisor={Adamastor Pompeu Set√∫bal},
 %  approval={img/approvalsheet.eps},
 %  abstract=[brazil]{Resumo}{resumo},
 %  abstract={Abstract}{abstract},
@@ -138,17 +138,17 @@
 %  epigraphtext={Truth and lie are opposite things.}{Unknown},
 %}
 
-% VOC  PODE DIVIDIR O SEU TEXTO EM V¡RIOS ARQUIVOS, por exemplo, um para cada seÁ„o principal do seu trabalho: introducao.tex, relacionados.tex, metodologia.tex, experimentos.tex, conclusao.tex
+% VOC√ä PODE DIVIDIR O SEU TEXTO EM V√ÅRIOS ARQUIVOS, por exemplo, um para cada se√ß√£o principal do seu trabalho: introducao.tex, relacionados.tex, metodologia.tex, experimentos.tex, conclusao.tex
 
 \chapter{Introduction} \label{chap:introduction}
 
 Here goes the introduction.
 
 % Aqui vem a parte da bibliografia: use o comando \ufmgbibliography indicando
-% apenas o nome do arquivo .bib (sem a extens„o).
+% apenas o nome do arquivo .bib (sem a extens√£o).
 \ppgccbibliography{bibfile} % ARQUIVO CONTENDO A BIBLIOGRAFIA
 
-%\input{apendice} % ARQUIVO CONTENDO OS AP NDICES : OPCIONAL
+%\input{apendice} % ARQUIVO CONTENDO OS AP√äNDICES : OPCIONAL
 %\input{anexo} % ARQUIVO CONTENDO OS ANEXOS: OPCIONAL
 
 \end{document}

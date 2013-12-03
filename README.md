@@ -43,6 +43,4 @@ For example, to compile the thesis project, previously created, just execute the
 texbuild thesis
 ```
 
-After executing this command, a PDF file will be created in the bin folder.
-
 After being compiled, a PDF file will be created at the ./bin folder.

@@ -6,6 +6,7 @@
 VERBOSE=false
 FILENAME=""
 
+
 function usage(){
 	echo "Usage: $0 [OPTIONS] DOCNAME"
 	echo -e "\tDOCNAME is the name of the main TeX file in which the document environment is defined."

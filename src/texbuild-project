@@ -12,7 +12,10 @@ PARAMETERS=""
 
 function usage(){
 	echo "Usage: $0 [OPTIONS] PROJNAME TEMPLATE [PARAMETERS]"
-
+	echo ""
+	echo "OPTIONS:"
+	echo -e " --help\t\t\tdisplay this help and exit"
+	echo -e " --show-templates\t\t\tdisplay the installed template packages"
 	exit 0
 }
 
@@ -25,10 +28,7 @@ function showTemplates(){
 function processArguments(){
 	TOKEN=1
 	for ARG in $*; do
-		if [ "$ARG" == "--sample" ]; then
-			TOKEN=0
-			SAMPLE=true
-		elif [ "$ARG" == "--help" ]; then
+		if [ "$ARG" == "--help" ]; then
 			TOKEN=0
 			usage
 		elif [ "$ARG" == "--show-templates" ]; then
@@ -52,6 +52,17 @@ function processArguments(){
 	fi
 }
 
+function createEmptyProject(){
+	echo '\documentclass{article}' >> ./src/$PROJNAME.tex
+	echo '\title{Title}' >> ./src/$PROJNAME.tex
+	echo "\author{Author's name}" >> ./src/$PROJNAME.tex
+	echo '\date{\today}' >> ./src/$PROJNAME.tex
+	echo '\begin{document}' >> ./src/$PROJNAME.tex
+	echo '   \maketitle' >> ./src/$PROJNAME.tex
+	echo '   Hello world!' >> ./src/$PROJNAME.tex
+	echo '\end{document}' >> ./src/$PROJNAME.tex
+}
+
 function createProject(){
 	mkdir -p ./src
 	mkdir -p ./packages
@@ -66,24 +77,25 @@ function createProject(){
 	cd $TEMPLATE_DIR
 	tar -xzf $TEXBUILDER_HOME/template.tar.gz
 	cd ..
-	cp -r $TEMPLATE_DIR/$TEMPLATE/sample/* ./src/
-	rm -f ./src/main.tex
-	cp -r $TEMPLATE_DIR/$TEMPLATE/packages/* ./packages/
-	cp $TEMPLATE_DIR/$TEMPLATE/sample/main.tex ./src/$PROJNAME.tex
-	#PYCMD="-e"
-	#if $SAMPLE; then
-		#PYCMD="-s"
-		#cp $TEMPLATE_DIR/$TEMPLATE/samples/sample.tex ./src/$PROJNAME.tex
-	#else
-		#cp $TEMPLATE_DIR/$TEMPLATE/samples/empty.tex ./src/$PROJNAME.tex
-	#fi
-	#python texbuild-project.py $PYCMD $PROJNAME $TEMPLATE $PARAMETERS
-
+	if [ "$TEMPLATE" == "" ]; then
+		createEmptyProject
+	else
+		if [ -d $TEMPLATE_DIR/$TEMPLATE/ ]; then
+			cp -r $TEMPLATE_DIR/$TEMPLATE/sample/* ./src/
+			rm -f ./src/main.tex
+			cp -r $TEMPLATE_DIR/$TEMPLATE/packages/* ./packages/
+			cp $TEMPLATE_DIR/$TEMPLATE/sample/main.tex ./src/$PROJNAME.tex
+		else
+			echo "Template $TEMPLATE not installed"
+			echo "Creating an empty project"
+			createEmptyProject
+		fi
+	fi	
 	rm -r -f $TEMPLATE_DIR
 }
 
 function main(){
-	if [ $# -lt 2 ]; then
+	if [ $# -lt 1 ]; then
 		usage
 	else
 		processArguments $*

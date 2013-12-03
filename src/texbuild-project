@@ -1,3 +1,8 @@
+
+#texbuild-install
+#version: 0.3
+#author: ROCHA, Rodrigo Caetano
+
 TEMPLATE_DIR=./template
 
 SAMPLE=false

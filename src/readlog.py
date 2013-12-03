@@ -1,3 +1,8 @@
+
+#readlog.py
+#version: 0.2
+#author: ROCHA, Rodrigo Caetano
+
 import sys
 
 def readlog(fileName):

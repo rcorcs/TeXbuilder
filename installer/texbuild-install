@@ -1,6 +1,6 @@
 
 #texbuild-install
-#version: 0.1
+#version: 0.2
 #author: ROCHA, Rodrigo Caetano
 
 sudo mkdir -p /usr/texbuilder

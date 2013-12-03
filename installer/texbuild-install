@@ -1,0 +1,10 @@
+sudo mkdir -p /usr/texbuilder
+sudo cp texbuilder.tar.gz /usr/texbuilder/
+cd /usr/texbuilder/
+sudo tar -xzf texbuilder.tar.gz
+sudo rm texbuilder.tar.gz
+echo '#TEXBUILDER SETUP' >> ~/.bashrc
+echo 'PATH=/usr/texbuilder:$PATH' >> ~/.bashrc
+echo 'TEXBUILDER_HOME=/usr/texbuilder' >> ~/.bashrc
+echo 'export TEXBUILDER_HOME' >> ~/.bashrc
+echo '#END TEXBUILDER SETUP' >> ~/.bashrc

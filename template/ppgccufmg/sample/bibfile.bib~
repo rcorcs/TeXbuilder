@@ -1,9 +1,0 @@
-@INPROCEEDINGS{112493,
-    AUTHOR="Rodrigo Caetano Rocha and Humberto Marques and Dorgival Guedes",
-    TITLE="SMTD: Uma aplicação de Redes Definidas por Software no contexto de Redes Domésticas",
-    BOOKTITLE="SBRC 2013 - WPEIF",
-    ADDRESS="Brasilia",
-    MONTH="may",
-    YEAR="2013",
-    ABSTRACT="Despite their popularity, the configuration and management complexity of home networks is recognized as a limiting factor for their deployment. This work presents our efforts in the development of SMTD, a home traffic monitoring system, that could create a wide understanding about the traffic patterns observed in each home network and serve as a basis for a management system. Using the Software Defined Network paradigm, SMTD can identify events of interest and act directly on the network to handle them. The system is under construction and our results confirm its power to identify complex behavior."
-} 

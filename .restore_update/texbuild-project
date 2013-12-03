@@ -42,7 +42,7 @@ function createProject(){
 	#echo "template:"$TEMPLATE
 	#echo "parameters:"$PARAMETERS
 
-	tar -xvzf template.tar.gz
+	tar -xzf template.tar.gz
 
 	cp -r $TEMPLATE_DIR/$TEMPLATE/sample/* ./src/
 	rm -f ./src/main.tex

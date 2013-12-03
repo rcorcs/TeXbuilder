@@ -9,7 +9,7 @@ def readlog(fileName):
 			print line
 			printLine = False
 		else:
-			if line.startswith('./'):
+			if line.startswith('./') or line.startswith('/'):
 				print line.strip()
 				printLine = True
 			elif line.startswith('!'):

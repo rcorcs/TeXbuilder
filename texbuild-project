@@ -42,8 +42,11 @@ function createProject(){
 	#echo "template:"$TEMPLATE
 	#echo "parameters:"$PARAMETERS
 
-	tar -xvzf template.tar.gz
-
+	rm -f -r $TEMPLATE_DIR
+	mkdir $TEMPLATE_DIR
+	cd $TEMPLATE_DIR
+	tar -xzf $TEXBUILDER_HOME/template.tar.gz
+	cd ..
 	cp -r $TEMPLATE_DIR/$TEMPLATE/sample/* ./src/
 	rm -f ./src/main.tex
 	cp -r $TEMPLATE_DIR/$TEMPLATE/packages/* ./packages/
@@ -57,7 +60,7 @@ function createProject(){
 	#fi
 	#python texbuild-project.py $PYCMD $PROJNAME $TEMPLATE $PARAMETERS
 
-	#rm -r -f $TEMPLATE_DIR
+	rm -r -f $TEMPLATE_DIR
 }
 
 function main(){

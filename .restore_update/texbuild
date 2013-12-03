@@ -44,7 +44,7 @@ function repack(){
 function finishEnvironment(){
 	cd ..
 	if [ "$VERBOSE" == "false" ]; then
-		python $TEXBUILDER_HOME/readlog.py ./.textbuild-tmp/output.tmp.log
+		python readlog.py ./.textbuild-tmp/output.tmp.log
 	fi
 	rm -r ./.textbuild-tmp
 }

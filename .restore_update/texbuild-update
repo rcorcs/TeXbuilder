@@ -9,13 +9,13 @@ function usage(){
 }
 
 function checkUpdate(){
-	sudo wget --quiet $UPDATE_URL/$UPDATE_CHECK_FILE
+	wget --quiet $UPDATE_URL/$UPDATE_CHECK_FILE
 	if [ -f $UPDATE_CHECK_FILE ]; then
 		if ! cmp --quiet $UPDATE_CHECK_FILE version.txt; then
-			sudo rm -f $UPDATE_CHECK_FILE
+			rm -f $UPDATE_CHECK_FILE
 			update
 		else
-			sudo rm -f $UPDATE_CHECK_FILE
+			rm -f $UPDATE_CHECK_FILE
 			echo 'TeXbuilder already up to date.'
 		fi
 	else
@@ -25,17 +25,17 @@ function checkUpdate(){
 }
 
 function update(){
-	sudo wget --quiet $UPDATE_URL/$UPDATE_FILE
+	wget --quiet $UPDATE_URL/$UPDATE_FILE
 	if [ -f $UPDATE_FILE ]; then
-		sudo mkdir -p $RESTORE_FOLDER
-		sudo rm -f -r $RESTORE_FOLDER/*
-		sudo cp -r * $RESTORE_FOLDER/
-		sudo rm -f *
-		sudo cp $RESTORE_FOLDER/$UPDATE_FILE ./
+		mkdir -p $RESTORE_FOLDER
+		rm -f -r $RESTORE_FOLDER/*
+		cp -r * $RESTORE_FOLDER/
+		rm -f *
+		cp $RESTORE_FOLDER/$UPDATE_FILE ./
 		#rm -r -f $RESTORE_FOLDER
-		sudo tar -xzf $UPDATE_FILE
-		sudo chmod 777 *
-		sudo rm -f $UPDATE_FILE
+		tar -xzf $UPDATE_FILE
+		chmod 777 *
+		rm -f $UPDATE_FILE
 	else
 		echo 'Could not donwload new TeXbuilder version'
 	fi
@@ -43,9 +43,9 @@ function update(){
 
 function restoreUpdate(){
 	if [ -d $RESTORE_FOLDER ]; then
-		sudo rm -f *
-		sudo cp $RESTORE_FOLDER/* ./
-		sudo rm -f ./$UPDATE_FILE
+		rm -f *
+		cp $RESTORE_FOLDER/* ./
+		rm -f ./$UPDATE_FILE
 	else
 		echo 'There is no previous TeXbuilder version'
 	fi
@@ -67,11 +67,13 @@ function processArguments(){
 }
 
 function main(){
-	cd $TEXBUILDER_HOME
 	if [ $# -eq 0 ]; then
 		checkUpdate
 	else
 		processArguments $*
+		startEnvironment
+		compile
+		finishEnvironment
 	fi
 }
 

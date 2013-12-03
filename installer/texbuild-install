@@ -4,6 +4,7 @@
 #author: ROCHA, Rodrigo Caetano
 
 sudo mkdir -p /usr/texbuilder
+sudo rm -r -f /usr/texbuilder/*
 sudo cp texbuilder.tar.gz /usr/texbuilder/
 cd /usr/texbuilder/
 sudo tar -xzf texbuilder.tar.gz

@@ -40,6 +40,11 @@ You can see the template packages installed using the command:
 texbuild-project --show-templates
 ```
 
+If you want to create a project with no template, then you can create an empty problem without passing the template argument:
+```shell
+texbuild-project thesis
+```
+
 ### Compiling a project
 
 After having created and edited the project, you can compile it with the script texbuild.

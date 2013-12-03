@@ -35,6 +35,11 @@ After executing the previous command, three folders will be created: bin, packag
 
 Now that you have your project, all that you usually have to do is editing the src folder.
 
+You can see the template packages installed using the command:
+```shell
+texbuild-project --show-templates
+```
+
 ### Compiling a project
 
 After having created and edited the project, you can compile it with the script texbuild.
